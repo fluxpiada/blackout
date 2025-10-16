@@ -54,6 +54,8 @@
     .small{font-size:13px}
     .spaced{letter-spacing:.02em}
     footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
+    /* 🔧 EDIT: subtle highlight for version/date */
+    #metadata p strong { color: var(--fg); }
   </style>
 </head>
 
@@ -71,15 +73,12 @@
 
       <!-- 📝 RIGHT COLUMN: TEXT + DOWNLOADS -->
       <div>
-        <!-- 📘 Title and Description -->
         <h1>The Blackout: Weak Signals</h1>
         <p class="muted">by F. J. S. Remmelzwaal</p>
         <p>Use this page to download the latest ePub version of <em>The Blackout: Weak Signals</em> and browse archived releases.</p>
 
-        <!-- ⬇️ Download + Archive Buttons -->
         <div class="row">
           <a class="btn" href="Blackout_Weak_Signals.epub" download>
-            <!-- SVG: download icon -->
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M12 3a1 1 0 0 1 1 1v8.586l2.293-2.293a1 1 0 1 1 1.414 1.414l-4.004 4.004a1.25 1.25 0 0 1-1.768 0L6.93 11.707a1 1 0 1 1 1.414-1.414L10 12.586V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1a1 1 0 0 1 1-1Z"/>
             </svg>
@@ -96,22 +95,22 @@
         <div class="metadata small spaced muted" id="metadata">
           <p><strong>Title:</strong> The Blackout: Weak Signals</p>
           <p><strong>Author:</strong> F. J. S. Remmelzwaal</p>
-          <p id="version-info">Version: loading…</p>
-          <p id="published-info">Published: loading…</p>
+          <!-- 🔧 EDIT: make these placeholders visible -->
+          <p id="version-info"><strong>Version:</strong> loading…</p>
+          <p id="published-info"><strong>Published:</strong> loading…</p>
         </div>
 
-        <!-- 🪪 Version info from GitHub Pages (optional duplicate short label) -->
         <p class="small spaced muted">
           Latest build served via GitHub Pages —
           <span id="ver">loading…</span>
         </p>
-
       </div>
     </section>
 
     <!-- ⚖️ FOOTER -->
     <footer>
-      © <span id="year"></span> Flo. All rights reserved.
+      <!-- 🔧 EDIT: Updated copyright -->
+      © <span id="year"></span> F. J. S. Remmelzwaal. All rights reserved.
     </footer>
   </main>
 
@@ -119,41 +118,36 @@
        ⚙️ JAVASCRIPT SECTION
        ========================= -->
   <script>
-    // 📅 Insert current year dynamically
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // 🔄 Load version.json from GitHub Pages build
     async function loadVersionData() {
       try {
-        const res = await fetch('version.json', {cache: 'no-store'});
+        const res = await fetch('version.json', { cache: 'no-store' });
         if (!res.ok) throw new Error('no version.json');
         const data = await res.json();
 
-        // Version info
-        const version = data.tag ? data.tag : data.short_sha;
-        document.getElementById('version-info').textContent = `Version: ${version}`;
+        const version = data.tag || data.short_sha || '—';
+        document.getElementById('version-info').innerHTML = `<strong>Version:</strong> ${version}`;
         document.getElementById('ver').textContent = `Version: ${version}`;
 
-        // Published date (if available)
         if (data.build_time) {
           const date = new Date(data.build_time);
           const formatted = date.toLocaleDateString('en-GB', {
             year: 'numeric', month: 'long', day: 'numeric'
           });
-          document.getElementById('published-info').textContent = `Published: ${formatted}`;
+          document.getElementById('published-info').innerHTML = `<strong>Published:</strong> ${formatted}`;
         } else {
-          document.getElementById('published-info').textContent = '';
+          document.getElementById('published-info').innerHTML = '';
         }
 
       } catch (e) {
         console.warn('Version metadata unavailable.', e);
-        document.getElementById('version-info').textContent = '';
-        document.getElementById('published-info').textContent = '';
+        document.getElementById('version-info').innerHTML = '';
+        document.getElementById('published-info').innerHTML = '';
         document.getElementById('ver').textContent = '';
       }
     }
 
-    // ▶️ Run on load
     loadVersionData();
   </script>
 </body>
