@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  OUT: Blackout_Weak_Signals.epub
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -18,29 +21,42 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install Pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
+      # Prefer the official setup to apt (newer Pandoc, faster)
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+        with:
+          pandoc-version: "3.1.11"
 
-    - name: Build EPUB
-  run: |
-    mkdir -p build
-    TAG="$(git describe --tags --exact-match 2>/dev/null || echo "")"
-    SHORT_SHA="$(git rev-parse --short HEAD)"
-    # Prefer tag; fall back to short SHA
-    VERSION="${TAG:-commit-${SHORT_SHA}}"
-    PUBLISH_DATE="$(date -u +'%Y-%m-%d')"   # ISO date
+      - name: Build EPUB
+        shell: bash
+        run: |
+          mkdir -p build
+          SHORT_SHA="$(git rev-parse --short HEAD)"
 
-    pandoc manuscript/*.md \
-      --metadata-file=metadata.yaml \
-      --metadata=version="${VERSION}" \
-      --metadata=date="${PUBLISH_DATE}" \
-      --resource-path=manuscript:images \
-      --toc \
-      --epub-cover-image=images/cover.png \
-      -o build/Blackout_Weak_Signals.epub
+          # Only treat ref name as a version if this is a tag push
+          if [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            VERSION="${GITHUB_REF_NAME}"
+          else
+            VERSION="commit-${SHORT_SHA}"
+          fi
 
+          # ISO date in UTC for reproducibility
+          PUBLISH_DATE="$(date -u +'%Y-%m-%d')"
 
-      - name: Create GitHub Release (if not exists) and upload asset
+          pandoc manuscript/*.md \
+            --from=markdown \
+            --toc --toc-depth=2 \
+            --metadata-file=metadata.yaml \
+            --metadata=version="${VERSION}" \
+            --metadata=date="${PUBLISH_DATE}" \
+            --resource-path=.:manuscript:images \
+            --epub-cover-image=images/cover.png \
+            -o "build/${OUT}"
+
+          ls -lh build
+
+      - name: Create GitHub Release and upload asset
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
