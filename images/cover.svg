@@ -22,7 +22,7 @@
   <rect x="40" y="600" width="1520" height="1000" fill="url(#fallback)"></rect>
 
   <!-- Photo (comment out if you want pure type cover) -->
-  <image x="40" y="600" width="1520" height="1000" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)" xlink:href="images/cover.png"></image>
+  <image x="40" y="600" width="1520" height="1000" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)" xlink:href="battery.png"></image>
 
   <!-- Bottom black band -->
   <rect x="40" y="1640" width="1520" height="720" rx="0" fill="#000000"></rect>
