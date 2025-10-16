@@ -1,0 +1,44 @@
+name: Build & attach EPUB on tag
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Build EPUB
+        run: |
+          mkdir -p build
+          TAG="${GITHUB_REF_NAME}"
+          OUT="book-${TAG}.epub"
+          pandoc --from=markdown \
+            --toc --toc-depth=2 \
+            --metadata-file=metadata.yaml \
+            --css=style.css \
+            -o "build/${OUT}" \
+            manuscript/*.md
+          echo "OUT=${OUT}" >> $GITHUB_ENV
+
+      - name: Create GitHub Release (if not exists) and upload asset
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          files: build/${{ env.OUT }}
