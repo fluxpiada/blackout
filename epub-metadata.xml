@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
              xmlns:opf="http://www.idpf.org/2007/opf">
-  <dc:identifier id="book-id">urn:uuid:REPLACE-ME</dc:identifier>
+  <dc:identifier id="book-id">urn:uuid:123e4567-e89b-12d3-a456-426614174000</dc:identifier>
   <dc:title>The Blackout: Weak Signals</dc:title>
-  <dc:creator opf:role="aut">F. J. S. Remmelzwaal</dc:creator>
+  <dc:creator opf:role="aut" opf:file-as="Remmelzwaal, F. J. S.">F. J. S. Remmelzwaal</dc:creator>
   <dc:language>en</dc:language>
+  <dc:publisher>Self-published</dc:publisher>
   <dc:rights>© 2025 F. J. S. Remmelzwaal. All rights reserved.</dc:rights>
-  <dc:date>{DATE}</dc:date>
-  <meta property="dcterms:modified">{MODIFIED_ISO}</meta>
-  <meta property="book:version">{VERSION}</meta>
+  <dc:date>2025-07-27-</dc:date>
+  <meta property="book:version">v1.0.0</meta>
 </dc-metadata>
