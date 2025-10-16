@@ -117,38 +117,91 @@
   <!-- =========================
        ⚙️ JAVASCRIPT SECTION
        ========================= -->
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
 
-    async function loadVersionData() {
-      try {
-        const res = await fetch('version.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error('no version.json');
-        const data = await res.json();
+<script>
+async function loadVersionData() {
+  const owner = "fluxpiada";
+  const repo  = "blackout";
 
-        const version = data.tag || data.short_sha || '—';
-        document.getElementById('version-info').innerHTML = `<strong>Version:</strong> ${version}`;
-        document.getElementById('ver').textContent = `Version: ${version}`;
+  // Helper: render to page
+  function setUI(tag, timeISO) {
+    const versionEl   = document.getElementById('version-info');
+    const publishedEl = document.getElementById('published-info');
+    const shortEl     = document.getElementById('ver');
 
-        if (data.build_time) {
-          const date = new Date(data.build_time);
-          const formatted = date.toLocaleDateString('en-GB', {
-            year: 'numeric', month: 'long', day: 'numeric'
-          });
-          document.getElementById('published-info').innerHTML = `<strong>Published:</strong> ${formatted}`;
-        } else {
-          document.getElementById('published-info').innerHTML = '';
-        }
-
-      } catch (e) {
-        console.warn('Version metadata unavailable.', e);
-        document.getElementById('version-info').innerHTML = '';
-        document.getElementById('published-info').innerHTML = '';
-        document.getElementById('ver').textContent = '';
-      }
+    if (tag) {
+      versionEl.innerHTML = `<strong>Version:</strong> ${tag}`;
+      shortEl.textContent = `Version: ${tag}`;
+    } else {
+      versionEl.innerHTML = '';
+      shortEl.textContent = '';
     }
 
-    loadVersionData();
-  </script>
+    if (timeISO) {
+      const d = new Date(timeISO);
+      const formatted = d.toLocaleDateString('en-GB', { year:'numeric', month:'long', day:'numeric' });
+      publishedEl.innerHTML = `<strong>Published:</strong> ${formatted}`;
+    } else {
+      publishedEl.innerHTML = '';
+    }
+  }
+
+  // 1) Try the "latest" endpoint (fast path). This respects a user-pinned latest.
+  try {
+    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+      headers: { 'Accept': 'application/vnd.github+json' }
+    });
+    if (r.ok) {
+      const j = await r.json();
+      // If it's a draft or prerelease (edge case), ignore and fall through.
+      if (!j.draft && !j.prerelease && j.tag_name) {
+        setUI(j.tag_name, j.published_at);
+        return;
+      }
+    }
+  } catch {}
+
+  // 2) Fallback: pick the most recently *published* stable release ourselves
+  try {
+    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases?per_page=20`, {
+      headers: { 'Accept': 'application/vnd.github+json' }
+    });
+    if (r.ok) {
+      const list = await r.json();
+      const stable = list.filter(x => !x.draft && !x.prerelease);
+      // Sort by published_at desc (some lists are already sorted, we enforce it)
+      stable.sort((a,b) => new Date(b.published_at) - new Date(a.published_at));
+      const latest = stable[0];
+      if (latest) {
+        setUI(latest.tag_name, latest.published_at);
+        return;
+      }
+    }
+  } catch {}
+
+  // 3) Last resort: use the newest tag if there are no releases yet
+  try {
+    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/tags?per_page=1`, {
+      headers: { 'Accept': 'application/vnd.github+json' }
+    });
+    if (r.ok) {
+      const [t] = await r.json();
+      if (t && t.name) {
+        setUI(t.name, null);
+        return;
+      }
+    }
+  } catch {}
+
+  // 4) Give up quietly
+  setUI(null, null);
+}
+
+// Run on load
+document.addEventListener('DOMContentLoaded', loadVersionData);
+</script>
+
+
+  
 </body>
 </html>
