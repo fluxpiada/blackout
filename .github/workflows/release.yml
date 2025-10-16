@@ -21,18 +21,24 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      - name: Build EPUB
-        run: |
-          mkdir -p build
-          TAG="${GITHUB_REF_NAME}"
-          OUT="book-${TAG}.epub"
-          pandoc --from=markdown \
-            --toc --toc-depth=2 \
-            --metadata-file=metadata.yaml \
-            --css=style.css \
-            -o "build/${OUT}" \
-            manuscript/*.md
-          echo "OUT=${OUT}" >> $GITHUB_ENV
+    - name: Build EPUB
+  run: |
+    mkdir -p build
+    TAG="$(git describe --tags --exact-match 2>/dev/null || echo "")"
+    SHORT_SHA="$(git rev-parse --short HEAD)"
+    # Prefer tag; fall back to short SHA
+    VERSION="${TAG:-commit-${SHORT_SHA}}"
+    PUBLISH_DATE="$(date -u +'%Y-%m-%d')"   # ISO date
+
+    pandoc manuscript/*.md \
+      --metadata-file=metadata.yaml \
+      --metadata=version="${VERSION}" \
+      --metadata=date="${PUBLISH_DATE}" \
+      --resource-path=manuscript:images \
+      --toc \
+      --epub-cover-image=images/battery.png \
+      -o build/Blackout_Weak_Signals.epub
+
 
       - name: Create GitHub Release (if not exists) and upload asset
         uses: softprops/action-gh-release@v2
