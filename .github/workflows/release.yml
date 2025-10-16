@@ -36,7 +36,7 @@ jobs:
       --metadata=date="${PUBLISH_DATE}" \
       --resource-path=manuscript:images \
       --toc \
-      --epub-cover-image=images/battery.png \
+      --epub-cover-image=images/cover.png \
       -o build/Blackout_Weak_Signals.epub
 
 
