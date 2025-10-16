@@ -8,77 +8,6 @@
   <meta property="og:title" content="The Blackout: Weak Signals" />
   <meta property="og:description" content="Download the ePub." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/battery.png" />
-  <style>
-    :root { --fg:#0b0b0e; --bg:#f7f7f8; --muted:#6b7280; --card:#ffffff; --border:#e5e7eb; }
-    @media (prefers-color-scheme: dark) {
-      :root { --fg:#e6e7eb; --bg:#0b0b0e; --muted:#a1a1aa; --card:#121217; --border:#232329; }
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0; background:var(--bg); color:var(--fg);
-      font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      display:flex; min-height:100svh; align-items:center; justify-content:center;
-      padding:24px;
-    }
-    .wrap{width:100%; max-width:860px;}
-    .card{
-      background:var(--card); border:1px solid var(--border); border-radius:20px;
-      padding:28px; display:grid; gap:24px; grid-template-columns:280px 1fr;
-    }
-    @media (max-width:800px){ .card{grid-template-columns:1fr} }
-    .cover{
-      width:100%; aspect-ratio:2/3; object-fit:cover; border-radius:16px; border:1px solid var(--border);
-      background:linear-gradient(135deg,#1f1f24, #2c2c33);
-    }
-    h1{margin:0 0 8px; font-size:clamp(24px,3.5vw,34px); line-height:1.2}
-    p{margin:0 0 14px;}
-    .muted{color:var(--muted)}
-    .row{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:8px}
-    .btn{
-      display:inline-flex; align-items:center; gap:10px; padding:12px 16px;
-      border-radius:12px; border:1px solid var(--border); background:var(--fg); color:var(--bg);
-      text-decoration:none; font-weight:600; transition:transform .05s ease, opacity .2s ease;
-    }
-    .btn:hover{opacity:.92}
-    .btn:active{transform:translateY(1px)}
-    .btn.secondary{background:transparent; color:var(--fg)}
-    .small{font-size:13px}
-    .spaced{letter-spacing:.02em}
-    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <section class="card">
-      <div>
-        <img class="cover" src="images/cover.jpg" alt="Cover of The Blackout: Weak Signals" />
-      </div>
-      <div>
-        <h1>The Blackout: Weak Signals</h1>
-        <p class="muted">by Flo</p>
-        <p>A minimalist landing page to download the latest ePub and browse archived releases.</p>
-
-        <div class="row">
-          <a class="btn" href="Blackout_Weak_Signals.epub" download>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v8.586l2.293-2.293a1 1 0 1 1 1.414 1.414l-4.004 4.004a1.25 1.25 0 0 1-1.768 0L6.93 11.707a1 1 0 1 1 1.414-1.414L10 12.586V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1a1 1 0 0 1 1-1Z"/></svg>
-            Download ePub
-          </a>
-
-          <a class="btn secondary" href="https://github.com/fluxpiada/blackout/releases">
-            Releases (archives)
-          </a>
-        </div>
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Blackout: Weak Signals — Download</title>
-  <meta name="description" content="Download the ePub of The Blackout: Weak Signals." />
-  <meta property="og:title" content="The Blackout: Weak Signals" />
-  <meta property="og:description" content="Download the ePub." />
-  <meta property="og:type" content="website" />
   <meta property="og:image" content="images/cover.jpg" />
   <style>
     :root { --fg:#0b0b0e; --bg:#f7f7f8; --muted:#6b7280; --card:#ffffff; --border:#e5e7eb; }
@@ -140,109 +69,26 @@
             Releases (archives)
           </a>
         </div>
+<!-- Put this where you want the label, e.g. under the buttons -->
+<p class="small spaced muted">
+  Latest build served via GitHub Pages —
+  <span id="ver">loading…</span>
+</p>
 
-        <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Blackout: Weak Signals — Download</title>
-  <meta name="description" content="Download the ePub of The Blackout: Weak Signals." />
-  <meta property="og:title" content="The Blackout: Weak Signals" />
-  <meta property="og:description" content="Download the ePub." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/cover.jpg" />
-  <style>
-    :root { --fg:#0b0b0e; --bg:#f7f7f8; --muted:#6b7280; --card:#ffffff; --border:#e5e7eb; }
-    @media (prefers-color-scheme: dark) {
-      :root { --fg:#e6e7eb; --bg:#0b0b0e; --muted:#a1a1aa; --card:#121217; --border:#232329; }
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0; background:var(--bg); color:var(--fg);
-      font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      display:flex; min-height:100svh; align-items:center; justify-content:center;
-      padding:24px;
-    }
-    .wrap{width:100%; max-width:860px;}
-    .card{
-      background:var(--card); border:1px solid var(--border); border-radius:20px;
-      padding:28px; display:grid; gap:24px; grid-template-columns:280px 1fr;
-    }
-    @media (max-width:800px){ .card{grid-template-columns:1fr} }
-    .cover{
-      width:100%; aspect-ratio:2/3; object-fit:cover; border-radius:16px; border:1px solid var(--border);
-      background:linear-gradient(135deg,#1f1f24, #2c2c33);
-    }
-    h1{margin:0 0 8px; font-size:clamp(24px,3.5vw,34px); line-height:1.2}
-    p{margin:0 0 14px;}
-    .muted{color:var(--muted)}
-    .row{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:8px}
-    .btn{
-      display:inline-flex; align-items:center; gap:10px; padding:12px 16px;
-      border-radius:12px; border:1px solid var(--border); background:var(--fg); color:var(--bg);
-      text-decoration:none; font-weight:600; transition:transform .05s ease, opacity .2s ease;
-    }
-    .btn:hover{opacity:.92}
-    .btn:active{transform:translateY(1px)}
-    .btn.secondary{background:transparent; color:var(--fg)}
-    .small{font-size:13px}
-    .spaced{letter-spacing:.02em}
-    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <section class="card">
-      <div>
-        <img class="cover" src="images/cover.jpg" alt="Cover of The Blackout: Weak Signals" />
-      </div>
-      <div>
-        <h1>The Blackout: Weak Signals</h1>
-        <p class="muted">by Flo</p>
-        <p>A minimalist landing page to download the latest ePub and browse archived releases.</p>
-
-        <div class="row">
-          <a class="btn" href="Blackout_Weak_Signals.epub" download>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v8.586l2.293-2.293a1 1 0 1 1 1.414 1.414l-4.004 4.004a1.25 1.25 0 0 1-1.768 0L6.93 11.707a1 1 0 1 1 1.414-1.414L10 12.586V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1a1 1 0 0 1 1-1Z"/></svg>
-            Download ePub
-          </a>
-
-          <a class="btn secondary" href="https://github.com/fluxpiada/blackout/releases">
-            Releases (archives)
-          </a>
-        </div>
-
-        <p class="small spaced muted">Latest build served via GitHub Pages.</p>
-      </div>
-    </section>
-
-    <footer>
-      © <span id="year"></span> Flo. All rights reserved.
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
-
-
-        <p class="small spaced muted">Latest build served via GitHub Pages.</p>
-      </div>
-    </section>
-
-    <footer>
-      © <span id="year"></span> Flo. All rights reserved.
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+<script>
+  fetch('version.json', {cache: 'no-store'})
+    .then(r => r.ok ? r.json() : null)
+    .then(v => {
+      if (!v) throw new Error('no version.json');
+      const text = v.tag ? `Version: ${v.tag}` : `Commit: ${v.short_sha}`;
+      document.getElementById('ver').textContent = text;
+    })
+    .catch(() => {
+      // graceful fallback: nothing
+      const el = document.getElementById('ver');
+      if (el) el.textContent = '';
+    });
+</script>
 
         <p class="small spaced muted">Latest build served via GitHub Pages.</p>
       </div>
