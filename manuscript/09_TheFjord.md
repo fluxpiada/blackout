@@ -1,10 +1,10 @@
-# Chapter IX - Zoning for sucess?
+# Chapter IX - The Fjord
 
 It's pretty hard to go about one's real business when you've been left out in the cold. Dora was atill fuming ineide at the folly, yes the folly, the fugue, the Houtrakkers and that wispy imp Tako, in particular, had left her in.
 
-She recalled the expectant evening, hustling into the Cold War bomb shelter under the Fjord community center.
+The expectant evening, hustling into the Cold War bomb shelter under the Fjord community center.
 
-She had been mortified - she'd brought all her friends, vague acquaintances, even some groupies, roadies and buskers. The worst was Molly's look of derision and worst of all, pity. Even Bongwe had slipped away unseen when he saw the chance/had half a chance.
+She had been mortified - she'd brought all her friends, vague acquaintances, even some groupies, roadies and buskers. The worst was Molly's look of derision and worst of all, pity. Even Bongwe had slipped away unseen when he saw the chance/had half a chance. 
 
 The stage had hummed with 50Hz, every breath was about to tilt it into bashee style eardrum-shattering feedback whines. Primed like a grenade, the sound engineer had rustled up all the vacuum tubes, condenser mikes and guitar footpedals Jimi Hendrix would have been proud of - he'd had to nick the juice from the daycare center just to fuel the 1960s pedal by EHX Electric Lady.
 
@@ -21,3 +21,9 @@ We stole some of the protein bars ("only 55 % insect, 45% labgrown goodness") th
 The stolen kisses in the closet, a bit cloying due to the sticky protein ar, and a lemony smell emanating from the detergents being stored there, were the best, whilst they waited for the curfew, and the dark. A lot better than playing tic tac toe, as she might have done in a more solitary age. 
 
 ##                      ~ *** ~
+
+
+She recalled the excitement of stealing the protein bars and mushroom milk from the daycare centre, and displaying them as prizes in the Fjord bar. Everyone had found means to evade the curfew and the drones hovering on rooftops — some had perched fake gulls on wavy long sticks or bamboo with a spring on their heads, setting the drones into evasive mode instead of patrol mode.
+
+Others had printed bricks on their clothes and hoods so as to blend into the background — and had thin aluminium foil woven into their clothes so as not to emit any infrared waves. There was a peak interest in sewing and weaving machines; and Dora knew that Puck, for one, had programmed an old industrial knitting machine from the eighties, taking orders and trading patterns on the Dusky Web — and in his job as a bathroom salesman.
+
