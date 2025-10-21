@@ -1,39 +1,44 @@
-name: pages
+name: Build & attach EPUB on tag
+
 on:
-  release:
-    types: [published]   # triggers only when a release is created or published
-  workflow_dispatch:      # allows manual run if you want
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  contents: write
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Build site artifact
-        run: |
-          mkdir -p _site
-          # Example: copy README or metadata to your site
-          cp README.md _site/index.md
-          # You can also generate a release listing, EPUB links, etc.
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout full history
+        uses: actions/checkout@v4
         with:
-          path: _site
+          fetch-depth: 0
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Build EPUB
+        run: |
+          mkdir -p build
+          TAG="${GITHUB_REF_NAME}"
+          OUT="book-${TAG}.epub"
+          pandoc --from=markdown \
+            --toc --toc-depth=2 \
+            --metadata-file=metadata.yaml \
+            --css=style.css \
+            -o "build/${OUT}" \
+            manuscript/*.md
+          echo "OUT=${OUT}" >> $GITHUB_ENV
+
+      - name: Create GitHub Release (if not exists) and upload asset
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          files: build/${{ env.OUT }}
