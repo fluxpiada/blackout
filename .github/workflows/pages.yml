@@ -1,43 +1,123 @@
-name: Build & attach EPUB on tag
+# ============================================================
+# Workflow: GitHub Pages Deploy for "blackout"
+# Purpose:
+#   - Build and publish your static site to GitHub Pages
+#   - Automatically fix relative <meta property="og:image">
+#     and <meta name="twitter:image"> paths to absolute URLs
+# ============================================================
 
-+on:
-+  release:
-+    types: [published]
-+  workflow_dispatch:
+name: Deploy site to GitHub Pages
 
+# ------------------------------------------------------------
+# Triggers:
+#   - On push to main (your source branch)
+#   - Manual run from the Actions tab
+# ------------------------------------------------------------
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# ------------------------------------------------------------
+# Permissions needed for Pages and repository contents
+# ------------------------------------------------------------
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
+# ------------------------------------------------------------
+# Concurrency: ensures only one deploy runs at a time
+# ------------------------------------------------------------
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# ------------------------------------------------------------
+# Main Job: build and deploy the site
+# ------------------------------------------------------------
 jobs:
-  release:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Checkout full history
+      # --------------------------------------------------------
+      # 1️⃣  Checkout your repository so we can read/build files
+      # --------------------------------------------------------
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Install Pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
-
-      - name: Build EPUB
-        run: |
-          mkdir -p build
-          TAG="${GITHUB_REF_NAME}"
-          OUT="book-${TAG}.epub"
-          pandoc --from=markdown \
-            --toc --toc-depth=2 \
-            --metadata-file=metadata.yaml \
-            --css=style.css \
-            -o "build/${OUT}" \
-            manuscript/*.md
-          echo "OUT=${OUT}" >> $GITHUB_ENV
-
-      - name: Create GitHub Release (if not exists) and upload asset
-        uses: softprops/action-gh-release@v2
+      # --------------------------------------------------------
+      # 2️⃣  Rewrite relative OG/Twitter image paths to absolute
+      #     e.g. <meta property="og:image" content="images/...">
+      #     → <meta property="og:image"
+      #         content="https://fluxpiada.github.io/blackout/images/...">
+      # --------------------------------------------------------
+      - name: Rewrite OG/Twitter image URLs to absolute
+        uses: actions/github-script@v7
         with:
-          tag_name: ${{ github.ref_name }}
-          name: ${{ github.ref_name }}
-          draft: false
-          prerelease: false
-          files: build/${{ env.OUT }}
+          script: |
+            const fs = require('fs');
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+
+            // Project pages (e.g. fluxpiada.github.io/blackout)
+            const base = `https://${owner}.github.io/${repo}`;
+
+            // Target files to scan (add more if needed)
+            const targets = ['index.html'];
+
+            // Function to rewrite meta tags if value is relative
+            function rewriteMeta(html, propName) {
+              const re = new RegExp(
+                `<meta\\s+(?:property|name)=["']${propName}["']\\s+content=["']([^"']+)["']\\s*\\/?>`,
+                'ig'
+              );
+              return html.replace(re, (m, url) => {
+                if (/^https?:\/\//i.test(url)) return m; // already absolute
+                const normalized = url.replace(/^\\//, '');
+                const absolute = `${base}/${normalized}`;
+                return m.replace(url, absolute);
+              });
+            }
+
+            for (const file of targets) {
+              if (!fs.existsSync(file)) {
+                core.info(`Skip: ${file} not found`);
+                continue;
+              }
+              let html = fs.readFileSync(file, 'utf8');
+              const before = html;
+              html = rewriteMeta(html, 'og:image');
+              html = rewriteMeta(html, 'twitter:image');
+
+              if (html !== before) {
+                fs.writeFileSync(file, html, 'utf8');
+                core.info(`Rewrote relative OG/Twitter image URLs in ${file}`);
+              } else {
+                core.info(`No relative OG/Twitter image URLs found in ${file}`);
+              }
+            }
+
+      # --------------------------------------------------------
+      # 3️⃣  Configure Pages and upload site artifacts
+      # --------------------------------------------------------
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # ← publish everything in the repo root
+
+      # --------------------------------------------------------
+      # 4️⃣  Deploy the uploaded artifact to GitHub Pages
+      # --------------------------------------------------------
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
