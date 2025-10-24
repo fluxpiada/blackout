@@ -1,41 +1,23 @@
 # ============================================================
 # Workflow: GitHub Pages Deploy for "blackout"
-# Purpose:
-#   - Build and publish your static site to GitHub Pages
-#   - Automatically fix relative <meta property="og:image">
-#     and <meta name="twitter:image"> paths to absolute URLs
 # ============================================================
 
 name: Deploy site to GitHub Pages
 
-# ------------------------------------------------------------
-# Triggers:
-#   - On push to main (your source branch)
-#   - Manual run from the Actions tab
-# ------------------------------------------------------------
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
-# ------------------------------------------------------------
-# Permissions needed for Pages and repository contents
-# ------------------------------------------------------------
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# ------------------------------------------------------------
-# Concurrency: ensures only one deploy runs at a time
-# ------------------------------------------------------------
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# ------------------------------------------------------------
-# Main Job: build and deploy the site
-# ------------------------------------------------------------
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -44,81 +26,65 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      # --------------------------------------------------------
-      # 1️⃣  Checkout your repository so we can read/build files
-      # --------------------------------------------------------
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # --------------------------------------------------------
-      # 2️⃣  Rewrite relative OG/Twitter image paths to absolute
-      #     e.g. <meta property="og:image" content="images/...">
-      #     → <meta property="og:image"
-      #         content="https://fluxpiada.github.io/blackout/images/...">
-      # --------------------------------------------------------
-     - name: Rewrite OG/Twitter image URLs to absolute
-  uses: actions/github-script@v7
-  with:
-    script: |
-      const fs = require('fs');
-      const owner = context.repo.owner;
-      const repo  = context.repo.repo;
+      # 2️⃣ Rewrite relative OG/Twitter image URLs to absolute
+      - name: Rewrite OG/Twitter image URLs to absolute
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
 
-      // Construct correct base URL for project Pages
-      const base = `https://${owner}.github.io/${repo}`;
+            const base = `https://${owner}.github.io/${repo}`;
+            const targets = ['index.html'];
 
-      const targets = ['index.html'];
+            function rewriteMeta(html, prop) {
+              const re = new RegExp(
+                `<meta\\s+(?:property|name)=["']${prop}["']\\s+content=["']([^"']+)["']\\s*\\/?>`,
+                'ig'
+              );
+              return html.replace(re, (m, url) => {
+                if (url.startsWith('http://') || url.startsWith('https://')) return m;
+                const normalized = url.replace(/^\//, '');
+                const absolute = `${base}/${normalized}`;
+                return m.replace(url, absolute);
+              });
+            }
 
-      function rewriteMeta(html, propName) {
-        const re = new RegExp(
-          `<meta\\s+(?:property|name)=["']${propName}["']\\s+content=["']([^"']+)["']\\s*\\/?>`,
-          'ig'
-        );
-        return html.replace(re, (m, url) => {
-          // already absolute
-          if (url.startsWith('http://') || url.startsWith('https://')) return m;
-          // normalize leading slash
-          const normalized = url.replace(/^\//, '');
-          const absolute = `${base}/${normalized}`;
-          return m.replace(url, absolute);
-        });
-      }
+            for (const file of targets) {
+              if (!fs.existsSync(file)) {
+                core.info(`Skip: ${file} not found`);
+                continue;
+              }
+              let html = fs.readFileSync(file, 'utf8');
+              const before = html;
+              html = rewriteMeta(html, 'og:image');
+              html = rewriteMeta(html, 'twitter:image');
 
-      for (const file of targets) {
-        if (!fs.existsSync(file)) {
-          core.info(`Skip: ${file} not found`);
-          continue;
-        }
-        let html = fs.readFileSync(file, 'utf8');
-        const before = html;
-        html = rewriteMeta(html, 'og:image');
-        html = rewriteMeta(html, 'twitter:image');
+              if (html !== before) {
+                fs.writeFileSync(file, html, 'utf8');
+                core.info(`✅ Rewrote relative OG/Twitter image URLs in ${file}`);
+              } else {
+                core.info(`No relative OG/Twitter image URLs found in ${file}`);
+              }
+            }
 
-        if (html !== before) {
-          fs.writeFileSync(file, html, 'utf8');
-          core.info(`✅ Rewrote relative OG/Twitter image URLs in ${file}`);
-        } else {
-          core.info(`No relative OG/Twitter image URLs found in ${file}`);
-        }
-      }
-
-
-      # --------------------------------------------------------
-      # 3️⃣  Configure Pages and upload site artifacts
-      # --------------------------------------------------------
+      # 3️⃣ Configure Pages and upload
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .  # ← publish everything in the repo root
+          path: .
 
-      # --------------------------------------------------------
-      # 4️⃣  Deploy the uploaded artifact to GitHub Pages
-      # --------------------------------------------------------
+      # 4️⃣ Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
