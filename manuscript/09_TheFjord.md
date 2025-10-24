@@ -26,3 +26,27 @@ Buzzing with the glucose high from the protein bars, stealing a box or two of, e
 
 Others had printed bricks on their clothes and hoods so as to blend into the background — and had thin aluminium foil woven into their clothes so as not to emit any infrared waves. There was a peak interest in sewing and weaving machines; and Dora knew that Puck, for one, had reprogrammed an old industrial knitting machine from the eighties, taking orders and trading patterns on the Dusky Web — and in his job as a bathroom salesman.
 
+##                      ~ *** ~
+
+<!-- The plot: everyone is excited, but there is a spy in their midst. It is unclear whether Molly is a spy too. However, she saves the day, what with the HRs not appearing and together with Puck and a busier drummer–yembe player they create a riot. Which was the intention of the HR — to instigate rebellion, flush out the spies and stay hidden. Do they record everything? Yes, but make it like in that illicit recording in NYC in Birdland. Perhaps it turns into a contest — karaoke, poetry.
+Why does Bongwe leave? He is in league, but the heat is too much. He knows an escape route tunnel. Molly is a spy, but she is fake-captured — but she repents. There is another spy too, a weasly NPC type. A busker, or old fogey.
+Bongwe explains later that he warned them off. He smelt a rat (UB40 song, *Rat in the Kitchen Tonight*) — ?
+-->
+
+“Hey Bongwe, glad you made it!” she greeted her old pal with a complicated-looking but totally random handshake sequence, which was their little thing since uni. Bongwe’s hand was sweatier than usual, and he was scanning the modest crowd packed into the cellar.
+
+
+Embracing her briefly but tightly nonetheless, he greeted her back, saying, “Yo, airy girl, let me cruise to the bar see how it's going there!"
+
+“Do check out the protein bars and chestnut milk, straight from the tyke-place, courtesy of Molly’s niece, haha,” Dora quipped.
+
+“Yo really, is Molly even here?” replied Bongwe with unusual surprise. “I thought she didn’t dig these ska/reggae type ifissas...”
+
+“Okay well it’s about to start, check the music out.”
+
+Bongwe whispered to the sound engineer dude, who nodded, and soon the song *There’s a Rat in the Kitchen Tonight* by the old UBA revved up and the crowd exploded in mass hysteria, singing along at the top of their lungs.
+
+The roadies were done fixing the stage, the lighting, the cables and the mikes, drums and as usual took way longer than if Dora had done it herself, and the scene was now ripe for a giant legendary party. The song came to an end, and the last roadie jumped down from the stage and an expectant hum like a current went through the crowd.
+
+
+
