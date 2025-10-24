@@ -1,3 +1,39 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  autogen_release_notes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Fill in release notes using GitHub's generator
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const release = context.payload.release;
+            const tag = release.tag_name;
+
+            // Generate notes from commits/PRs since previous tag
+            const gen = await github.rest.repos.generateReleaseNotes({
+              owner,
+              repo,
+              tag_name: tag,
+              target_commitish: release.target_commitish
+              // previous_tag_name omitted so GitHub auto-detects it
+            });
+
+            // Update the newly published release body
+            await github.rest.repos.updateRelease({
+              owner,
+              repo,
+              release_id: release.id,
+              body: gen.data.body
+            });
+
+
 name: Build & attach EPUB on tag
 
 on:
