@@ -40,7 +40,7 @@ Embracing her briefly but tightly nonetheless, he greeted her back, saying, “Y
 
 “Do check out the protein bars and chestnut milk, straight from the tyke-place, courtesy of Molly’s niece, haha,” Dora quipped.
 
-“Yo really, is Molly even here?” replied Bongwe with unusual surprise. “I thought she didn’t dig these ska/reggae type ifissas...”
+“Yo really, is Molly even here?” replied Bongwe with unusual surprise. “I thought she didn’t dig these ska/reggae type fissas...”
 
 “Okay well it’s about to start, check the music out.”
 
@@ -49,4 +49,4 @@ Bongwe whispered to the sound engineer dude, who nodded, and soon the song *Ther
 The roadies were done fixing the stage, the lighting, the cables and the mikes, drums and as usual took way longer than if Dora had done it herself, and the scene was now ripe for a giant legendary party. The song came to an end, and the last roadie jumped down from the stage and an expectant hum like a current went through the crowd.
 
 
-
+##                      To Be Continued..
