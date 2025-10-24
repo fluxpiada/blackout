@@ -1,7 +1,11 @@
 on:
   release:
     types: [published]
-  workflow_dispatch:    # ← lets you run it manually from GitHub’s UI
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to test (must match an existing release)"
+        required: true
 
 
 jobs:
@@ -124,8 +128,10 @@ jobs:
         with:
           script: |
             const { owner, repo } = context.repo;
-            const rel = context.payload.release;
-            const tag = rel.tag_name;
+            const inputTag = context.payload?.inputs?.tag;
+            const rel = context.payload.release || (inputTag
+              ? (await github.rest.repos.getReleaseByTag({ owner, repo, tag: inputTag })).data : null);
+            const tag = rel?.tag_name || inputTag;
 
             // 1) Find previous published release tag (fallback: previous tag by date)
             const releases = await github.paginate(github.rest.repos.listReleases, { owner, repo, per_page: 100 });
