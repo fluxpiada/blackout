@@ -2,7 +2,7 @@
 # Zoning For Success
 
 On her way to work, she was still fuming. She had no way of contacting the Houtrak­kers; she’d have to enlist Erwin’s help again — and think of a way to pluck the look of the bike. 
-<!~~ — *Or does she?* — ~~>
+<!--Or does she?* —->
 And hoist herself into that godawful green stocking again. Speaking of which, where had she left that darn thing? The blood drained from her face when she realised she might have lost it — fallen out of her pocket? She had no idea when she had last felt that creepy slick stocking in her parka pocket. 
 
 The train rocketed out of the Halfweg tunnel, and she involuntarily braced herself for the impact. The abrasions and bruises were only just fading. 
