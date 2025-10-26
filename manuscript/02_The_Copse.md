@@ -6,9 +6,9 @@ Dora stood bent over, clasping her knees and gasping rasping breaths that burned
 
 ##          ~ * ~
 
-The Anthropocene dept. Of the Ministry of Cultural & Natural Affairs had not skimped in its self-congratulation on the effectivity of the Cooling Programme: thusly formed in order to counteract the more negative aspects of the aforementioned age, such as the wild-fires on the western Seaboard, mass extinctions in Southern Aztecia, the cataclysmic flooding of most of the coastal zones of Eurasia wiping out several million Bengali, Myanmari, Thai, Hindi and Tamil. 
+The Anthropocene Department of the Ministry of Cultural & Natural Affairs had not skimped in its self-congratulation on the effectivity of the Cooling Programme: thusly formed in order to counteract the more negative aspects of the aforementioned age, such as the wild-fires on the western Seaboard, mass extinctions in Southern Aztecia, the cataclysmic flooding of most of the coastal zones of Eurasia wiping out several million Bengali, Myanmari, Thai, Hindi and Tamil. 
 
-Yet in all their patting of backs, the dept. had quite overlooked that the populations of Canadian geese had long been decimated by said blistering wildfires, so no down-insulated parkas for Dora or other shivery Europeans. 
+Yet in all their patting of backs, the department had quite overlooked that the populations of Canadian geese had long been decimated by said blistering wildfires, so no down-insulated parkas for Dora or other shivery Europeans. 
 
 ##          ~ * ~
 
