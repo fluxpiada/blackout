@@ -13,19 +13,11 @@ Of course! That’s why it had been so quiet in the streets. That’s why they h
 
 And that’s why everyone in the train was more doped up than usual.
 
-<!-- move this to ch. the Fjord! -->
-She recalled the excitement of stealing the protein bars and mushroom milk from the daycare centre, and displaying them as prizes in the Fjord Bar. Everyone had found means to evade the curfew and the drones hovering on rooftops.
-Some had perched fake gulls on wavy long sticks or bamboo with a spring on their heads, setting the drones into evasive mode and not into patrolling mode. Others had printed bricks on their clothes and hoods so as to blend into the background. They had thin aluminium foil woven into their clothes so as not to emit any infrared waves.
-
-There was a peak interest in sewing and weaving machines, and Dora knew that Puck, for one, had programmed an old industrial knitting machine from the eighties — taking orders and trading patterns on the Dusky Web, and in his job as a bathroom salesman.
-
 ## Phil
 
 Dora exited the SubT one stop earlier, on the Spierinxhoorn, where, just opposite the soccer fields, she was greeted with an iron gate picturing Our Dear Leader, Dustin, beckoning the proles from the past to step into the glorious future. She wanted time to reflect on how she might be greeted at work, and anticipate some glib remarks or retorts. She hoped that HR could be relied on to have informed her workplace, and Phil, that conniving, wormtongue mouthbreather of a creature, to something that was halfway credible. Last year he had threatened her at the day party – hunching too close to her, his vile breath from a long-neglected halitosis curdling the very air, and his bloodshot eyes from the nitrogen dioxide emissions from the ongoing revamped interest in burning fossil fuels after the collapse of CERN and ITER due to right-wing extreme governments (called lenient left-leaning in the post-Dustin era) – research facilities with the purge of scientists and the crimping of funding and the vilification of general intelligentsia. Put to work shoveling open-pit lithium mines in the Chinese Congo, indeed. Their fate made Dora shudder, and she made sure not to appear too smart in any public address.
 
-## Phil
-
-She walked speedily along the verge of the crumbling pavement, the EVs and rickety fat-bikes speeding or trundling by. The wind was in her back, now coming due west, and snow was starting to flurry in corners.
+She walked hurriedly along the verge of the crumbling pavement, the EVs and rickety fat-bikes speeding or trundling by. The wind was in her back, now coming due west, and snow was starting to flurry in corners.
 
 She hoped that her colleague XXX? or Erwin would be there to deflect Phil’s stinging barbs. He would feel he had been cheated out of dealing her a bunch of neg points – quite the target for him. Once upon a time Phil must have not had those eyebrows.
 
