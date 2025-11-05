@@ -21,6 +21,11 @@ We stole some of the protein bars (_only 55 % insect, 45% labgrown goodness_) th
 The stolen kisses in the closet — committed to memory forever because of the cloying taste of the sticky protein bar and the whiff of lemony smell from the detergents stored there — were the best pastime ever, waiting for the curfew and the dark. A lot better than playing sudoku, as she might have done in a more solitary age, thought Dora exultantly. 
 
 ##                      ~ *** ~
+<!-- rewrite! and double check -->
+She recalled the excitement of stealing the protein bars and mushroom milk from the daycare centre, and displaying them as prizes in the Fjord Bar. Everyone had found means to evade the curfew and the drones hovering on rooftops.
+Some had perched fake gulls on wavy long sticks or bamboo with a spring on their heads, setting the drones into evasive mode and not into patrolling mode. Others had printed bricks on their clothes and hoods so as to blend into the background. They had thin aluminium foil woven into their clothes so as not to emit any infrared waves.
+
+There was a peak interest in sewing and weaving machines, and Dora knew that Puck, for one, had programmed an old industrial knitting machine from the eighties — taking orders and trading patterns on the Dusky Web, and in his job as a bathroom salesman.
 
 Buzzing with the glucose high from the protein bars, stealing a box or two of, excitement of, and chestnut milk, displaying them as proud conquests in the Fjord bar. Everyone had found means to evade the curfew and the drones hovering on rooftops — some had perched fake gulls on wavy long sticks with a spring on their heads, setting the drones into evasive mode instead of patrol mode.
 
