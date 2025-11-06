@@ -2,9 +2,9 @@
 
 The mistakes didn't show up right away. Their endemic nature only became apparent when it was far too late. That's the thing isn’t it, about mistakes: they're always presumed to be incidents. And yet when they're not - then what? 
 
-A mis-take: implies that one can try again, do a retake, that one can recover from it, like a misstep. It implies that it can be fixed, the mis-take. 
+A mis-take: implies that one can try again, do a retake, that one can recover from it, like a misstep. It implies that it can be fixed, the mis-take. How untrue that assumption proved to be.
 
-How untrue that assumption proved to be, when we thought all was still swell, only last year blithely unaware. We were too weak to see the signals. And had we, we were too weak ourselves to give off signals to stop them. That’s how wrung-out we had become. 
+Until last year we still thought all was swell - how blithely unaware we were. And weak, too weak to perceive the signals. And had we, then we were used up to stop them. That’s how wrung-out we had become. 
 
 Before we divulge more salient facts and gory details of the enfolding cataclysm, consider the exponential - or logarithmic effects (I'm a writer, not a mathematician) when mistakes start interacting. 
 
@@ -16,7 +16,7 @@ The machines.
 
 The machines.
 
-Our signals were weak. 
+Our signals were weakening. 
 
 ##                                         ~ * ~
 
@@ -28,9 +28,9 @@ Normally she would have taken a ride with her colleague Erwin, who had a Burmese
 
 “Thank God for PCM,” she thought, shivering on platform 3, which could more aptly have been named "Blasted Wind-tunnel" with the bone-chilling Siberian wind frosting her eyebrows. Huddling between the other commuters like Emperor penguins, she tried aligning to the placement of the 2nd class carriage, aiming to scoot in and leg it through to the 3rd class compartment ahead of the other penguins.
 
-Scuttling more like the roach from Kafka than a noble denizen of the Antarctic, she elbowed her not so ladylike way into the musty and dimly lit corridor: delving right down into its stuffy maw. The puddles on the tired lino in the hallway of the SubT carried the oily reflections of the sallow faces of the commuters; none of whom had important or mysterious work to look forward to. A slog, something to avoid getting a Neg Point for, some warm gruel for midday, grog with it if you were in the higher echelons or someone's relative, or in their Fief, but that was about the max of it.
+Scuttling more like the roach from Kafka than a noble denizen of the Antarctic, she elbowed her not so ladylike way into the musty and dimly lit corridor: delving right down into its stuffy maw. The puddles on the tired lino in the hallway of the SubT carried the oily reflections of the sallow faces of the commuters; none of whom had important or mysterious work to look forward to. But they slogged, anything to avoid Neg Points, anything for some warm gruel at midday. For most, no grog with it - that was only for those in the higher echelons. 
 
-Dora clenched her visapass in her pocket, picking at the fraying edges. It just had to last until X-Day, it just had to. To replace it before its expiry date would cost her 49 neuro at least: a week’s wages. She was already paying her debt of rent with the loan from Erwin. The windfall from the sale of her aunt’s illegal books on 20th century German Art and Aegyptian archeology had gone to pay the interest on her outstanding juice bill. Lucky her aunt Elsie had a little cornucopia of PCM, diclophenac and some crumbling benzos in her inheritance, bless her good old hoarder soul. So those greased the palms of Philip, her odious roster-chef, towards pipping up the list for extra shifts in her lauded workplace, the dept. of Audits, Double and Crosschecks & Files in the Ministry of Taxes & Records.
+Dora clenched her visapass in her pocket, picking at the fraying edges. It just had to last until X-Day, it just had to. To replace it before its expiry date would cost her 49 neuro at least: a week’s wages. She was already paying her debt of rent with the loan from Erwin. The windfall from the sale of her aunt’s illegal books on 20th century German Art and Aegyptian archeology had gone to pay the interest on her outstanding juice bill. Luckily her aunt Elsie had a little cornucopia of PCM, diclophenac and some crumbling benzos in her inheritance, bless her good old hoarder soul. So those greased the palms of Philip, her odious roster-chef, towards pipping up the list for extra shifts in her lauded workplace, the dept. of Audits, Double and Crosschecks & Files in the Ministry of Taxes & Records.
 
 The SubT slowed as it clawed its way out of the tunnel under the canal, the aging wiring causing the lighting to flicker. Dora sighed, stuffed her hands deeper into the pockets of her tired grey parka, pushed back into her seat, and muttered, "Geez, put an end to it all, would ya?"
 
