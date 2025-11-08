@@ -15,7 +15,7 @@ Of course! That’s why it had been so quiet in the streets. That’s why they h
 
 And that’s why everyone in the train was more doped up than usual.
 
-## Phil
+## ~ *** ~
 
 Dora exited the SubT one stop earlier, Spierinxhoorn, where, just opposite the soccer fields, she was greeted with an iron gate picturing Our Dear Leader, Dustin, beckoning the proles from the past to step into the glorious future of the Free Economic Era. She wanted to walk the last two clicks and take the time to anticipate on how her comrades might see her with suspicion and anticipate any insiduous remarks with a glib retort. 
 
