@@ -1,10 +1,10 @@
 ---
-title: The Blackout: Weak Signals — Download
-description: Download the ePub of *The Blackout: Weak Signals*.
-author: F. J. S. Remmelzwaal
+title: "The Blackout: Weak Signals — Download"
+description: "Download the ePub of The Blackout: Weak Signals."
+author: "F. J. S. Remmelzwaal"
 ---
 
-![Cover of *The Blackout: Weak Signals*](https://fluxpiada.github.io/blackout/images/battery.png)
+![Cover of The Blackout: Weak Signals](https://fluxpiada.github.io/blackout/images/battery.png)
 
 # The Blackout: Weak Signals
 *by F. J. S. Remmelzwaal*
@@ -13,33 +13,27 @@ Use this page to download the latest ePub version of *The Blackout: Weak Signals
 
 ---
 
-### 📦 Downloads
+### Downloads
 
-- [**⬇️ Download ePub**](Blackout_Weak_Signals.epub){download}
-- [**What changed?**](https://github.com/fluxpiada/blackout/releases/tag/1.10.24)
-- [**Older Versions**](https://github.com/fluxpiada/blackout/releases)
-- [**Join Discussion →**](https://github.com/fluxpiada/blackout/discussions)
+- **[Download ePub](Blackout_Weak_Signals.epub)**
+- **[What changed?](https://github.com/fluxpiada/blackout/releases/tag/1.10.24)**
+- **[Older Versions](https://github.com/fluxpiada/blackout/releases)**
+- **[Join Discussion →](https://github.com/fluxpiada/blackout/discussions)**
 
 ---
 
-### 🧾 Metadata
+### Metadata
 
 | Field | Value |
-|-------|--------|
+|---|---|
 | **Title** | *The Blackout: Weak Signals* |
 | **Author** | F. J. S. Remmelzwaal |
-| **Version** | *loading…* |
-| **Published** | *loading…* |
-
----
+| **Version** | loading… |
+| **Published** | loading… |
 
 > Latest build served via GitHub Pages — `loading…`
 
 © <span id="year"></span> F. J. S. Remmelzwaal. All rights reserved.
-
----
-
-*This page automatically updates with the newest release information from GitHub.*
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
