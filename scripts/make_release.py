@@ -1,7 +1,7 @@
 import argparse, pathlib, sys, subprocess, shlex, hashlib, json, time
 return 2
 
-epub_path = out / EPUB_NAME
+epub_path = out / "Blackout_Weak_Signals.epub"
 
 pandoc_cmd = [
 "pandoc",
