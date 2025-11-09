@@ -1,11 +1,11 @@
-# THE BLACKOUT
-
+# *The Blackout*  
 ## Weak Signals
 
-!(https://github.com/fluxpiada/blackout/blob/main/images/blauwdruk_h_waterlinie.png)
+![Blueprint of the Waterline](https://github.com/fluxpiada/blackout/raw/main/images/blauwdruk_h_waterlinie.png)
 
-Arnhem, 27th July, 2025
+---
 
-F. J. S. Remmelzwaal
+**Arnhem, 27 July 2025**  
+**F. J. S. Remmelzwaal**  
 
-Version: https://github.com/fluxpiada/blackout/releases/latest
+Version: [Latest Release](https://github.com/fluxpiada/blackout/releases/latest)
