@@ -25,15 +25,17 @@ out.mkdir(parents=True)
 if PUBLIC.exists():
 shutil.copytree(PUBLIC, out, dirs_exist_ok=True)
 
-# 2) Render README.md → index.html via pandoc if available; fallback to a minimal page
-if README.exists():
-try:
-run(["pandoc", str(README), "-s", "-o", str(out / "index.html")])
-except Exception:
-(out / "index.html").write_text(README.read_text(encoding="utf-8"), encoding="utf-8")
-elif not (out / "index.html").exists():
-(out / "index.html").write_text("<h1>Site built</h1>
-", encoding="utf-8")
+# 2) Prefer existing index.html; otherwise build from README.md
+INDEX = ROOT / "index.html"
+if INDEX.exists():
+    shutil.copy2(INDEX, out / "index.html")
+elif README.exists():
+    try:
+        run(["pandoc", str(README), "-s", "-o", str(out / "index.html")])
+    except Exception:
+        (out / "index.html").write_text(README.read_text(encoding="utf-8"), encoding="utf-8")
+else:
+    (out / "index.html").write_text("<h1>Site built</h1>\n", encoding="utf-8")
 
 # 3) Simple commit badge
 if args.commit:
