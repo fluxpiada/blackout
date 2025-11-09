@@ -1,0 +1,23 @@
+name: Notes Sync
+description: "Run notes sync via Python CLI"
+inputs:
+subset:
+description: "Subset to process"
+default: "all"
+runs:
+using: "composite"
+steps:
+- uses: actions/setup-python@v5
+with:
+python-version: "3.12"
+cache: "pip"
+- shell: bash
+run: |
+pip install -U pip
+if [ -f pyproject.toml ]; then
+pip install .
+elif [ -f requirements.txt ]; then
+pip install -r requirements.txt
+fi
+- shell: bash
+run: python scripts/notes_sync.py --subset "${{ inputs.subset }}"
