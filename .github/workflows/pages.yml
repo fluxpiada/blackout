@@ -36,14 +36,20 @@ jobs:
             const repo  = context.repo.repo;
             const base = `https://${owner}.github.io/${repo}`;
             const targets = ['index.html'];
+
             function rewriteMeta(html, prop) {
-              const re = new RegExp(`<meta\\s+(?:property|name)=["']${prop}["']\\s+content=["']([^"']+)["']\\s*\\/?>`,'ig');
+              const re = new RegExp(
+                `<meta\\s+(?:property|name)=["']${prop}["']\\s+content=["']([^"']+)["']\\s*\\/?>`,
+                'ig'
+              );
               return html.replace(re, (m, url) => {
                 if (url.startsWith('http')) return m;
                 const normalized = url.replace(/^\//, '');
-                return m.replace(url, `${base}/${normalized}`);
+                const absolute = `${base}/${normalized}`;
+                return m.replace(url, absolute);
               });
             }
+
             for (const f of targets) {
               if (!fs.existsSync(f)) continue;
               let html = fs.readFileSync(f, 'utf8');
@@ -53,8 +59,7 @@ jobs:
               if (html !== before) fs.writeFileSync(f, html, 'utf8');
             }
 
-      # 🔽 NEW: Insert latest-release EPUB links
-          - name: Update Download ePub button link
+      - name: Update Download ePub button link
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -67,10 +72,10 @@ jobs:
           fi
 
           echo "Updating 'Download ePub' button href to: $EPUB_URL"
-          # Replace the existing href in the button link that contains "Download ePub"
-          sed -i.bak -E "s|(<a[^>]*>Download ePub</a>)|<a href=\"$EPUB_URL\" download>Download ePub</a>|g" index.html
+          # Replace the <a> tag containing "Download ePub"
+          sed -i.bak -E "s|<a[^>]*>Download ePub</a>|<a href=\"$EPUB_URL\" download>Download ePub</a>|g" index.html
 
-          echo "✅ Updated index.html with latest EPUB download link."
+          echo "✅ Updated index.html with latest EPUB link"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
