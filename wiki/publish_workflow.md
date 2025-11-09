@@ -1,8 +1,11 @@
 
 # publishing workflow 
 ## building in pandoc
+⚠️ put older versions of epub > versions!
+
 ```
-mkdir -p build
+mv build/Blackout_Weak_Signals.epub versions/Blackout_Weak_Signals_OLDERVERSION.epub
+
 pandoc manuscript/*.md \
   --resource-path="manuscript:images" \
   --epub-cover-image=images/cover.png \
