@@ -8,6 +8,6 @@ Arnhem, 27th July, 2025
 
 F. J. S. Remmelzwaal
 
-Version: 17th October 2025
+Version: November 9th, 2025
 
-Chapters: 9
+Chapters: 10
