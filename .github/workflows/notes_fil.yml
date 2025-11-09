@@ -1,25 +1,21 @@
 name: Notes (manual)
 
 on:
-  workflow_dispatch:
-    inputs:
-      subset:
-        description: "Subset to process"
-        required: false
-        default: "all"
+workflow_dispatch:
+inputs:
+subset:
+description: "Subset to process"
+required: false
+default: "all"
 
 permissions:
-  contents: read
+contents: read
 
 jobs:
-  notes:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: "pip"
-      - run: pip install -r requirements.txt
-      - name: Run notes sync
-        run: python scripts/notes_sync.py --subset "${{ inputs.subset }}"
+notes:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+- uses: ./.github/actions/notes-sync
+with:
+subset: ${{ inputs.subset }}
