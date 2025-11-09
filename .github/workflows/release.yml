@@ -1,43 +1,35 @@
 name: Release
 
 on:
-  push:
-    tags: ["v*.*.*"]   # only on version tags
-  workflow_dispatch:
+push:
+tags: ["v*.*.*"]
+workflow_dispatch:
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+release:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout full history
+uses: actions/checkout@v4
+with:
+fetch-depth: 0
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: "pip"
+- uses: ./.github/actions/make-release
+with:
+out: build
+tag: ${{ github.ref_name }}
 
-      - name: Install deps
-        run: |
-          pip install -U pip
-          pip install -r requirements.txt
+- name: Upload assets
+uses: actions/upload-artifact@v4
+with:
+name: release-assets
+path: build/*
 
-      - name: Build release assets
-        env:
-          TAG_NAME: ${{ github.ref_name }}
-        run: python scripts/make_release.py --tag "$TAG_NAME" --out build
-
-      - name: Upload assets
-        uses: actions/upload-artifact@v4
-        with:
-          name: release-assets
-          path: build/*
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ github.ref_name }}
-          files: build/*
+- name: Create GitHub Release
+uses: softprops/action-gh-release@v2
+with:
+tag_name: ${{ github.ref_name }}
+files: build/*
