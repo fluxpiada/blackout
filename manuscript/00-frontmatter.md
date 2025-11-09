@@ -1,7 +1,8 @@
 # *The Blackout*  
 ## Weak Signals
-
-![Blueprint of the Waterline](https://github.com/fluxpiada/blackout/raw/main/images/blauwdruk_h_waterlinie.png)
+<p style="text-align:center;">
+  <img src="https://github.com/fluxpiada/blackout/raw/main/images/blauwdruk_h_waterlinie.png" alt="Blueprint of the Waterline" style="max-width:80%; height:auto;" />
+</p>
 
 ---
 
