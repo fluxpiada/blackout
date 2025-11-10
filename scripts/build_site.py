@@ -28,7 +28,7 @@ SITE_MD   = ROOT / "site" / "index.md"
 RAW_HTML  = ROOT / "index.html"
 
 # Optional extras
-TEMPLATE  = ROOT / "templates" / "page.html"
+# TEMPLATE  = ROOT / "templates" / "page.html"
 CSS_IN    = ROOT / "styles" / "site.css"   # if present, copied to dist/styles/site.css
 
 ASSET_DIRS = [ROOT / "public", ROOT / "styles", ROOT / "templates", ROOT / "images"]
