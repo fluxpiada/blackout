@@ -3,8 +3,8 @@ name: Pages
 on:
   push:
     tags:
-      - "v*.*.*"      # automatically runs on tagged releases
-  workflow_dispatch:   # also allows manual runs
+      - "v*.*.*"      # run on version tags
+  workflow_dispatch:   # allow manual runs
 
 permissions:
   contents: read
@@ -12,36 +12,33 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 🧩 build your site (this runs pages.py or similar)
-      - uses: ./.github/actions/build-site
+      - name: Build site
+        uses: ./.github/actions/build-site
         with:
           out: dist
+          commit: ${{ github.sha }}
 
-      # 🧱 assemble output folder
-      - name: Assemble site
-        run: |
-          rm -rf site
-          mkdir -p site
-          cp index.html site/
-          ls -lah site
-
-      # 📦 upload and deploy to GitHub Pages
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: dist
 
-      - name: Deploy to Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
