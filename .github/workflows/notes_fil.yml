@@ -1,25 +1,21 @@
-name: Notes (manual)
+name: Notes
 
 on:
   push:
     tags:
-      - "v*.*.*"      # Automatically runs when a version tag is pushed
-  workflow_dispatch:   # Allows manual run from the Actions tab
-
-inputs:
-subset:
-description: "Subset to process"
-required: false
-default: "all"
+      - "v*.*.*"  # run only when a version tag is pushed
 
 permissions:
-contents: read
+  contents: read
 
 jobs:
-notes:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
-- uses: ./.github/actions/notes-sync
-with:
-subset: ${{ inputs.subset }}
+  notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync notes
+        uses: ./.github/actions/notes-sync
+        with:
+          subset: all
