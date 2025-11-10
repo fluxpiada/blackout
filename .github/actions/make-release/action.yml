@@ -1,60 +1,47 @@
+# .github/actions/make-release/action.yml
 name: Make Release
-description: "Tag name (e.g. v1.2.3)"
-required: false
-runs:
-using: "composite"
-steps:
-- uses: actions/setup-python@v5
-with:
-python-version: "3.12"
-cache: "pip"
-
-- name: Install system deps (pandoc)
-shell: bash
-run: |
-sudo apt-get update
-sudo apt-get install -y pandoc
-pandoc -v
-
-- shell: bash
-run: |
-pip install -U pip
-if [ -f pyproject.toml ]; then
-pip install .
-elif [ -f requirements.txt ]; then
-pip install -r requirements.txt
-fi
-
-- shell: bash
-env:
-TAG_NAME: ${{ inputs.tag }}
-run: python scripts/make_release.py --out "${{ inputs.out }}" ${TAG_NAME:+--tag "$TAG_NAME"}
-```yaml
-name: Make Release
-description: "Build release assets via Python CLI"
+description: Build EPUB and other release assets
 inputs:
-out:
-description: "Output directory"
-default: "build"
-tag:
-description: "Tag name (e.g. v1.2.3)"
-required: false
+  out:
+    description: Output directory
+    required: false
+    default: build
+  tag:
+    description: Tag name (e.g. v1.2.3)
+    required: false
 runs:
-using: "composite"
-steps:
-- uses: actions/setup-python@v5
-with:
-python-version: "3.12"
-cache: "pip"
-- shell: bash
-run: |
-pip install -U pip
-if [ -f pyproject.toml ]; then
-pip install .
-elif [ -f requirements.txt ]; then
-pip install -r requirements.txt
-fi
-- shell: bash
-env:
-TAG_NAME: ${{ inputs.tag }}
-run: python scripts/make_release.py --out "${{ inputs.out }}" ${TAG_NAME:+--tag "$TAG_NAME"}
+  using: composite
+  steps:
+    - name: Set up Python
+    # Python is only needed if your script is Python (it is).
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        cache: "pip"
+
+    - name: Install system deps (pandoc)
+      shell: bash
+      run: |
+        set -euo pipefail
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+        pandoc -v
+
+    - name: Install project deps (if any)
+      shell: bash
+      run: |
+        set -euo pipefail
+        python -m pip install -U pip
+        if [ -f pyproject.toml ]; then
+          pip install .
+        elif [ -f requirements.txt ]; then
+          pip install -r requirements.txt
+        fi
+
+    - name: Build release artifacts
+      shell: bash
+      env:
+        TAG_NAME: ${{ inputs.tag }}
+      run: |
+        set -euo pipefail
+        python scripts/make_release.py --out "${{ inputs.out }}" ${TAG_NAME:+--tag "$TAG_NAME"}
