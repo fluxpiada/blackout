@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Blackout: Weak Signals — Download</title>
+
+  <meta name="description" content="Download the ePub of The Blackout: Weak Signals." />
+  <meta property="og:title" content="The Blackout: Weak Signals" />
+  <meta property="og:description" content="Download the ePub." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://fluxpiada.github.io/blackout/images/battery.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <!-- LEFT: cover -->
+      <div>
+        <img class="cover" src="https://fluxpiada.github.io/blackout/images/battery.png"
+             alt="Cover of The Blackout: Weak Signals" />
+      </div>
+
+      <!-- RIGHT: title, author, body, buttons, metadata -->
+      <div>
+        <h1>The Blackout: Weak Signals</h1>
+        <p class="muted">by F. J. S. Remmelzwaal</p>
+
+        <!-- $body$ is the Markdown content -->
+        <div class="prose">$body$</div>
+
+        <div class="row">
+          <a class="btn" href="{{ DOWNLOAD_URL }}" download>Download ePub</a>
+          <a class="btn" href="https://github.com/fluxpiada/blackout/releases">Older Versions</a>
+          <a class="btn secondary" href="https://github.com/fluxpiada/blackout/discussions" target="_blank">Join Discussion</a>
+        </div>
+
+        <hr style="border:none; border-top:1px solid var(--border); margin:20px 0;">
+        <div class="metadata small spaced muted" id="metadata">
+          <p><strong>Title:</strong> The Blackout: Weak Signals</p>
+          <p><strong>Author:</strong> F. J. S. Remmelzwaal</p>
+          <p id="version-info"><strong>Version:</strong> loading…</p>
+          <p id="published-info"><strong>Published:</strong> loading…</p>
+        </div>
+
+        <p class="small spaced muted">
+          Latest build served via GitHub Pages — Version: v0.0.0
+          <span id="ver" style="display:none"></span>
+        </p>
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> F. J. S. Remmelzwaal. All rights reserved.</footer>
+  </main>
+
+  <script>
+    // year
+    document.addEventListener('DOMContentLoaded', ()=> {
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    });
+    // version/published (best-effort)
+    (async function(){
+      const owner="fluxpiada", repo="blackout";
+      function setUI(tag, timeISO){
+        const v=document.getElementById('version-info');
+        const p=document.getElementById('published-info');
+        if(v) v.innerHTML = tag ? `<strong>Version:</strong> ${tag}` : '';
+        if(p) {
+          if(timeISO){
+            const d=new Date(timeISO);
+            p.innerHTML = `<strong>Published:</strong> ${d.toLocaleDateString('en-GB',{year:'numeric',month:'long',day:'numeric'})}`;
+          } else p.innerHTML='';
+        }
+      }
+      try{
+        const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`,
+          {headers:{'Accept':'application/vnd.github+json'}});
+        if(r.ok){const j=await r.json(); if(!j.draft&&!j.prerelease&&j.tag_name){ setUI(j.tag_name,j.published_at); return; }}
+      }catch{}
+      try{
+        const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/releases?per_page=20`,
+          {headers:{'Accept':'application/vnd.github+json'}});
+        if(r.ok){const list=await r.json(); const s=list.filter(x=>!x.draft&&!x.prerelease)
+          .sort((a,b)=>new Date(b.published_at)-new Date(a.published_at))[0];
+          if(s){ setUI(s.tag_name,s.published_at); return; }}
+      }catch{}
+    })();
+  </script>
+</body>
+</html>
