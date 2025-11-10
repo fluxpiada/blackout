@@ -3,8 +3,8 @@ name: Release
 on:
   push:
     tags:
-      - "v*.*.*"
-  workflow_dispatch:
+      - "v*.*.*"      # Automatically runs when a version tag is pushed
+  workflow_dispatch:   # Allows manual run from the Actions tab
 
 permissions:
   contents: write
