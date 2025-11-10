@@ -3,32 +3,45 @@ name: Pages
 on:
   push:
     tags:
-      - "v*.*.*"      # Automatically runs when a version tag is pushed
-  workflow_dispatch:   # Allows manual run from the Actions tab
+      - "v*.*.*"      # automatically runs on tagged releases
+  workflow_dispatch:   # also allows manual runs
 
 permissions:
-contents: read
-pages: write
-id-token: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-group: "pages"
-cancel-in-progress: true
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-deploy:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-- uses: ./.github/actions/build-site
-with:
-out: dist
+      # 🧩 build your site (this runs pages.py or similar)
+      - uses: ./.github/actions/build-site
+        with:
+          out: dist
 
-- name: Upload site artifact
-uses: actions/upload-pages-artifact@v3
-with:
-path: dist
+      # 🧱 assemble output folder
+      - name: Assemble site
+        run: |
+          rm -rf site
+          mkdir -p site
+          cp index.html site/
+          ls -lah site
 
-- name: Deploy to Pages
-uses: actions/deploy-pages@v4
+      # 📦 upload and deploy to GitHub Pages
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v4
