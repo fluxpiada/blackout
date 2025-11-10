@@ -3,8 +3,8 @@ name: Release
 on:
   push:
     tags:
-      - "v*.*.*"      # Automatically runs when a version tag is pushed
-  workflow_dispatch:   # Allows manual run from the Actions tab
+      - "v*.*.*"      # auto-run on version tags (e.g., v1.2.3)
+  workflow_dispatch:   # allow manual runs
 
 permissions:
   contents: write
@@ -18,19 +18,34 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: ./.github/actions/make-release
+      # Your custom action that produces an EPUB in build/
+      - name: Build release artifacts
+        uses: ./.github/actions/make-release
         with:
           out: build
           tag: ${{ github.ref_name }}
 
-      - name: Upload assets
-        uses: actions/upload-artifact@v4
-        with:
-          name: release-assets
-          path: build/*
+      # Normalize to a single stable filename for a permanent latest URL
+      - name: Normalize EPUB filename
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          EPUB_SRC="$(ls -1 build/*.epub | head -n1 || true)"
+          if [[ -z "${EPUB_SRC}" ]]; then
+            echo "❌ No .epub found in build/"; exit 1
+          fi
+          if [[ "${EPUB_SRC}" != "build/Blackout_Weak_Signals.epub" ]]; then
+            cp -f "${EPUB_SRC}" "build/Blackout_Weak_Signals.epub"
+          fi
+          echo "✅ Using asset: build/Blackout_Weak_Signals.epub"
+          ls -l build/
 
+      # Create the GitHub Release and upload only the stable-named EPUB
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
-          files: build/*
+          files: |
+            build/Blackout_Weak_Signals.epub
+          fail_on_unmatched_files: true
