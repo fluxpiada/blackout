@@ -16,7 +16,7 @@ Use this page to download the latest ePub version of *The Blackout: Weak Signals
 ### Downloads
 
 - **[Download ePub](Blackout_Weak_Signals.epub)**
-- **[What changed?](https://github.com/fluxpiada/blackout/releases/tag/1.10.24)**
+- **[What changed?](https://github.com/fluxpiada/blackout/releases/latest)**
 - **[Older Versions](https://github.com/fluxpiada/blackout/releases)**
 - **[Join Discussion →](https://github.com/fluxpiada/blackout/discussions)**
 
