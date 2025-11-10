@@ -45,18 +45,63 @@ def copy_assets(out: pathlib.Path):
         if d.exists():
             shutil.copytree(d, out / d.name, dirs_exist_ok=True)
 
-def build_from_markdown(src_md: pathlib.Path, out_html: pathlib.Path):
-    # Ensure styles exist in dist before pandoc so --css can work
-    if CSS_IN.exists():
-        (out_html.parent / "styles").mkdir(parents=True, exist_ok=True)
-        shutil.copy2(CSS_IN, out_html.parent / "styles" / CSS_IN.name)
+import subprocess, shutil, pathlib, sys
 
-    cmd = ["pandoc", str(src_md), "-s", "-o", str(out_html)]
-    if TEMPLATE.exists():
-        cmd.extend(["--template", str(TEMPLATE)])
+def _run_pandoc(cmd):
+    log_file = ROOT / "pandoc.log"
+    cmd = cmd + ["--verbose", f"--log={log_file}"]
+    print("[build] running:", " ".join(str(x) for x in cmd))
+    try:
+        subprocess.run(cmd, check=True)
+        print("[build] pandoc OK")
+        return True
+    except subprocess.CalledProcessError:
+        print("\n[build] Pandoc exited non-zero. Tail of pandoc.log:\n")
+        try:
+            print("\n".join((log_file.read_text().splitlines())[-80:]))
+        except Exception as e:
+            print(f"[build] could not read pandoc.log: {e}")
+        return False
+
+def build_from_markdown(src_md: pathlib.Path, target: pathlib.Path):
+    target.mkdir(parents=True, exist_ok=True)
+
+    # Preflight: show what exists in CI
+    print(f"[build] src_md exists: {src_md.exists()}  -> {src_md}")
+    print(f"[build] template exists: {TEMPLATE.exists()}  -> {TEMPLATE}")
+    print(f"[build] css exists: {CSS_IN.exists()}  -> {CSS_IN}")
+
+    # Always start with a clean, minimal command
+    base_cmd = [
+        "pandoc", str(src_md), "-s",
+        "-o", str(target / "index.html"),
+        "--metadata", "pagetitle=The Blackout: Weak Signals",
+    ]
+
+    # Ensure CSS is present in dist and linked relatively if available
+    with_css_cmd = list(base_cmd)
     if CSS_IN.exists():
-        cmd.extend(["--css", "styles/site.css"])
-    run(cmd)
+        (target / "styles").mkdir(parents=True, exist_ok=True)
+        shutil.copy2(CSS_IN, target / "styles" / "site.css")
+        with_css_cmd += ["--css", "styles/site.css"]
+
+    # 1) Try WITH template (if present)
+    if TEMPLATE.exists():
+        with_tpl_cmd = with_css_cmd + ["--template", str(TEMPLATE)]
+        print("[build] Attempting build WITH template…")
+        if _run_pandoc(with_tpl_cmd):
+            return
+        print("[build] Retrying WITHOUT template (temporary fallback)…")
+
+    # 2) Fallback: WITHOUT template
+    if _run_pandoc(with_css_cmd):
+        return
+
+    # 3) If we got here, even the fallback failed — exit hard with guidance
+    sys.exit(
+        "Build failed. See pandoc.log above. "
+        "If step #2 failed, check site/index.md for stray `$…$` or broken code fences."
+    )
 
 def ensure_download_link(html: str) -> str:
     # Replace placeholders if present
