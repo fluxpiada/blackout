@@ -4,8 +4,6 @@ description: "Download the ePub of The Blackout: Weak Signals."
 author: "F. J. S. Remmelzwaal"
 ---
 
-![Cover of The Blackout: Weak Signals](https://fluxpiada.github.io/blackout/images/battery.png)
-
 # The Blackout: Weak Signals
 *by F. J. S. Remmelzwaal*
 
