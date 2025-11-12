@@ -46,14 +46,16 @@ fi
 echo "🔧 Building EPUB version $VERSION..."
 mkdir -p "$OUTDIR"
 
+cp build/pandoc/style.css content/manuscript/style.css
+
 pandoc content/manuscript/*.md \
   --metadata-file="$META" \
-  --resource-path=content/manuscript:content/images \
+  --resource-path=content/manuscript:content/images:build/pandoc \
   --template="$TEMPLATE" \
-  --css="$STYLE" \
-  --embed-styles \
+  --css=style.css \
   --epub-cover-image="$COVER" \
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
+
 
 
 echo "✅ EPUB built successfully:"
