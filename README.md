@@ -1,3 +1,16 @@
+# The Blackout – Rebuild Branch
+
+This branch restructures the repository into three clear areas:
+
+1. **content/** – manuscript and archival materials  
+2. **build/** – scripts, templates, and EPUB output (manual build only)  
+3. **.github/workflows/** – automated release and site updates  
+
+Build manually:
+```bash
+chmod +x build/scripts/build_epub.sh
+./build/scripts/build_epub.sh
+```
 
 # The Git–Pandoc Book Workflow
 
