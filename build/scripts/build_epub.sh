@@ -51,6 +51,7 @@ pandoc content/manuscript/*.md \
   --resource-path=content/manuscript:content/images \
   --template="$TEMPLATE" \
   --css="$STYLE" \
+  --embed-styles \
   --epub-cover-image="$COVER" \
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
 
