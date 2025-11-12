@@ -39,12 +39,10 @@
         <p>Use this page to download the latest ePub version of <em>The Blackout: Weak Signals</em> and browse archived releases.</p>
 
        <div class="row">
-  <a class="btn" href="Blackout_Weak_Signals.epub" download>
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="https://github.com/fluxpiada/blackout/releases/download/1.10.24/Blackout_Weak._Signals.epub"/>
-    </svg>
-    Download ePub
-  </a>
+<a class="btn"
+   href="https://github.com/fluxpiada/blackout/releases/latest/download/Blackout_Weak_Signals.epub">
+  📘 Download EPUB
+</a>
 
   <a class="btn" href="https://github.com/fluxpiada/blackout/releases/tag/1.10.24">What changed?</a>
 
@@ -68,6 +66,7 @@
           <!-- 🔧 EDIT: make these placeholders visible -->
           <p id="version-info"><strong>Version:</strong> loading…</p>
           <p id="published-info"><strong>Published:</strong> loading…</p>
+          <p id="downloads-info"><strong>Downloads:</strong>   https://img.shields.io/github/downloads/fluxpiada/blackout/total.svg</p>
         </div>
 
         <p class="small spaced muted">
@@ -169,6 +168,28 @@ async function loadVersionData() {
 
 // Run on load
 document.addEventListener('DOMContentLoaded', loadVersionData);
+</script>
+
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Find element where you want to display the timestamp
+  const target = document.getElementById('build-timestamp');
+  if (!target) return;
+
+  // Fetch HEAD to get the 'last-modified' header of this page
+  fetch(window.location.href, { method: 'HEAD' })
+    .then(res => {
+      const lm = res.headers.get('last-modified');
+      if (!lm) return;
+      const d = new Date(lm);
+      const formatted = d.toLocaleString('en-GB', {
+        year: 'numeric', month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit'
+      });
+      target.textContent = formatted + ' (UTC)';
+    })
+    .catch(() => {});
+});
 </script>
 
 
