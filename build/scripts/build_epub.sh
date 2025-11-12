@@ -7,16 +7,14 @@ set -e
 
 BOOK_TITLE="Blackout_Weak_Signals"
 OUTDIR="build/output"
-TEMPLATE="build/pandoc/template.html"
-STYLE="build/pandoc/style.css"
 COVER="build/pandoc/cover.png"
 META="content/metadata.yaml"
+STYLE="build/pandoc/headings.css"  # only for your h1–h3 overrides
 
 # ------------------------------------------------------------
 # 🧭 Determine version number
 # ------------------------------------------------------------
 if [[ "$1" == "--auto" ]]; then
-  # Try to detect latest tag
   VERSION=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0-auto")
   echo "🤖 Auto mode enabled. Using version: $VERSION"
 else
@@ -43,16 +41,17 @@ fi
 # ------------------------------------------------------------
 # ⚙️ Build EPUB
 # ------------------------------------------------------------
-echo "🔧 Building EPUB version $VERSION..."
+echo "⚙️ Building EPUB version $VERSION..."
 mkdir -p "$OUTDIR"
 
 pandoc content/manuscript/*.md \
   --metadata-file="$META" \
-  --resource-path=.:content:build/pandoc \
-  --template="$TEMPLATE" \
+  --resource-path=content/manuscript:content/images:build/pandoc \
   --css="$STYLE" \
   --epub-cover-image="$COVER" \
+  --toc --toc-depth=1 \
+  --fail-if-warnings \
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
 
-echo "✅ EPUB built successfully:"
+echo "🤖 EPUB built successfully:"
 echo "   → $OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
