@@ -1,0 +1,28 @@
+name: Update GitHub Pages site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build site index
+        run: |
+          echo "<html><body><h1>The Blackout: Weak Signals</h1>" > site_index.html
+          echo "<p>Latest EPUB: <a href='https://github.com/fluxpiada/blackout/releases/latest'>Download</a></p></body></html>" >> site_index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
