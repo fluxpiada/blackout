@@ -1,0 +1,17 @@
+/* ============================================================
+   EPUB Style – The Blackout
+   ============================================================ */
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+  color: #222;
+  margin: 0 1em;
+  background-color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: normal;
+  margin-top: 2em;
+  margin-bottom: 0.
