@@ -8,7 +8,6 @@ set -e
 BOOK_TITLE="Blackout_Weak_Signals"
 OUTDIR="build/output"
 TEMPLATE="build/pandoc/template.html"
-STYLE="build/pandoc/style.css"
 COVER="build/pandoc/cover.png"
 META="content/metadata.yaml"
 
@@ -48,10 +47,10 @@ mkdir -p "$OUTDIR"
 
 pandoc content/manuscript/*.md \
   --metadata-file="$META" \
-  --resource-path=.:content:build/pandoc \
-  --template="$TEMPLATE" \
+  --resource-path=content/manuscript:content/images \
   --epub-cover-image="$COVER" \
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
+
 
 echo "✅ EPUB built successfully:"
 echo "   → $OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
