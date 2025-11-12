@@ -50,7 +50,6 @@ pandoc content/manuscript/*.md \
   --metadata-file="$META" \
   --resource-path=.:content:build/pandoc \
   --template="$TEMPLATE" \
-  --css="$STYLE" \
   --epub-cover-image="$COVER" \
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
 
