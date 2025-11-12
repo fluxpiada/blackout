@@ -48,10 +48,12 @@ mkdir -p "$OUTDIR"
 
 pandoc content/manuscript/*.md \
   --metadata-file="$META" \
+  --resource-path=content/manuscript:content/images \
   --template="$TEMPLATE" \
   --css="$STYLE" \
   --epub-cover-image="$COVER" \
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
+
 
 echo "✅ EPUB built successfully:"
 echo "   → $OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
