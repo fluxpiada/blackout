@@ -4,129 +4,180 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Blackout: Weak Signals — Download</title>
+
+  <!-- Basic metadata -->
+  <meta name="description" content="Download the latest ePub version of The Blackout: Weak Signals and browse archived releases." />
+
+  <!-- Open Graph / social -->
+  <meta property="og:title" content="The Blackout: Weak Signals" />
+  <meta property="og:description" content="Download the ePub of The Blackout: Weak Signals." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://fluxpiada.github.io/blackout/images/battery.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Site stylesheet (your restored CSS) -->
   <link rel="stylesheet" href="styles/site.css" />
 </head>
 <body>
-  <main>
-    <h1>The Blackout: Weak Signals</h1>
-    <p>by F. J. S. Remmelzwaal</p>
+  <main class="page">
+    <header>
+      <h1>The Blackout: Weak Signals</h1>
+      <p class="muted">by F. J. S. Remmelzwaal</p>
+    </header>
 
-    <p>Use this page to download the latest ePub version of <em>The Blackout: Weak Signals</em> and browse archived releases.</p>
+    <section class="hero">
+      <div class="hero-image">
+        <img src="images/blauwdruk_h_waterlinie.png"
+             alt="Blueprint related to The Blackout: Weak Signals" />
+      </div>
+      <div class="hero-text">
+        <p>
+          Use this page to download the latest ePub version of
+          <em>The Blackout: Weak Signals</em> and browse archived releases.
+        </p>
 
-    <p>
-      <a id="download-epub"
-         href="https://github.com/fluxpiada/blackout/releases/latest">
-        Download EPUB
-      </a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/fluxpiada/blackout/releases/latest">
-        What changed?
-      </a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/fluxpiada/blackout/releases">
-        Older Versions
-      </a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/fluxpiada/blackout/discussions">
-        Join Discussion
-      </a>
-    </p>
+        <p class="buttons">
+          <a id="download-epub"
+             class="btn"
+             href="https://github.com/fluxpiada/blackout/releases/latest">
+            Download EPUB
+          </a>
+          <a class="btn secondary"
+             href="https://github.com/fluxpiada/blackout/releases/latest">
+            What changed?
+          </a>
+          <a class="btn secondary"
+             href="https://github.com/fluxpiada/blackout/releases">
+            Older versions
+          </a>
+          <a class="btn secondary"
+             href="https://github.com/fluxpiada/blackout/discussions"
+             target="_blank" rel="noopener">
+            Join discussion
+          </a>
+        </p>
+      </div>
+    </section>
 
-    <hr />
+    <section class="metadata-section">
+      <h2>Metadata</h2>
+      <table class="metadata-table">
+        <tbody>
+          <tr>
+            <th scope="row">Title</th>
+            <td><em>The Blackout: Weak Signals</em></td>
+          </tr>
+          <tr>
+            <th scope="row">Author</th>
+            <td>F. J. S. Remmelzwaal</td>
+          </tr>
+          <tr>
+            <th scope="row">Version</th>
+            <td id="version-value">loading…</td>
+          </tr>
+          <tr>
+            <th scope="row">Published</th>
+            <td id="published-value">loading…</td>
+          </tr>
+          <tr>
+            <th scope="row">Downloads (latest release)</th>
+            <td id="downloads-latest">loading…</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <h2>Metadata</h2>
-    <dl>
-      <dt>Title</dt>
-      <dd>The Blackout: Weak Signals</dd>
-
-      <dt>Author</dt>
-      <dd>F. J. S. Remmelzwaal</dd>
-
-      <dt>Version</dt>
-      <dd id="version-value">loading…</dd>
-
-      <dt>Published</dt>
-      <dd id="published-value">loading…</dd>
-
-      <dt>Total downloads (latest release)</dt>
-      <dd id="downloads-latest">loading…</dd>
-    </dl>
-
-    <p>
-      Global download counter:<br />
-      <img
-        src="https://img.shields.io/github/downloads/fluxpiada/blackout/total.svg"
-        alt="Total downloads for all releases"
-      />
-    </p>
+      <p class="muted small">
+        Global download counter:<br />
+        <img
+          src="https://img.shields.io/github/downloads/fluxpiada/blackout/total.svg"
+          alt="Total downloads for all releases"
+        />
+      </p>
+    </section>
 
     <footer>
-      © <span id="year"></span> F. J. S. Remmelzwaal. All rights reserved.
+      <p class="muted small">
+        © <span id="year"></span> F. J. S. Remmelzwaal. All rights reserved.
+      </p>
     </footer>
   </main>
 
   <script>
     // Copyright year
-    document.addEventListener('DOMContentLoaded', () => {
-      const year = document.getElementById('year');
-      if (year) year.textContent = new Date().getFullYear();
+    document.addEventListener('DOMContentLoaded', function () {
+      var yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
     });
 
-    // Fill in latest release metadata
-    (async function () {
-      const versionEl = document.getElementById('version-value');
-      const publishedEl = document.getElementById('published-value');
-      const downloadsLatestEl = document.getElementById('downloads-latest');
-      const downloadLinkEl = document.getElementById('download-epub');
+    // Load latest release metadata + set download link
+    document.addEventListener('DOMContentLoaded', function () {
+      var owner = 'fluxpiada';
+      var repo  = 'blackout';
 
-      try {
-        const res = await fetch('https://api.github.com/repos/fluxpiada/blackout/releases/latest');
-        if (!res.ok) throw new Error('GitHub API error ' + res.status);
-        const release = await res.json();
+      var versionEl   = document.getElementById('version-value');
+      var publishedEl = document.getElementById('published-value');
+      var downloadsEl = document.getElementById('downloads-latest');
+      var downloadBtn = document.getElementById('download-epub');
 
-        const tag = release.tag_name || release.name || '(unknown)';
-        if (versionEl) versionEl.textContent = tag;
+      function setText(el, text) {
+        if (el) el.textContent = text;
+      }
 
-        if (publishedEl) {
-          if (release.published_at) {
-            const d = new Date(release.published_at);
-            publishedEl.textContent = d.toLocaleDateString('en-GB', {
-              day: '2-digit',
-              month: 'short',
-              year: 'numeric'
-            });
+      function formatDate(iso) {
+        if (!iso) return '';
+        var d = new Date(iso);
+        return d.toLocaleDateString('en-GB', {
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric'
+        });
+      }
+
+      (async function () {
+        try {
+          var res = await fetch('https://api.github.com/repos/' + owner + '/' + repo + '/releases/latest', {
+            headers: { 'Accept': 'application/vnd.github+json' }
+          });
+          if (!res.ok) throw new Error('GitHub API error: ' + res.status);
+
+          var rel = await res.json();
+
+          // Version + published date
+          var tag = rel.tag_name || rel.name || '(unknown)';
+          setText(versionEl, tag);
+          setText(publishedEl, rel.published_at ? formatDate(rel.published_at) : '(unknown)');
+
+          // Latest-release downloads (sum of assets)
+          if (Array.isArray(rel.assets) && rel.assets.length > 0) {
+            var totalDownloads = rel.assets.reduce(function (sum, a) {
+              return sum + (a.download_count || 0);
+            }, 0);
+            setText(downloadsEl, String(totalDownloads));
           } else {
-            publishedEl.textContent = '(unknown)';
+            setText(downloadsEl, '0');
           }
-        }
 
-        if (Array.isArray(release.assets)) {
-          // Point the Download button at the actual .epub asset
-          if (downloadLinkEl) {
-            const epub = release.assets.find(
-              a => a.name && a.name.toLowerCase().endsWith('.epub')
-            );
+          // Point the Download EPUB button at the actual .epub asset if present
+          if (downloadBtn && Array.isArray(rel.assets)) {
+            var epub = rel.assets.find(function (a) {
+              return a.name && a.name.toLowerCase().endsWith('.epub');
+            });
             if (epub && epub.browser_download_url) {
-              downloadLinkEl.href = epub.browser_download_url;
+              downloadBtn.href = epub.browser_download_url;
             }
           }
-
-          // Sum download counts for the latest release
-          if (downloadsLatestEl) {
-            const total = release.assets.reduce(
-              (sum, a) => sum + (a.download_count || 0),
-              0
-            );
-            downloadsLatestEl.textContent = String(total);
-          }
+        } catch (err) {
+          console.error('Failed to load release metadata:', err);
+          setText(versionEl, '(error)');
+          setText(publishedEl, '(error)');
+          setText(downloadsEl, '(error)');
         }
-      } catch (err) {
-        if (versionEl) versionEl.textContent = '(error)';
-        if (publishedEl) publishedEl.textContent = '(error)';
-        if (downloadsLatestEl) downloadsLatestEl.textContent = '(error)';
-        console.error('Failed to load release metadata:', err);
-      }
-    })();
+      })();
+    });
   </script>
 </body>
 </html>
