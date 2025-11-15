@@ -1,44 +1,28 @@
-name: Pages
+name: Update GitHub Pages site
 
 on:
-  push:
-    tags:
-      - "v*.*.*"      # run on version tags
-  workflow_dispatch:   # allow manual runs
+  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Build site
-        uses: ./.github/actions/build-site
-        with:
-          out: dist
-          commit: ${{ github.sha }}
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
+      - name: Build site index
+        run: |
+          echo "<html><body><h1>The Blackout: Weak Signals</h1>" > site_index.html
+          echo "<p>Latest EPUB: <a href='https://github.com/fluxpiada/blackout/releases/latest'>Download</a></p></body></html>" >> site_index.html
 
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages

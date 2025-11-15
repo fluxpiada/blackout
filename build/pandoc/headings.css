@@ -1,0 +1,25 @@
+/* Heading overrides only */
+
+h1 {
+  font-family: "Georgia", serif;
+  font-weight: 700;
+  font-size: 1.6em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  margin-top: 1.8em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Georgia", serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+}
