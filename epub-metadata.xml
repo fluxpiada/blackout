@@ -6,6 +6,7 @@
             xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="book-id">urn:uuid:123e4567-e89b-12d3-a456-426614174000</dc:identifier>
     <dc:title>The Blackout: Weak Signals</dc:title>
+           <dc:description> A science-fiction novel exploring dystopian themes of man-machine interaction on Earth.</dc:description>
     <dc:creator id="creator" opf:role="aut" opf:file-as="Remmelzwaal, F.J.S.">F.J.S. Remmelzwaal</dc:creator>
     <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
     <dc:language>en</dc:language>
