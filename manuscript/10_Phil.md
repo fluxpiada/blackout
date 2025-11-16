@@ -3,7 +3,7 @@
 
 She recalled her first day at the department, not so long ago. 
 
-"Welcome, Ms. Olivetti, esteemed comrade, to our humble department!" said Mr. Phil Cortana, her new Supervisor — or as he was officially designated, Shift Leader level 1.01. He waved her into the hallway of the 11th Floor. The lights were rather dim, since the solar power hadn’t the force at seven o'clock in the morning to power them properly. It was still dark outside and it was a glum sight. The Westelijk Havengebied was populated with morose and rickety ships, dilapidated cranes, forking crummy metal waste into big bins meant for resmelting, in the forges that were belching brown clouds of lignite exhaust. In the gloom behind the exhaust pipes loomed a squat black building blotting out half of the northern horizon. 
+"Welcome, Ms. Olivetti, esteemed comrade, to our humble department!" said Mr. Phil Cortana, her new Supervisor — or as he was officially designated, Shift Leader level 1.01. He waved her into the hallway of the 11th Floor. The lights were rather dim, since the solar power hadn’t the force at seven o’clock in the morning to power them properly. It was still dark outside and it was a glum sight. The Westelijk Havengebied was populated with morose and rickety ships, cranes dilapidated, forking crummy metal waste into big bins meant for resmelting, in the forges that were belching brown clouds of lignite exhaust. In the gloom behind the exhaust pipes loomed a squat black building blotting out half of the northern horizon.
 
 Mr. Cortana wiggled his eyebrows as he gestured for her to pass her coat to hang on the sparse and dripping coatrack in the corner of the hallway. "Pass me your coat please, ms.,” he said, and she quickly though clumsily took off her coat and grotty scarf.
 
@@ -43,15 +43,15 @@ The other drudge, rather more handsome with spiky blond hair and a pixie smile, 
  
 "Oh, and Erwin here is the expert in the Auditing Laws and Bylaws, especially the section on wikipedia driven disinformation tactics," continued Tricia.
 
-Dora smiled and bobbed her head like a proper little newbie bumpkin though Mr. Cortana’s demeanour never left the scrutiny of her beady eye. She was not under any impression that the flying colours she'd sailed in on were a guarantee for any lasting leeward refuge. 
+Dora smiled and bobbed her head like a proper little newbie bumpkin though Mr. Cortana’s demeanour never left the scrutiny from the corner of her beady eye. She was not under the any impression that the flying colours she’d sailed in on were a guarantee for any lasting leeward refuge.
 
 ## ~ *** ~
 
 Dear old unibrow Phil; a little person in the cogwheels of the gruelling bureaucracy; was all the more formidable as adversary - being shackled by his insignificance and knowing it. He had futile KPIs, OKRs, OGSMs to report, puerile assessments to complete, and his only leverage was the utter fickleness of the judgements he meted out on us. 
 
-Phil Cortana, who must once have aspired to greatness like the naive rest of us; yearned of enlistment as a Blade Runner perhaps - before his brows met each other above the bridge of his Roman nose. Yet when his Pokémon skills faltered at level forty-nine, when his Fortnite skills were staying delulu, round about that time he must have realised the limitations to his character and career advancement were as stark as the unibrow harshly delineating his visage. 
+Phil Cortana, who must once have aspired to greatness like the naive rest of us; aspire to becoming a Blade Runner perhaps - before his brows met each other above the bridge of his Roman nose. Yet when his Pokémon skills faltered at level forty-nine, when his Fortnite skills were staying delulu, round about that time he must have realised the limitations to his character and career advancement were as stark as the unibrow harshly delineating his visage.
 
-A bonus of his bristly bricky was he needed no Voigt-Kampff test — he was the master of the monobrow, and it indicated his moods as accurately as a barometer the air pressure. Dora felt she could have done far worse than her comrades Tricia and Erwin - they seemed genuinely welcoming. 
+A bonus of his bristly bricky was he needed no Voigt-Kampff test — he was the master of the monobrow, and it indicated his moods as accurately as a barometer the air pressure. Dora felt she could have done worse than Tricia and Erwin, they seemed genuinely welcoming.
 
 “Well, thanks guys, look forward to learning from you. And, of course also especially from you, Shift Leader Cortana!"
 
