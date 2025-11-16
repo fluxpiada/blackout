@@ -38,20 +38,32 @@ Dora shuddered at the memory, and the blustery wind grew in strength and blew we
 Reticulating Splines was a re-integration, or demotion, where one was assigned to the twenty-second floor, the Testing Floor. It was one step removed from being sent-off permanently - the fate of many too overtly intelligentia - to the open-pit lithium mines in Chinese Congo. It was dangerous to appear a know-it-all, and Dora, Erwin and Tricia dumbed down their speech and often removed their glasses in public when they could. 
 
 Dora walked hurriedly along the verge of the crumbling pavement, the EVs and rickety fat-bikes speeding or trundling by.
-She hoped that Tricia or Erwin would also have their shifts and help deflect Phil’s stinging barbs. He would feel he had been cheated out of dealing her a bunch of Neg Points. Phil was such a Neg Point master, that it was hard to imagine the department of A, D C & F without him and his unibrow. 
+She hoped that Tricia or Erwin would also have their shifts and help deflect Phil’s stinging barbs. He would feel he had been cheated out of dealing her a bunch of NegPoints. Phil was such a Neg Point master, that it was hard to imagine the department of A, D C & F without him and his unibrow. 
 
 ## ~ *** ~
 <!-- hier moet iets over haar aankomst en dat Phil is overgenomen door AI --> 
 
-Dora arrived just in time for the morning chicory break at half past ten o’clock, and she was yearning for a cup of the bitter brew. Dora had just finished writing up and retro-wiping the history of CERN and ITER from the records. 
 
-<!-- is this really snappy enough -->
-Her rewrite hailed The Free Economic Era as the inventor of fracking; the most efficient way to power the electricity stations ever. Never mind the nitrogen dioxide and the pollution of the water supply; that was all the fault of the left-wing green cuddlers. 
+More noise in the lobby from the stamping of feet on the grotty and soggy mat in the lobby of the D-Tower masked her thudding of her heart beating in her throat. 
 
-She beckoned to fellow cognitariat chica, Tricia, whose eyes were habitually bloodshot on Monday mornings, indicating a voluntary pollution of the lungs with skif or the like. They had warmed to each other within a few weeks of Dora’s assignment. Tricia, had introduced Dora to Molly, when at a work party, celebrating the annulment of a section of Civil Law (pertaining to the rights of asylum seekers, abortionists and victims of incel violence). Although Erwin, Dora and Tricia exchanged worried looks, the reasoning was that these population ultra-minorities had all but disappeared with the entrenching of the Economic Party since the last decade, and so as to ease the strain on government, culling sections of Civil Law formed a massive effort that had started from the get-go of prime-president-minister, Dustin. 
+She decided it would be wise to time her arrival with that of the next SubT, when carriage loads of co-workers would thrum into the lobby of the imposing blue marbled 23-storey Tower. The gates would be swamped with bleeps and blips scanning the visacards and any discrepancies would evade the gaze of the eagle-eyed security ladies perched behind their buttresses. 
+
+Dora meshed into the other wet and cold and damp co-workers, who were all still groggy with what she presumed to be the wearing off of _Painoquel_ and who took no notice of her joining their ranks from another direction. 
+
+They were selected for their meticulous eye for detail; a neurodiverse trait turned to 
+sniffing out any change in the workforce's demenour that was a pervasive manifestatino of subterfuge or subversion: a snazzy hairdo, a strange bruise, or worst of all, an all too confident gaze - duly noted for an investigation and a long stint in Reticulating Splines on the Testing Floor on the twenty-second.  
+
+The throng certainly hid Dora from the eagle-eyed arrived on the Eleventh Floor, and although there was still an hour to go until  the morning chicory break at half past ten o’clock, she was yearning for a cup of the bitter brew. 
+
+She beckoned to fellow cognitariat chica, Tricia, whose eyes were habitually bloodshot on Monday mornings, indicating a voluntary pollution of the lungs with _skif_ or the like. They had warmed to each other within a few weeks of Dora’s start as Rewriter. 
+
+Dora's romantic embroilment with Molly had been thanks to Tricia, who had introduced Dora to Molly a few months back at a celebration at work. Their department had succeeded in retro-wiping a convoluted section of Civil Law pertaining to the rights of asylum seekers, abortionists and victims of incel violence, hence the "Milestone Celebration for the Redundancy of Bureaucracy." 
+
+During the collossal Redundancy effort Erwin, Dora and Tricia had exchanged myriad worried looks. Yet the reward was such that it made the encroachment on democratic rights that much more palatable. A subtraction of one NegPoint for each and every frero and sisa of the Department and extra grog at lunch for a month, and a party thrown in to enhance the memory-loss - strengthened their bond, but eroded their resolve that much more. 
 
 ## ~ *** ~
 
+<!-- Does this really go here? or in another chapter? -->
 She recalled her first day at the department, not so long ago. 
 
 "Welcome, Ms. Olivetti, esteemed comrade, to our humble department!" said Mr. Phil Cortana, her new Supervisor — or as he was officially designated, Shift Leader level 1.01. He waved her into the hallway of the 11th Floor. The lights were rather dim, since the solar power hadn’t the force at seven o'clock in the morning to power them properly. It was still dark outside and it was a glum sight. The Westelijk Havengebied was populated with morose and rickety ships, cranes dilapidated, forking crummy metal waste into big bins meant for resmelting, in the forges that were belching brown clouds of lignite exhaust. In the gloom behind the exhaust pipes loomed a squat black building blotting out half of the northern horizon. 
