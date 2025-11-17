@@ -46,7 +46,6 @@ Dora walked hurriedly along the verge of the crumbling pavement, the EVs speedin
 She hoped that Tricia or Erwin would also have their shifts and help deflect Phil’s stinging barbs. He would feel he had been cheated out of dealing her a bunch of NegPoints. Phil was such a NegPoint master, that it was hard to imagine the department of A, D C & F without him and his unibrow. 
 
 ## ~ *** ~
-<!-- [x] hier moet iets over haar aankomst en dat [] Phil is overgenomen door AI --> 
 
 She decided it would be wise to time her arrival with that of the next SubT, when carriage loads of co-workers would thrum into the lobby of the imposing blue marbled 23-storey Tower. The gates would be swamped with bleeps and blips scanning the visacards and any discrepancies would evade the gaze of the eagle-eyed security ladies perched behind their buttresses. 
 
@@ -60,12 +59,13 @@ The throng certainly hid Dora from the brunt of the hypervigilance of the Hawk-E
 
 She beckoned to fellow cognitariat chica, Tricia, whose eyes were habitually bloodshot on Monday mornings, indicating a voluntary pollution of the lungs with _skif_ or the like. They had warmed to each other within a few weeks of Dora’s start as Retro-Wiper. 
 
-<!-- Does this go here? -->
-### Does this go here? 
+<!-- Does this go here? 
+
 Dora's romantic embroilment with Molly had been thanks to Tricia, who had introduced Dora to Molly a few months back at a celebration at work. Their department had succeeded in retro-wiping a convoluted section of Civil Law pertaining to the rights of asylum seekers, abortionists and victims of incel violence, hence the "Milestone Celebration for the Redundancy of Bureaucracy." 
 
 During the collossal Redundancy effort Erwin, Dora and Tricia had exchanged myriad worried looks. Yet the reward was such that it made the encroachment on democratic rights that much more palatable. A subtraction of one NegPoint for each and every frero and sisa of the Department and extra grog at lunch for a month, and a party thrown in to enhance the memory-loss - strengthened their bond, but eroded their resolve that much more. 
-
+-->
 ## ~ *** ~
 <!-- write up that Phil is gone -->
+<!-- hier moet iets over dat [] Phil is overgenomen door AI --> 
 
