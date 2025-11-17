@@ -1,3 +1,4 @@
+
 # Acknowledgments
 
 The idea for *The Blackout: Weak Signals* came into my head when I was commuting from Haarlem to my work in Amsterdam Sloterdijk somewhere between 2010 and 2014. I just had no idea how to turn that idea (which is the key of chapter one) into anything more robust. 
