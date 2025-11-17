@@ -46,7 +46,6 @@ Dora walked hurriedly along the verge of the crumbling pavement, the EVs speedin
 She hoped that Tricia or Erwin would also have their shifts and help deflect Phil's stinging barbs. He would feel he had been cheated out of dealing her a bunch of NegPoints. Phil was such a NegPoint master, that it was hard to imagine the department of A, D C & F without him and his unibrow.
 
 ## ~ *** ~
-<!-- [x] hier moet iets over haar aankomst en dat [] Phil is overgenomen door AI -->
 
 She decided it would be wise to time her arrival with that of the next SubT, when carriage loads of co-workers would thrum into the lobby of the imposing blue marbled 23-storey Tower. The gates would be swamped with bleeps and blips scanning the visacards and any discrepancies would evade the gaze of the eagle-eyed security ladies perched behind their buttresses.
 
@@ -66,7 +65,7 @@ Dora's romantic embroilment with Molly had been thanks to Tricia, who had introd
 
 During the collossal Redundancy effort Erwin, Dora and Tricia had exchanged myriad worried looks. Yet the reward was such that it made the encroachment on democratic rights that much more palatable. A subtraction of one NegPoint for each and every frero and sisa of the Department and extra grog at lunch for a month, and a party thrown in to enhance the memory-loss - strengthened their bond, but eroded their resolve that much more.
 -->
-
 ## ~ *** ~
 <!-- write up that Phil is gone -->
+<!-- hier moet iets over dat [] Phil is overgenomen door AI --> 
 
