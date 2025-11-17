@@ -8,6 +8,18 @@ mv build/Blackout_Weak_Signals.epub versions/Blackout_Weak_Signals_OLDERVERSION.
 
 pandoc manuscript/*.md \
   --resource-path="manuscript:images" \
+  --epub-cover-image=content/images/cover.png \
+  --epub-metadata=content/epub-metadata.xml \
+  --toc \
+  -o build/Blackout_Weak_Signals.epub
+```
+/! deprecated
+
+```
+mv build/Blackout_Weak_Signals.epub versions/Blackout_Weak_Signals_OLDERVERSION.epub
+
+pandoc manuscript/*.md \
+  --resource-path="manuscript:images" \
   --epub-cover-image=images/cover.png \
   --epub-metadata=epub-metadata.xml \
   --toc \
