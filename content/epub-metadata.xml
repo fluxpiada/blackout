@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dc:title>The Blackout: Weak Signals</dc:title>
-<dc:creator opf:role="aut" opf:file-as="Remmelzwaal, F. J. S.">F. J. S. Remmelzwaal</dc:creator>
+<dc:creator opf:role="aut" opf:file-as="Remmelzwaal, Floortje J. S.">F. J. S. Remmelzwaal</dc:creator>
 <dc:identifier id="book-id">urn:uuid:123e4567-e89b-12d3-a456-426614174000</dc:identifier>
 <dc:language>en</dc:language>
+<dc:description>Dystopian science-fiction novel set on Earth; man vs. machine gone amok.</dc:description>
 <dc:rights>© 2025 F. J. S. Remmelzwaal</dc:rights>
 <dc:date>2025-07-27</dc:date>
-<dc:publisher>Fluxpiada</dc:publisher>
+<dc:publisher>self-published</dc:publisher>
