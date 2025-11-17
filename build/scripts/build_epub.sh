@@ -8,7 +8,8 @@ set -e
 BOOK_TITLE="Blackout_Weak_Signals"
 OUTDIR="build/output"
 COVER="build/pandoc/cover.png"
-META="content/metadata.yaml"
+META="content/epub-metadata.xml"
+# META="content/metadata.yaml"
 STYLE="build/pandoc/headings.css"  # only for your h1–h3 overrides
 
 # ------------------------------------------------------------
