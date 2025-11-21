@@ -1,22 +1,10 @@
 ~ *** ~
-# **CHAPTER 1. THE FJORD ARNHEM 21/11/2025**
 
-The ageing smoke machine belched erratic clouds of whitish muck over the
-expectant and fidgety crowd. Dora motioned to Molly to hustle to the
-front of the stage, as she saw the sound engineer twiddle the last knobs
-on the guitar amp, and he bustled off-stage, a sure sign things were
-about to blast off. The famous Houtrakkers, or as their stage name was, 2BoN2B, and she was dying to see
-them outside of their hidey-hole. Were they even of flesh and blood?
-Hard to tell...
+The ageing smoke machine belched erratic clouds of whitish muck over the expectant and fidgety crowd. Dora motioned to Molly to hustle to the front of the stage, as she saw the sound engineer twiddle the last knobs on the guitar amp, and he bustled off-stage, a sure sign things were about to blast off. The famous Houtrakkers, or as their stage name was, 2BoN2B, and she was dying to see them outside of their hidey-hole. Were they even of flesh and blood? Hard to tell...
 
-Mr. Ate took to the stage as the crowd yelled and catcalled. "Now
-announcing the moment you've all been waiting for... I proudly present
-the best punk rock band since Sonic Youth, 2BoN2B!!!" 
+Mr. Ate took to the stage as the crowd yelled and catcalled. "Now announcing the moment you've all been waiting for... I proudly present the best punk rock band since Sonic Youth, 2BoN2B!!!" 
 
-The stage was
-already hard to make out because of the smoke, now the lights went full
-on red, and the smoke machine full blast - too much for its
-antiquated circuitry, it roared, belched, and sparked and misted like Krakatoa and the ensuing short-circuit blew the lights - the crowd was in dismay and it was utter pitch black - Dora could only hear or see a residual retina imprint of Mr. Ate shooing off pronto to the left of the stage. 
+The stage was already hard to make out because of the smoke, now the lights went full on red, and the smoke machine full blast - too much for its antiquated circuitry, it roared, belched, and sparked and misted like Krakatoa and the ensuing short-circuit blew the lights - the crowd was in dismay and it was utter pitch black - Dora could only hear or see a residual retina imprint of Mr. Ate shooing off pronto to the left of the stage. 
 
 "Where's he going? Molly, where is the band - Molly?" She grasped in the blind to her right, where Molly had been. There was no Molly beside her, only a big punk in a tatty woolly sweater. "Yo I'm no Molly," yees it's dark, and he lit a lighter, as did others around him. At the bar in the back a flashlight was on and someone was rummaging for matches to promptly light some emergency candles. Dora sped on her axis, Molly nor Mr. Ate were anywhere to be seen. "WTF," she
 exclaimed, and grabbed her bike light from her pocket. "The john, most likely," and she ran onto the stage, tripping over the spaghetti of cables and fell over the crouching sound engineer who lamented the demise of the mist machine. She tumbled down the back of the stage, through the curtains and suddenly remembered the Cold War bomb shelter tunnel access. *That must be where they went,* though WTF, WTF, WTF---she felt around in the dark until she came to the cold steel door, and pushed down hard on the steel jamb and it swung open to more darkness. Dora was suddenly very cold, a tight cold hand constricted her throat and chest, what if Molly ran off with Mr. Ate,---she ran on into the tunnel which had some old sodium lamps rigged to some battery so she could see her way around. She heard footsteps running in a passageway to
