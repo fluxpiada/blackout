@@ -8,6 +8,8 @@ The stage was already hard to make out because of the smoke, now the lights went
 
 "Where's he going? Molly, where is the band - Molly?" She grasped in the blind to her right, where Molly had been. There was no Molly beside her, only a tatty woolly sweater. 
 
+<!-- it doens't make sense that he is the spy though, shouldn't he have gotten rid of Molly? Perhaps introduce him earlier, leering at Molly -->
+
 A gravely voice said, "Yo I'm no Molly, damn it's dark," and the owner of the voice lit a lighter, as did others in the crowd. At the bar in the back a flashlight was on and someone was rummaging for matches to promptly light some emergency candles. Dora sped round on her axis, neither Molly nor Mr. Ate were anywhere to be seen. 
 
 "WTF," she exclaimed, and grabbed for her bike light deep in her jeans pocket. "Where are they? The john, most likely," and she ran onto the stage, tripping over the spaghetti of cables and falling over the crouching sound engineer who lamented the demise of the mist machine. She tumbled down the left of the stage, through the curtains and suddenly remembered the Cold War bomb shelter tunnel access. _That must be where they went, though WTF, WTF, WTF_ she thought, and felt around in the dark until she came to the cold steel door, and pushed down hard on the blast door handle and it swung open to a dark gray dimness. Dora suddenly grew very cold, gripped by fear like tight cold hand constricting her throat and chest. _What if Molly ran off with Mr. Ate_ she thought and stumbled on into the tunnel which had periodic old sodium lamps flickering dimly so she could see her way around. She moved into the hallway stretching back quite far into the gloom. She couldn't remember reading how far the tunnels reached. 
