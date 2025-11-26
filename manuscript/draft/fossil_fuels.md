@@ -1,0 +1,3 @@
+From the ongoing revamped interest in burning fossil fuels after the collapse of CERN and ITER due to right-wing extreme governments (called lenient left-leaning in the post-Dustin era) – research facilities with the purge of scientists and the crimping of funding and the vilification of general intelligentsia. Put to work shoveling open-pit lithium mines in the Chinese Congo, indeed. 
+
+The vilification and persecution of scientists and intelligentia had resulted in the collapse of the institutes, just when the general public had grown accustomed to the idea that burning chunks of carbon was not the way forward. 
