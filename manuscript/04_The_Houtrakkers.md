@@ -68,7 +68,7 @@ Dora scoffed at this woolly talk. Tako resumed, and becoming more precise, said,
 
 Dora’s concussed mind reeled at the possibilities. She didn’t understand a darn thing. She sat bolt upright, and blurted, “I’m through with this mumbo-jumbo guru stuff, sitting in this mouldy old goblin cave with nothing to sit down on or to eat, except for these damn old peanuts. I’m outta here, you can stick that emissary stuff where the sun don’t shine!” 
 
-Then she faltered. She had no way of getting a new visapass without some funds - nor could she get out of here without help? She couldn’t ask Erwin, or connect with him, or... because, well... Well, what? And what of her work? Philip her evil boss from hell, might have already tendered her exit permit for undisclosed absenteeism...
+Then she faltered. She had no way of getting a new visapass without some funds - nor could she get out of here without help? She couldn’t ask Erwin, or connect with him, or... because, well... Well, what? And what of her work? Phil her evil boss from hell, might have already tendered her exit permit for undisclosed absenteeism...
 
 Tako looked at her with his wise and twinkling blue eyes, but seemed saddened she didn’t yet feel she belonged enough. 
 
