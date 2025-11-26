@@ -2,7 +2,7 @@
 
 Tako held up the green suit like a used latex glove. “Don’t worry, it just looks small. You can easily wear it over your parka,” he said reassuringly. 
 
-“Glad I’m not a fashionista,” thought Dora. Bending down still sent waves of nausea and thudding bolts of pain through her body. The Houtrakkers obviously never had had aches and pains like she did. And neither had they been able to GM mushrooms enough to produce PCM so they had some way to go in the pharmaceutical department, she thought as she pulled the stretchy green fabric over her boots and her torn canvas pants. 
+_Glad I’m not a fashionista,_ thought Dora. Bending down still sent waves of nausea and thudding bolts of pain through her body. The Houtrakkers obviously never had had aches and pains like she did. And neither had they been able to GM mushrooms enough to produce PCM so they had some way to go in the pharmaceutical department, she thought to herself as she pulled the stretchy green fabric over her boots and her torn canvas pants. 
 
 “I rather look like Shrek now!” she said as she pulled the suit over her parka and the hood over her head. 
 
@@ -22,19 +22,21 @@ She swallowed hard, glad the wreckage and the human tragedy had been obliterated
 
 "Almost like hide and seek," she guffawed to herself, "yet no more games. Let's prepare for quite a slog.”
 
+##                                         ~ * ~
+
 The Vinkebrug was about a kilometer to the west, and the sedge had frozen solid and hampered her progress. Slipping and sliding across the lumpy sods, afraid to fall and rip the suit, she required a fair bit of muffled cursing to stay on course. 
 
-Once Dora had crossed over to the headland of the field, there was a vague path going west that had probably been made by grazers which made the going much easier. And about time too, since the pain-dampening mushroom ale was now definitely leaving her system. The projector accompanied her on her righthand side, the norht, and the green screen on her left, the south.
+Once Dora had crossed over to the headland of the field, there was a vague path going west which had probably been made by grazers and which made the going much easier. And about time too, since the pain-dampening mushroom ale was now definitely leaving her system. The projector accompanied her on her righthand side, the north, and the green screen on her left, the south.
 
 She mulled over the possible B.S. scenarios the government could have come up with to explain a missing train and a couple of thousand of innocent civilians killed in action (and one M. I. A.), but didn’t get far. Undoubtedly she and her colleagues would have to be tasked with rewriting a fair bit of what happened. Leaving out the ugly bits, no doubt about that.
 
 When she reached the underpass, she decided to hide for a few minutes in the ditch by the Vinkebrug to make sure no one was approaching. 
 
-Rather unlikely, she thought, since this weather is bad enough to freeze one’s metaphorical balls off. 
+_Rather unlikely,_ she thought, _since this weather is bad enough to freeze one’s metaphorical balls off._
 
 Once the coast seemed clear, she stripped off the green suit, shivering since it was unexpectedly insulating, and stuffed it into her parka pocket. The projector and the green screen trundled back to the Houtrakkers' den. She scrabbled onto the Vinkebrug, looked furtively right and left and headed for the hedgerow to find the bicycle.
 
-Losing her footing on the icy gravel she slid down on her bum thinking, that's going to be a lovely bruise, and grimaced. Prone, she spotted a glimpse of chrome behind the hedge. She pulled the bike keys from her parka pocket, crouched over and put them in the lock. Only a dry _clunk_ of metal on metal and no satisfying click of the bolt moving away.
+Losing her footing on the icy gravel she slid down on her bum thinking, _That's going to be a lovely bruise,_ and grimaced. Prone, she spotted a glimpse of chrome behind the hedge. She pulled the bike keys from her parka pocket, crouched over and put them in the lock. Only a dry _clunk_ of metal on metal and no satisfying click of the bolt moving away.
 
 “Unbelievable, the wrong key!” she exclaimed exasperatedly. She was hardly keen on walking the eight remaining clicks to Schoten, for the dangers of frostbite and hypothermia were quite real in this temperature. Desperately she twiddled the key in the lock, hoping it might just be frozen stiff. The cowardly winter sun had already gone down, and dusk meant it would get even colder soon. She had no time for this delay, and her anxiety rattled the key in the lock to no avail.
 
