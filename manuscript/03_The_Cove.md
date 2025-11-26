@@ -3,7 +3,7 @@
 
 The machines.
 
-Dora had never been a Luddite; quite the contrary. She embraced AI the second it became free of charge (never mind the incessant product placement). Vlogging 10-20 hours a week (a clunky satire on Tamagotchis	) and harvesting swathes of followers and a reputation - her enjoyment was skin-deep. Something was off.
+Dora had never been a Luddite; quite the contrary. She embraced AI the second it became free of charge (never mind the incessant product placement). Vlogging 10-20 hours a week (a clunky satire on Tamagotchis) and harvesting swathes of followers and a reputation - her enjoyment was skin-deep. Something was off.
 
 Only twelve months earlier, happy chappy chirpiness had been exuded by all those who contracted AI: whether their bank accounts were glutted with too many zeroes or just poor punters. It was the witless rubbernecking that bothered her. It made her old elbow fracture ache.
 
@@ -16,17 +16,19 @@ Fresh out of her literature M.A. she had resigned herself to a bleak cognitariat
 The job interview was for a semi-permanent work order in the aforementioned department of Audits, Double and Crosschecks & Files (the dept. of A, D, C & F for short). The bubbly HR ensign, Ms. Dolores Lasterar, evidently had no idea what the job entailed and could barely read out the tasks: "improving infallibility of records... de-mystifying historical events... objectifying sentimental causes..."
 
 Dora's wild enthusiasm at this one-in-a-million opportunity was abruptly doused by the condition that she stop her vlogging instantly. Doable, her followers had been lured away to the next fad (AI-generated spaghetti-eating frogs).
-The interview continued amicably, the ladies sipping their tepid teas in seaweed cups. On the subject of Ms. Olivetti's fit for the role, Ms. Lasterar curiously labelled Dora's childlike exuberant vlogging as "manifest... uh, conscientiousness and diligence for recording historical documents," reading from the prepped dossier.
+The interview continued amicably, the ladies sipping their tepid teas from seaweed cups. 
+
+On the subject of Ms. Olivetti's fit for the role, Ms. Lasterar curiously labelled Dora's childlike exuberant vlogging as "manifest... uh, conscientiousness and diligence for recording historical documents," reading from the prepped dossier.
 
 Some instinct refrained Dora from correcting Ms. Lasterar’s misconception— not only because the likeable brunette shuffled in her seat and was rather red in the face, what with all the fancy words she had to read, and any affront might cause her to break down in tears— but because being presumed meticulous seemed a key requisite for getting this bonanza of a job. Though it was hard to tell what the job really entailed because of Ms. Lasterar's botched rendition.
 
-"Fiddlesticks," thought Dora, "consider the perks of ample grog and B2-grade lunch thrown in, a no-brainer, yo!" and Dora Olivetti signed her bureaucratic DocuCommit then and there.
+_Fiddlesticks,_ thought Dora, _consider the perks of ample grog and B2-grade lunch thrown in, a no-brainer, yo!"_ and Dora Olivetti signed her bureaucratic DocuCommit then and there.
 
 Yet her elbow fracture had throbbed all throughout the interview.
 
-~ * ~
+  ~ * ~
 
-The copse was slightly elevated due to its erstwhile purpose as an Iron Age fortification. Built on the upturned hulls of expended riverine craft, animal bones, discarded shards of pottery, and other flotsam and jetsam, it was essentially a raft, or, for the optimistic, a house on poles. Yet sheltering an information-age trove.
+The copse was slightly elevated due to its erstwhile purpose as an Iron Age fortification. Built on the upturned hulls of expended riverine craft; discarded animal bones, shards of pottery, and other flotsam and jetsam, it was essentially a raft, or, for the optimistic, a house on poles. Yet sheltering an information-age trove.
 
 When Dora was about done in with plodding through the sludge, she stubbed her toe on one of these bones— and set off the silent alarm. The copse was overgrown with brambles, hawthorns, and stunted willows. A small opening looked like a path to something dry to her, and she crouched down and crawled in. Then strong, hard hands pulled her down, and she tumbled down slippery plastic into a dimly lit cove. Of sorts.
 
