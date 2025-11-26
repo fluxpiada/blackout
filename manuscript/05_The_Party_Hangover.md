@@ -1,8 +1,8 @@
 # Chapter V - The Party/The Hangover
 
-The Damiate clocks struck half past nine in the evening. The clocks would ring about twenty minutes to allow people in hearing range to hurry to the city walls and enter the gates before they were bolted shut for the nights. It's never too late to modernise a mediaeval practice they must have thought. 
+The Damiate clocks struck half past nine in the evening. The clocks would ring about twenty minutes to allow people in hearing range to hurry to the city walls and enter the gates before they were bolted shut for the night. It's never too late to modernise a mediaeval practice they must have thought. 
 
-The scent of chicory coffee wafted through the dark room that was Dora Olivetti's chambers in Schoten, municipality in the Hollands. She sat hunched over a old-fashioned playing cards on a table, a pale LED candle flickering reflections in the two coffee mugs on the table. Opposite her, sat a cross-legged figure, languishing and blowing smoke rings. Slender and red-haired, all legs, she gazed at the cards on the table, bored.
+The scent of chicory coffee wafted through the dark room that was Dora Olivetti's chambers in Schoten, municipality in the Hollands. She sat hunched over old-fashioned playing cards on a table, a pale LED candle flickering reflections in the two coffee mugs on the table. Opposite her sat a cross-legged figure, languishing and blowing smoke rings. Slender and red-haired, all legs, she gazed at the cards on the table, bored.
 
 "What does it mean, Dora? Those dratted Tarot cards?"
 
@@ -29,9 +29,9 @@ They both grimaced at the bitter gentian taste but smiled bravely at the windfal
 Dora peered through the video camera to see if it were indeed Erwin and co. 
 “When's Bloomsday? Also the year!” she challenged, although asking this pre-arranged password was more of a literature buff gag than necessary spy craft, since she could easily identify Erwin from the way his eyes goggled the camera, and his two cronies joking in the background as well.
 
-It had started off as a joke, these passwords, but since China had taken over large swathes of Africa for cheap labour and raw materials, drones were so cheap that every municipality used them for monitoring dog owners for poop scooping (a good thing), to passing as neighbourhood watch (not a good thing). 
+It had started off as a joke, these passwords, but since China had taken over large swathes of Africa for cheap labour and raw materials, drones were so cheap that every municipality used them for monitoring dog owners for poop scooping (a good thing), to masquerading as your friendly neighbourhood watch (not a good thing). 
 
-Their humming and buzzing had become part and parcel of the urban auditory landscape. One could spot them hovering like dragonflies in front of windows, and if those were flummoxed by sheer curtains or reflective window film, then unscheduled follow-up visits by all too nosy so-called electricians, meter boys, milkmaids and what have you, were all part of the data-collection safety programs. So yes, one needed to baffle the bots. And since the machines were still largely insensitive to concepts of time, temporality and the depth of meaning of poetry, dates and obscure literary or poetic quotes were a staple. This time it was James Joyce providing the inspiration.
+Their humming and buzzing had become part and parcel of the urban auditory landscape. One could spot them hovering like dragonflies in front of windows, and if they were flummoxed by sheer curtains or reflective window film, then unscheduled follow-up visits by all too nosy so-called electricians, meter boys, milkmaids were a dead cert - all standard data-collection safety protocol. So yes, one needed to baffle the bots. And since the machines were still largely insensitive to concepts of time, temporality and the depth of meaning of poetry; dates and obscure literary or poetic quotes were a staple. This time it was James Joyce providing the inspiration.
 
 “Of course, _ma biche_, that's 16th June 1904. A Thursday,” he said.
 
@@ -43,11 +43,11 @@ Their humming and buzzing had become part and parcel of the urban auditory lands
 
 They tumbled in, and Dora said, “Next time expect a password from _The Hobbit_,” and they hung their damp cold jackets on the wooden pegs acting as a makeshift coat rack. Stomping their feet, their glasses condensed with the fickle warmth supplied by the bio-methane installation in the buildings.
 
-Dora indicated the kitchen with a grandiose flourish and announced, “Glasses and booze in there for equitable redistribution. Let the festivities begin!” 
-
-##                                         ~ * ~
+Dora waved them to the grotty kitchen with a grandiose flourish and announced, “Glasses and booze in there for equitable redistribution. Let the festivities begin!” 
 
 The party progressed as a tropical storm might - from one gentle breeze to a firm blustery buffeting wind, music thumping louder and arms and legs gyrating, to kisses on blushing cheeks, to a fiercer whirlwind and finally to a palm-tree bending hurricane force, when arms and legs intertwined and glistening lips kissed were pressed on smooth lips and sweaty embraces exchanged in small cramped nooks and crannies of couches and loveseats.
+
+##                                         ~ * ~
 
 The curfew nudged parties into all-nighters and sleepovers - everyone had to spend the night regardless. Or not go to sleep at all, and clamber into a duffel parka at six o'clock in the morning, stealing a liquorice root from the pot on the shelf near the door to lamely conceal the sickly-sweet cannoning hangover breath that could curdle milk and make babies cry.
 
