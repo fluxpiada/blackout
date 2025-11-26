@@ -6,7 +6,7 @@ The core of the group was led by Tako: named such not after the maize snack from
 
 The group consisted of about five to ten members at any given time. They only had ten names to give out: the Dutch names for the numbers one to ten. When someone left (which was only to start another Houtrakkers group somewhere), they would vacate their name and choose another Japanese fish or mollusc as a name. Why? Because of Douglas Adams’ book _So Long, and Thanks For All the Fish_, naturally. 
 
-##                                         ~ * ~
+##                       ~ * ~
           
 “Come, let me show you our place,” Tako said. The trio denizens scattered away into a dark passageway. “Never mind them, introductions will come later.” He crouched and moved into the passageway and a dim light flicked on. 
 
@@ -38,8 +38,8 @@ Only then Dora noticed there was a hunched figure sitting in one of the podlike 
 
 Dora was befuddled, she wasn’t aware that she had spoken out loud. Tako’s voice started taking on an echoey and lurching quality. The dimensions of the Control Room started to ebb and flow. The Control Room started spinning very gently round her head. Or at least it would be if she could see it which she couldn’t. Dora felt her eyes roll back into her sockets and everything went pitch black. 
 
-##                                         ~ * ~
-     
+##            ~ * ~
+
 Dora’s concussion had finally got the better of her. She smelt something being waved underneath her nose. It was Tako's hand, offering her some peanuts. 
 
 “Eat these,” he urged, “it will replace some of the protein lost in the matter transference beam.“ Not quite sure she had understood him, she nodded. Weakly she groped for them and started chewing the salty nuts wearily.
