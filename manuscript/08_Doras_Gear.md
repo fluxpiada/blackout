@@ -3,7 +3,7 @@
 
 So hoarding ran in the family, kind of. Not something you'd readily admit to, because it was a virtue to chuck things out, preferably after a single use. Such was the drive for welfare, that to buy, expend, dispose, were touted on the socials as being really modern traits, like tranga, swa. 
 
-Except Dora was a typical cognitariat sisa, and chucking out stuff like broken cables, or plugs used in the British Commonwealth, or tape, old screws, perfboards, LEDs, half-used notebooks... 
+Except Dora was a typical cognitariat sisa, and chucking out stuff like broken cables, or plugs used in the British Commonwealth, or assorted rolls of duct-tape, old screws, perfboards, LEDs, half-used notebooks was not something she had a heart to.  
 
 And now she would be vindicated, because this junk, stored in plastic containers neatly Dyno-labeled "junk" would mastermind her into the Houtrakkers.
 
@@ -37,10 +37,16 @@ Turning the corner to get to her storeroom, she heard the sound of wood crushing
 
 She was not entirely sure Raymond would be more scared of her than of any authorities that could come snooping about. She’d have to find a way to keep Raymond mum. Perhaps she could invite him to her funeral; as a boomer he was a sucker for freebies. That would bind him closer, and she could share some of her painkillers with him to tackle his gout. She had a niggling feeling that underneath Raymond’s feeble and contrarian boomer demeanour lay a nugget of resolve as hard as a walnut, something not even the authorities had yet managed to crack. Indeed, it was hidden, in hibernation maybe, and cherished — like a squirrel hides its cairn and sleeps curled in its furry red tail, counting the little hazelnuts stashed safely away. And squirrels could bite when cornered — perhaps they even carried rabies?
 
-She’d check in with him later, the fridge still had some days’ juice left. She opened the door, and switched on the light. She noted that the frame had suffered from the crowbar, she’d grab some wood filler to camouflage the damage. Now where were those boxes? Right where she visualised them; luckily the ex-gf had not carried through her threats of declutterisation.
+##                                         ~ * ~
+
+She’d check in with him later, the fridge still had some days’ juice left. She opened the door, and switched on the light. She noted that the frame had suffered from the crowbar, she’d grab some wood filler to camouflage the damage. 
+
+Now where were those boxes? Right where she visualised them; luckily the ex-gf had not carried through her threats of declutterisation. 
 
 Dora scraped the excess filler from the crushed frame and it looked as new. Newish, at least. The only giveaway was the smell of solvent. She hoped it would dissipate soon enough to not lead any one to her storeroom. As an afterthought, she smeared filler on edges of three other doors, so there would be no direct lead to her storeroom.
 
-She lugged the plastic containers and the makeshift crowbar up the concrete bare stairwell three flights up, noticing how her body still throbbed with the remnants of the ordeal of the crash. The blood in her head thudded ominously loud. Before she arrived at her landing, she stopped to catch her panting breath, and listened before she pushed open the fire door a crack and peered into the empty hallway. No one in sight, the news broadcast hadn’t yet finished. The weather report had recently been extended to twenty minutes because they didn’t want to broadcast much real news. Besides, the public networks had been decimated by a few decades of right-wing yonks, preferring the drivel of commercialised influencer gossip thinly veiled as information.
+She lugged the plastic containers and the makeshift crowbar up the concrete bare stairwell three flights up, noticing how her body still throbbed with the remnants of the ordeal of the crash. The blood in her head thudded ominously loud. Before she arrived at her landing, she stopped to catch her panting breath, and listened before she pushed open the fire door a crack and peered into the empty hallway. 
 
-"Tomorrow’s weather... is statistically likely... to be exactly the same as today…" she muttered Though who was interested in statistics and fact any more, she wondered cynically as she heard the weather reporter's voice in multi-stereo through all the frontdoors she passed in the corridor making it back safe and sound with the prized telephones back to hers.
+Not a soul in sight, because news broadcast hadn’t yet run it's course. The weather report had recently been extended to twenty minutes because they didn’t want to broadcast much real news. Besides, the public networks had been decimated by a few decades of right-wing yobs, preferring the drivel of commercialised influencer gossip thinly veiled as information.
+
+"Tomorrow’s weather... is statistically likely... to be exactly the same as today…" she muttered. _Though who was interested in statistics and fact anymore_ she wondered cynically as she heard the weather reporter's voice in multi-stereo through all the frontdoors she passed in the corridor making it back safe and sound with the prized telephones back to hers.
