@@ -48,7 +48,7 @@ Was it at all unreasonable to assume that the game was up, the die cast?
 
 As the car approached slowly over the rutted old country road of the Batterijweg from the east, she could make out that it was a Nissan, silver. Its xenon headlights were on, so the license plate wasn't legible to her.
 
-It trundled to a halt next to her. She took a deep breath and straightened her parka. She set her features into the expression of quiet optimism which it was advisable to wear when facing impending doom.
+It trundled to a halt next to her. She took a deep breath and straightened her parka. She set her features into the expression of quiet optimism which was advisable to wear when facing impending doom.
 
 The sun was setting and it was getting noticeably colder. The driver slid down the window, and popped his head out. "Hey, can I help?" he said, and then incredulously, "Dora? What the heck?"
 
@@ -56,7 +56,7 @@ Dora peered at the driver's face obscured by twilight and stepped closer to not 
 
 "Get in, get in, and tell me how on earth you ended up here!" and he reached over to open the passenger seat door. Rubbing her cold hands in her mitts, she got in the cosy little Nissan, the heater humming. "You wouldn't believe it," she said. "But I'll explain everything! For now just drive me back home to Schoten because I'm frozen stiff and I had an accident – rather, I escaped death – I was in the train wreck, and somehow I survived. But what the heck are you doing here?"
 
-"Well, there was unusually thick traffic on the A9, and I had had a really productive day in the Archives, so on a whim, I took off via the Theemsweg and snuck into the Bretterweg into Spieringhoorn – yeah it's really a cycle path but this Nissan can pass for a disability car, har har," he put the Nissan into autopilot, set for home. "Kind of strange, but I saw a chiffchaff, totally out of season. I guess it's all confused because of the Chill, and the geomagnetic aberrations due to the Gulf Stream diminishing these last decades. I then saw the traffic wasn't at all bad, I don't really know what got into me to take this abandoned track… the Wethouder-van-something road, it follows the old dykes to the sluices. Then, you need to open the gates, and you're on the old Spaarwouderdijk. Used to play there as a kid, my grandfather showed me where to pluck the best blackberries. A pail full in summer. Anyway, then you end up near Zijkanaal Oost and you cross more canals and scoot over the Houtrakkersweg and it's easy sailing to the Vinkebrug. But I'll stop my incessant chatter, what is up with you?"
+"Well, there was unusually thick traffic on the A9, and I had had a really productive day in the Archives, so on a whim, I took off via the Theemsweg and snuck into the Bretterweg into Spierinxhoorn – yeah it's really a cycle path but this Nissan can pass for a disability car, har har," he put the Nissan into autopilot, set for home. "Kind of strange, but I saw a chiffchaff, totally out of season. I guess it's all confused because of the Chill, and the geomagnetic aberrations due to the Gulf Stream diminishing these last decades. I then saw the traffic wasn't at all bad, I don't really know what got into me to take this abandoned track… the Wethouder-van-something road, it follows the old dykes to the sluices. Then, you need to open the gates, and you're on the old Spaarwouderdijk. Used to play there as a kid, my grandfather showed me where to pluck the best blackberries. A pail full in summer. Anyway, then you end up near Zijkanaal Oost and you cross more canals and scoot over the Houtrakkersweg and it's easy sailing to the Vinkebrug. But I'll stop my incessant chatter, what is up with you?"
 
 "Well, the train crash… I was in it… and I escaped. And got rescued, by some partisans…" Dora glanced over to Erwin, to check whether he thought she was totally bonkers or off her rocker. He looked at her calmly, waiting for the rest of her story. As a sci-fi buff, he was used to suspending his disbelief.
 
@@ -68,16 +68,16 @@ Dora narrated the story, skimming over the coven in the copse, because it probab
 
 "I think that we found a glitch in the Matrix. There is one weakness in the Machines, at least an obvious one, and that is that they require electricity to function. The second is that they depend on humans to be predictable. Just a thought…”
 
-"Wesh, Erwin, are you high!" joked Dora, still warming her hands on the heater. They passed the bridge over the Spaarne and Erwin took over the wheel from the autopilot to navigate the 20th century ghettoes that was Schoten. A thick fog was oozing in the tight turns of the old Afrikaner slums from the Spaarne. The Nissan's headlights made out a scavenging dog, wet leaves, old cardboard boxes discarded. 
+"Wesh, Erwin, are you high!" joked Dora, still warming her hands on the heater. They passed the bridge over the Spaarne and Erwin took over the wheel from the autopilot to navigate the twentieth century ghetto that was Schoten. A thick fog was oozing in the tight turns of the old Afrikaner slums from the Spaarne. The Nissan's headlights made out a scavenging dog, wet leaves, old cardboard boxes discarded. 
 
 "So much for all the wealth," muttered Erwin, "George Orwell would turn in his grave."
 
-"You can drop me off at the next corner, I need to get some jollof," said Dora, putting on her mittens. Erwin nodded and reduced pressure on the electro-motor pedal.
+"You can drop me off at the next corner, I need to get some boboti," said Dora, putting on her mittens. Erwin nodded and reduced pressure on the electro-motor pedal.
 
 "Oh Dora," he said, once the car came to a standstill, "I was invited to your funeral – it's tomorrow, will you also come?"
 
 "Well since I'm dead, I don't have anything better to do," she joked, her hand on the latch to open the car door. "You can't be serious though? What does that mean and how on earth am I to get my stuff back?"
 
-"Actually, there might be a loophole," mused Erwin, "an administrative one, obviously," and Dora got out of the car, riled up at his mumbo-jumbo. Yet at work he knew the entire Lawbook of Taxation, Life & Death & Everything In Between like no other, so she was inclined to follow his train of thought, yet not now. 
+"Actually, there might be a loophole," mused Erwin, "an administrative one, obviously," and Dora got out of the car, riled up at his mumbo-jumbo. Yet at work he knew the entire _Lawbook of Taxation, Life & Death & Everything In Between_ like no other, so she was inclined to follow his train of thought, yet not now. 
 
-"I'm too hungry for this, Erwin, let's see each other on the LoRa when you've thought it through and I've had something to eat, aight, lata mi,” and she exited the car and closed the door with an exasperated slam the Nissan didn't appreciate.
+"I'm too hungry for this, Erwin, let's see each other on the LoRa when you've thought it through and I've had something to eat, aight, lata mi,” and she exited the car and shut the door with an exasperated slam the Nissan didn't appreciate.
