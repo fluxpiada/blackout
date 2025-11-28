@@ -5,7 +5,7 @@ The idea for *The Blackout: Weak Signals* came into my head when I was commuting
 
 In the summer of 2025 a sentence popped into my head and didn't let me go. It took me a while to realise that it was in fact the first sentence for that idea. And it still is!
 
-This book was written on an Olivetti mechanical typewriter of the model Dora. No coincidence.
+This book was written on an Olivetti mechanical typewriter of the model Dora. Total coincidence.
 
 I would like to thank my proofreaders who gave me invaluable corrections where my science, biochemistry, ornithology, psychology and storyline was errant: 
 
