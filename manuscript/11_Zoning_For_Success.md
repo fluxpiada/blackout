@@ -23,7 +23,7 @@ And that’s why everyone in the train was more doped up than usual.
 
 Dora exited the SubT one stop earlier, Spierinxhoorn, where, just opposite the delapidated soccer fields, she was greeted by the iron gate picturing Our Dear Leader, Dustin, beckoning the proles from the past to step into the glorious future of the Free Economic Era. 
 
-Distracted, she shook her head and recalled why she had got off the SubT a stop earlier - and it wasn't to gaze on the looming, glorious features of the castiron effigy of the Leader. 
+Distracted, she shook her head and recalled why she had got off the SubT a stop earlier - and it wasn't to gaze on the looming, glorious features of the cast iron effigy of the Leader. 
 
 She had wanted to walk the last two clicks to her workplace in order to clear her head and prepare some glib retorts in anticipation of any insidious remarks comrades might make concerning the tendentious reasons for her absence.
 
@@ -35,11 +35,11 @@ To add to her need to prepare for faultlessness, was the weasely nature of her c
 
 He had been on her case since last year at the XDay party – hunching too close to her, his vile breath from a long-neglected halitosis curdling the very air. His eyes bloodshot from the nitrogen dioxide emissions near his poorly ventilated flat in the Baarsjes estate.
 
-His voice hoarse from the fracking chemicals leaching into the water supply, he rasped, "My department is short on NegPoints, ms. Olivetti, so just beware, I might need to push you out of the Zone of Success and into Reticulating Splines!" 
+His voice hoarse from the fracking chemicals leaching into the water supply, he rasped, "My department is short on NegPoints, Ms. Olivetti, so just beware, I might need to push you out of the Zone of Success and into Reticulating Splines!" 
 
 Dora shuddered at the memory, and the blustery wind grew in strength and blew wetly from the West through her parka. 
 
-Reticulating Splines was a re-integration, or demotion, where one was assigned to the twenty-second floor, the Testing Floor. It was one step removed from being sent-off permanently - the fate of many too overtly intelligentia - to the open-pit lithium mines in Chinese Congo. It was dangerous to appear a know-it-all, and Dora, Erwin and Tricia dumbed down their speech and often removed their glasses in public when they could. 
+Reticulating Splines was a re-integration, or demotion, where one was assigned to the twenty-second floor, the Testing Floor. It was one step removed from being sent-off permanently - the fate of many too overt intelligentia - to the open-pit lithium mines in Chinese Congo. It was dangerous to appear a know-it-all, and Dora, Erwin and Tricia dumbed down their speech and it was common to remove one's glasses when in public - at least, when there was no danger of stumbling around like a fool or stupidly misidentifying people and hence drawing unwanted attention to oneself. 
 
 Dora walked hurriedly along the verge of the crumbling pavement, the EVs speeding and rickety fat-bikes trundling by.
 
@@ -47,24 +47,18 @@ She hoped that Tricia or Erwin would also have their shifts and help deflect Phi
 
 ## ~ *** ~
 
-She decided it would be wise to time her arrival with that of the next SubT, when carriage loads of co-workers would thrum into the lobby of the imposing blue marbled 23-storey Tower. The gates would be swamped with bleeps and blips scanning the visacards and any discrepancies would evade the gaze of the eagle-eyed security ladies perched behind their buttresses. 
+She decided it would be wise to time her arrival with that of the next SubT, when carriage loads of co-workers would thrum into the lobby of the imposing mottled blue 23-storey Tower. The gates would be swamped with bleeps and blips scanning the visacards and any discrepancies would evade the gaze of the eagle-eyed security ladies perched behind their buttresses. 
 
 Dora meshed into the other wet and cold and damp co-workers, who were all still groggy with what she presumed to be the wearing off of _Painoquel_ and who took no notice of her joining their ranks from another direction. 
 
-The noise in the lobby from the stamping of feet on the grotty and soggy mat in the lobby of the D-Tower masked her thudding of her heart beating in her throat. 
+The noise in the lobby from the stamping of feet on the grotty and soggy mat in the lobby of the D-Tower masked the thudding of her heart beating in her throat. 
 
-The female security guards, or Hawk-Eyes, were selected for their meticulous eye for detail; a neurodiverse trait turned to sniffing out any change in the workforce's demenour that was a pervasive manifestatino of subterfuge or subversion: a snazzy hairdo, a strange bruise, or worst of all, an all too confident gaze. Sure warrants for an investigation and a long stint in Reticulating Splines on the Testing Floor.  
+The female security guards, or Hawk-Eyes, were selected for their meticulous eye for detail; a neurodiverse trait turned to sniffing out any change in the workforce's demenour that was a pervasive manifestation of subterfuge or subversion: a snazzy hairdo, a strange bruise, or worst of all - an all too confident gaze. Sure warrants for an investigation and a long stint in Reticulating Splines on the Testing Floor.  
 
-The throng certainly hid Dora from the brunt of the hypervigilance of the Hawk-Eyes and she arrived on the Eleventh Floor without a hitch. Still her mouth was dry and although there was still an hour to go until the morning chicory break at half past ten o’clock, she was yearning for a cup of the bitter brew - the best they could get was 90% pure water to drink. 
+The throng patently hid Dora from the brunt of the hypervigilance of the Hawk-Eyes and she arrived on the Eleventh Floor without a hitch. Still her mouth was dry, and although there was still an hour to go until the morning chicory break at half past ten o’clock, she was yearning for a cup of the bitter brew - the best they could in their rank and Fief, was 90% water. Where the other 10% was sourced from, they chose not to find out.
 
 She beckoned to fellow cognitariat chica, Tricia, whose eyes were habitually bloodshot on Monday mornings, indicating a voluntary pollution of the lungs with _skif_ or the like. They had warmed to each other within a few weeks of Dora’s start as Retro-Wiper. 
 
-<!-- Does this go here? 
-
-Dora's romantic embroilment with Molly had been thanks to Tricia, who had introduced Dora to Molly a few months back at a celebration at work. Their department had succeeded in retro-wiping a convoluted section of Civil Law pertaining to the rights of asylum seekers, abortionists and victims of incel violence, hence the "Milestone Celebration for the Redundancy of Bureaucracy." 
-
-During the collossal Redundancy effort Erwin, Dora and Tricia had exchanged myriad worried looks. Yet the reward was such that it made the encroachment on democratic rights that much more palatable. A subtraction of one NegPoint for each and every frero and sisa of the Department and extra grog at lunch for a month, and a party thrown in to enhance the memory-loss - strengthened their bond, but eroded their resolve that much more. 
--->
 ## ~ *** ~
 <!-- write up that Phil is gone -->
 <!-- hier moet iets over dat [] Phil is overgenomen door AI --> 
