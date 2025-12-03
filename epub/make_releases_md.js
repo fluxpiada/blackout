@@ -20,6 +20,6 @@ https.get(`https://api.github.com/repos/${owner}/${repo}/releases`, {
     }
 
     // place file inside manuscript folder
-    fs.writeFileSync("manuscript/releases.md", md);
+    fs.writeFileSync("manuscript/001_releases.md", md);
   });
 });
