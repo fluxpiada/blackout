@@ -50,6 +50,8 @@ pandoc manuscript/*.md \
   --epub-metadata="$META" \
   ${CSS:+ --css="$CSS"} \
   --toc \
+  --toc-depth=1 \
+
   -o "$OUTDIR/${BOOK_TITLE}_${VERSION}.epub"
 
 echo
