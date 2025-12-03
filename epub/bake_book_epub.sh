@@ -8,7 +8,7 @@ set -euo pipefail
 
 BOOK_TITLE="Blackout_Weak_Signals"
 OUTDIR="versions"
-META="epub/epub-metadata.xml"
+META="epub/metadata.xml"
 RELEASE_SCRIPT="epub/make_releases_md.js"
 COVER="images/cover.png"
 CSS="epub/style.css"   # optional; create only if needed
