@@ -1,0 +1,54 @@
+name: Bake EPUB
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-epub:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Install Node.js (for release history generator)
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # 3. Install Pandoc
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      # 4. Insert build metadata (timestamp + commit hash)
+      - name: Insert build info into manuscript/build_info.md
+        run: |
+          TS="$(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          COMMIT="$(git rev-parse --short HEAD)"
+          echo "# Build Information" > manuscript/build_info.md
+          echo "" >> manuscript/build_info.md
+          echo "- **Build timestamp:** $TS" >> manuscript/build_info.md
+          echo "- **Commit:** $COMMIT" >> manuscript/build_info.md
+
+      # 5. Run bake script
+      - name: Bake EPUB
+        run: |
+          chmod +x epub/bake_book_epub.sh
+          epub/bake_book_epub.sh --auto
+
+      # 6. Upload to GitHub Release (if tagged)
+      - name: Upload EPUB to Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: versions/*.epub

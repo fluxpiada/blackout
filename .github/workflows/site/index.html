@@ -1,0 +1,343 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+  <!-- =========================
+       🔹 BASIC META + HEADERS
+       ========================= -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Blackout: Weak Signals — Download</title>
+  <meta name="description" content="Download the ePub of The Blackout: Weak Signals." />
+  <meta property="og:title" content="The Blackout: Weak Signals" />
+  <meta property="og:description" content="Download the ePub." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://fluxpiada.github.io/blackout/images/battery.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <!-- Canonical URL: site is served from /site/ on this repo -->
+  <link rel="canonical" href="/site/" />
+
+  <!-- Canonical stylesheet (file is site/site_style.css) -->
+  <link rel="stylesheet" href="site_style.css" />
+
+  <!-- Sync title/description from content/metadata.yaml as needed -->
+  <meta name="description" content="Replace with content/metadata.yaml description" />
+  <meta property="og:title" content="Replace with content/metadata.yaml title" />
+  <meta property="og:description" content="Replace with content/metadata.yaml description" />
+
+  <!-- OG image: relative path from site/ to images/cover.png -->
+  <meta property="og:image" content="../images/cover.png" />
+
+
+
+  <!-- =========================
+       🎨 STYLESHEET (CSS)
+       ========================= -->
+  <style>
+    :root { --fg:#0b0b0e; --bg:#f7f7f8; --muted:#6b7280; --card:#ffffff; --border:#e5e7eb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg:#e6e7eb; --bg:#0b0b0e; --muted:#a1a1aa; --card:#121217; --border:#232329; }
+    }
+    *{box-sizing:border-box}
+
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      display:flex; min-height:100svh; align-items:center; justify-content:center;
+      padding:24px;
+    }
+    .wrap{width:100%; max-width:860px;}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:20px;
+      padding:28px; display:grid; gap:24px; grid-template-columns:280px 1fr;
+    }
+    @media (max-width:800px){ .card{grid-template-columns:1fr} }
+    .cover{
+      width:100%; aspect-ratio:2/3; object-fit:cover; border-radius:16px; border:1px solid var(--border);
+      background:linear-gradient(135deg,#1f1f24, #2c2c33);
+    }
+    h1{margin:0 0 8px; font-size:clamp(24px,3.5vw,34px); line-height:1.2}
+    p{margin:0 0 14px;}
+    .muted{color:var(--muted)}
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-top: 8px;
+    }
+
+    /* Keep all buttons on one line when there’s enough width */
+    @media (min-width: 760px) {
+      .row {
+        flex-wrap: nowrap;
+      }
+    }
+
+    .btn{
+      display:inline-flex; align-items:center; gap:10px; padding:12px 16px;
+      border-radius:12px; border:1px solid var(--border); background:var(--fg); color:var(--bg);
+      text-decoration:none; font-weight:600; transition:transform .05s ease, opacity .2s ease;
+    }
+    .btn:hover{opacity:.92}
+    .btn:active{transform:translateY(1px)}
+    .btn.secondary{background:transparent; color:var(--fg)}
+    .small{font-size:13px}
+    .spaced{letter-spacing:.02em}
+    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
+    /* 🔧 EDIT: subtle highlight for version/date */
+    #metadata p strong { color: var(--fg); }
+  </style>
+</head>
+
+<body>
+  <!-- =========================
+       📦 MAIN CONTENT WRAPPER
+       ========================= -->
+  <main class="wrap">
+    <section class="card">
+      
+      <!-- 🎨 LEFT COLUMN: COVER IMAGE -->
+      <div>
+        <img class="cover" src="https://fluxpiada.github.io/blackout/images/battery.png" alt="Cover of The Blackout: Weak Signals" />
+      </div>
+
+      <!-- 📝 RIGHT COLUMN: TEXT + DOWNLOADS -->
+      <div>
+        <h1>The Blackout: Weak Signals</h1>
+        <p class="muted">by F. J. S. Remmelzwaal</p>
+        <p>Use this page to download the latest ePub version of <em>The Blackout: Weak Signals</em> and browse archived releases.</p>
+
+        <div class="row">
+        
+        <a
+  class="btn"
+  href="https://github.com/fluxpiada/blackout/releases/latest/download/Blackout_Weak_Signals.epub"
+  download="Blackout_Weak_Signals.epub"
+  type="application/epub+zip"
+		>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 3a1 1 0 0 1 1 1v8.586l2.293-2.293a1 1 0 1 1 1.414 1.414l-4.004 4.004a1.25 1.25 0 0 1-1.768 0L6.93 11.707a1 1 0 1 1 1.414-1.414L10 12.586V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1a1 1 0 0 1 1-1Z"/>
+            </svg>
+            Download ePub
+          </a>
+
+          <a class="btn" href="https://github.com/fluxpiada/blackout/releases/latest">What changed?</a>
+
+          <a class="btn secondary" href="https://github.com/fluxpiada/blackout/releases">
+            Older Versions
+          </a>
+
+          <a class="btn secondary" href="https://github.com/fluxpiada/blackout/discussions" target="_blank">
+            Join Discussion
+          </a>
+        </div>
+
+        <!-- 🧾 METADATA SECTION -->
+        <hr style="border:none; border-top:1px solid var(--border); margin:20px 0;">
+        <div class="metadata small spaced muted" id="metadata">
+          <p><strong>Title:</strong> The Blackout: Weak Signals</p>
+          <p><strong>Author:</strong> F. J. S. Remmelzwaal</p>
+          <!-- 🔧 EDIT: make these placeholders visible -->
+          <p id="version-info"><strong>Version:</strong> loading…</p>
+          <p id="published-info"><strong>Published:</strong> loading…</p>
+    
+           <p class="download-meta">
+ 		  <strong># Downloads (latest release):</strong>
+		   <span id="latest-downloads">loading…</span>  </p>
+	  <p>    <strong># Downloads (all releases):</strong>
+		<span id="total-downloads">loading…</span>  </p>
+        </div>
+
+        <p class="small spaced muted">
+          Latest build served via GitHub Pages —
+          <span id="ver">loading…</span>
+        </p>
+
+      
+      </div>
+	</section>
+
+    <!-- ⚖️ FOOTER -->
+    <footer>
+      <!-- 🔧 EDIT: Updated copyright -->
+      © <span id="year"></span> F. J. S. Remmelzwaal. All rights reserved.
+    </footer>
+  </main>
+
+  <!-- =========================
+       ⚙️ JAVASCRIPT SECTION
+       ========================= -->
+
+  <script>
+    async function loadVersionData() {
+      const owner = "fluxpiada";
+      const repo  = "blackout";
+
+      // Helper: render to page
+      function setUI(tag, timeISO) {
+        const versionEl   = document.getElementById('version-info');
+        const publishedEl = document.getElementById('published-info');
+        const shortEl     = document.getElementById('ver');
+
+        if (tag) {
+          versionEl.innerHTML = `<strong>Version:</strong> ${tag}`;
+          shortEl.textContent = `Version: ${tag}`;
+        } else {
+          versionEl.innerHTML = '';
+          shortEl.textContent = '';
+        }
+
+        if (timeISO) {
+          const d = new Date(timeISO);
+          const formatted = d.toLocaleDateString('en-GB', { year:'numeric', month:'long', day:'numeric' });
+          publishedEl.innerHTML = `<strong>Published:</strong> ${formatted}`;
+        } else {
+          publishedEl.innerHTML = '';
+        }
+      }
+
+      // 1) Try the "latest" endpoint (fast path). This respects a user-pinned latest.
+      try {
+        const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+          headers: { 'Accept': 'application/vnd.github+json' }
+        });
+        if (r.ok) {
+          const j = await r.json();
+          // If it's a draft or prerelease (edge case), ignore and fall through.
+          if (!j.draft && !j.prerelease && j.tag_name) {
+            setUI(j.tag_name, j.published_at);
+            return;
+          }
+        }
+      } catch {}
+
+      // 2) Fallback: pick the most recently *published* stable release ourselves
+      try {
+        const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases?per_page=20`, {
+          headers: { 'Accept': 'application/vnd.github+json' }
+        });
+        if (r.ok) {
+          const list = await r.json();
+          const stable = list.filter(x => !x.draft && !x.prerelease);
+          // Sort by published_at desc (some lists are already sorted, we enforce it)
+          stable.sort((a,b) => new Date(b.published_at) - new Date(a.published_at));
+          const latest = stable[0];
+          if (latest) {
+            setUI(latest.tag_name, latest.published_at);
+            return;
+          }
+        }
+      } catch {}
+
+      // 3) Last resort: use the newest tag if there are no releases yet
+      try {
+        const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/tags?per_page=1`, {
+          headers: { 'Accept': 'application/vnd.github+json' }
+        });
+        if (r.ok) {
+          const [t] = await r.json();
+          if (t && t.name) {
+            setUI(t.name, null);
+            return;
+          }
+        }
+      } catch {}
+
+      // 4) Give up quietly
+      setUI(null, null);
+    }
+
+    // Run on load
+    document.addEventListener('DOMContentLoaded', loadVersionData);
+
+    // Set year in footer
+    document.addEventListener('DOMContentLoaded', () => {
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    });
+  </script>
+  
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const owner = 'fluxpiada';
+  const repo  = 'blackout';
+  const targetAssetName = 'Blackout_Weak_Signals.epub';
+
+  const elVersion        = document.getElementById('latest-version');
+  const elPublished      = document.getElementById('latest-published');
+  const elLatestDl       = document.getElementById('latest-downloads');
+  const elTotalDl        = document.getElementById('total-downloads');
+
+  function safeSet(el, value) {
+    if (el) el.textContent = value;
+  }
+
+  fetch(`https://api.github.com/repos/${owner}/${repo}/releases`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('GitHub API error: ' + response.status);
+      }
+      return response.json();
+    })
+    .then(releases => {
+      if (!Array.isArray(releases) || releases.length === 0) {
+        safeSet(elVersion, 'n/a');
+        safeSet(elPublished, 'n/a');
+        safeSet(elLatestDl, '0');
+        safeSet(elTotalDl, '0');
+        return;
+      }
+
+      // Ignore drafts and prereleases for "official" latest
+      const stableReleases = releases.filter(r => !r.draft && !r.prerelease);
+      const latest = stableReleases[0] || releases[0];
+
+      const tagName = latest.tag_name || latest.name || '(untagged)';
+      const publishedAt = latest.published_at
+        ? new Date(latest.published_at).toISOString().slice(0, 10)
+        : 'unknown';
+
+      // Downloads for the specific EPUB in the latest release
+      const latestAssets = latest.assets || [];
+      const latestEpubAsset = latestAssets.find(a => a.name === targetAssetName)
+        || latestAssets.find(a => a.name.toLowerCase().endsWith('.epub'));
+
+      const latestEpubDownloads = latestEpubAsset
+        ? latestEpubAsset.download_count
+        : 0;
+
+      // Total downloads for that EPUB across all releases
+      let totalDownloads = 0;
+      for (const rel of releases) {
+        const assets = rel.assets || [];
+        for (const asset of assets) {
+          if (asset.name === targetAssetName ||
+              asset.name.toLowerCase().endsWith('.epub')) {
+            totalDownloads += asset.download_count || 0;
+          }
+        }
+      }
+
+      safeSet(elVersion, tagName);
+      safeSet(elPublished, publishedAt);
+      safeSet(elLatestDl, latestEpubDownloads.toString());
+      safeSet(elTotalDl, totalDownloads.toString());
+    })
+    .catch(err => {
+      console.error(err);
+      safeSet(elVersion, 'error');
+      safeSet(elPublished, 'error');
+      safeSet(elLatestDl, 'error');
+      safeSet(elTotalDl, 'error');
+    });
+});
+</script>
+
+</body>
+</html>
