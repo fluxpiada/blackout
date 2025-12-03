@@ -13,7 +13,7 @@ I would like to thank my proofreaders who gave me invaluable corrections where m
 
 Nora Ghaoui, Jet de Waij, Laura Koopmans, Niels Remmelzwaal, Kees Alders, Paul Schendelaar...
 
-And my most patient love of my life, Maartje Kniest. 
+And my most patient love, Maartje Kniest. 
 
 —
 F. J. S. Remmelzwaal  
