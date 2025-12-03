@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Blackout: Weak Signals — Download</title>
+  <meta name="description" content="Download the ePub of The Blackout: Weak Signals." />
+  <link rel="canonical" href="https://fluxpiada.github.io/blackout/site/" />
+
+  <meta property="og:title" content="The Blackout: Weak Signals" />
+  <meta property="og:description" content="Download the ePub." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fluxpiada.github.io/blackout/site/" />
+  <meta property="og:image" content="https://fluxpiada.github.io/blackout/images/battery.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Immediate redirect for non-JS clients -->
+  <meta http-equiv="refresh" content="0; url=https://fluxpiada.github.io/blackout/site/" />
+
+  <style>
+    :root { --fg:#0b0b0e; --bg:#f7f7f8; --muted:#6b7280; --card:#ffffff; --border:#e5e7eb; }
+    body{
+      margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+      background:var(--bg); color:var(--fg);
+      font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      padding:24px;
+    }
+    .wrap{width:100%; max-width:680px;}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:16px;
+      padding:22px; display:grid; gap:18px; grid-template-columns:140px 1fr; align-items:center;
+    }
+    @media (max-width:640px){ .card{grid-template-columns:1fr} }
+    .cover{width:100%; border-radius:12px; border:1px solid var(--border); background:#1f1f24;}
+    h1{margin:0 0 8px; font-size:clamp(22px,3.2vw,28px); line-height:1.2}
+    p{margin:0 0 10px;}
+    .muted{color:var(--muted)}
+    .btn{
+      display:inline-flex; align-items:center; gap:10px; padding:11px 15px;
+      border-radius:12px; border:1px solid var(--border); background:var(--fg); color:var(--bg);
+      text-decoration:none; font-weight:600;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <section class="card">
+      <img class="cover" src="https://fluxpiada.github.io/blackout/images/battery.png" alt="Cover of The Blackout: Weak Signals" />
+      <div>
+        <h1>The Blackout: Weak Signals</h1>
+        <p class="muted">Redirecting you to the download page.</p>
+        <a class="btn" href="https://fluxpiada.github.io/blackout/site/">Continue to /site/</a>
+        <p class="muted">If you are not redirected automatically, use the button above.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      // Build a path-safe target that works whether the URL has a trailing slash or index.html
+      const path = window.location.pathname.replace(/index\.html?$/i, '');
+      const base = path.endsWith('/') ? path : `${path}/`;
+      const targetPath = `${base}site/`;
+      const targetUrl = `${window.location.origin}${targetPath}`;
+
+      if (window.location.href !== targetUrl) {
+        window.location.replace(targetUrl);
+      }
+    })();
+  </script>
+</body>
+</html>
