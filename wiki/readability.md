@@ -18,63 +18,63 @@
 
 ## Cluster A — Harder, denser, more “literary”
 
-Flesch 51–64
-FK Grade ~9–12
-Fog 11–15
+- Flesch 51–64
+- FK Grade ~9–12
+- Fog 11–15
 These chapters lean heavier on:
-longer sentences
-more multisyllabic words
-more complex phrasing or description
-They read like adult contemporary/literary fiction with moments that edge toward academic density.
+- longer sentences
+- more multisyllabic words
+- more complex phrasing or description
+- They read like adult contemporary/literary fiction with moments that edge toward academic density.
 
 ### Members:
+- 02_The_Copse (hardest)
+- 11_Zoning_for_Success
+- 05_The_Party_Hangover
+- 08_Doras_Gear
+- 10_Phil
+- 03_The_Cove
+- 01_The_Mistakes
 
-02_The_Copse (hardest)
-11_Zoning_for_Success
-05_The_Party_Hangover
-08_Doras_Gear
-10_Phil
-03_The_Cove
-01_The_Mistakes
-Interpretation:
+### Interpretation:
 These chapters demand more cognitive load. They likely have longer sentences, more internal reflection, more descriptive prose, or thematic/technical content.
+
 Think: Richard Powers, early Margaret Atwood, Don DeLillo in terms of density.
 
 ## Cluster B — Breezier, more accessible, faster-moving
 
-Flesch 71–75
-FK Grade 6–7
-Fog ~9–10
+- Flesch 71–75
+- FK Grade 6–7
+- Fog ~9–10
 These chapters read much lighter:
-shorter sentences
-cleaner structure
-fewer 3-syllable words
-quicker pace
+- shorter sentences, cleaner structure, fewer 3-syllable words, quicker pace
 
 ### Members:
+- 06_The_Green_Suit
+- 07_Mr_Ate
+- 04_The_Houtrakkers
+- 09_The_Fjord
+### Interpretation:
+- These are “easy onboarding” chapters — more dialogue, more action, or simpler scene construction. Think: Le Carré at his more accessible moments, Naomi Alderman, Blake Crouch.
 
-06_The_Green_Suit
-07_Mr_Ate
-04_The_Houtrakkers
-09_The_Fjord
-Interpretation:
-These are “easy onboarding” chapters — more dialogue, more action, or simpler scene construction.
-Think: Le Carré at his more accessible moments, Naomi Alderman, Blake Crouch.
-2. The overall picture of your manuscript
+## 2. The overall picture of your manuscript 
 Your readability profile is coherent but varied:
-No chapter plunges into academic territory (Flesch < 30).
-No chapter drops into children’s literature territory (Flesch > 85).
-The majority sits in the 60–75 Flesch band → classic mainstream fiction.
-Your hardest chapter (The_Copse, Flesch 51) is still perfectly readable; it just demands attention.
-Your easiest chapters are squarely in “airport novel” territory — which is good for pacing variety.
-You are not wildly inconsistent. Your chapters are not schizophrenic in style. They just vary depending on content and intent.
+- No chapter plunges into academic territory (Flesch < 30).
+- No chapter drops into children’s literature territory (Flesch > 85).
+- The majority sits in the 60–75 Flesch band → classic mainstream fiction.
+- Your hardest chapter (The_Copse, Flesch 51) is still perfectly readable; it just demands attention.
+- Your easiest chapters are squarely in “airport novel” territory — which is good for pacing variety.
+- You are not wildly inconsistent. Your chapters are not schizophrenic in style. They just vary depending on content and intent.
+
 ## 3. What this means, narratively
+
 You’ve got the classic pattern of a novel that oscillates between:
-Atmospheric / interior / descriptive sections → harder readability
-Dialogue-heavy / action / travel sections → easier readability
-That's healthy.
-Readers need the breathing rhythm.
-If the “harder” chapters are placed early in the structure, they may slow the onboarding. If they’re mid-late, they deepen immersion.
+- Atmospheric / interior / descriptive sections → harder readability
+- Dialogue-heavy / action / travel sections → easier readability
+That's healthy. Readers need the breathing rhythm.
+
+> [!TIP]
+> If the “harder” chapters are placed early in the structure, they may slow the onboarding. If they’re mid-late, they deepen immersion.
 
 # python go to
 ## More Python stuff for readability 
