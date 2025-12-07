@@ -6,11 +6,15 @@ After the cold hike, sustained only by paltry peanuts and a questionable mushroo
 
 “Everything's airy, sisa,” replied Mr. Ate, and presented his fist for a box. He turned to make her order and she walked to the fridge to get her carton of amasi. She noticed a small poster, the size of one of those antiquated postcards, stuck to a corner of the fridge door. It was black-and-white, seemingly hand-made or stencilled, and read:
 
-<p align="center" style="font-family: 'Courier New', monospace;">
-    <strong>*** WELCOME TO THE MACHINE ***</strong><br>
-    <strong>*** ALL HOUTRAKKERS CALLING ***</strong><br>
-    <strong>*** MINITEL 3615-2BRON2B ***</strong><br>
-</p>
+
+```
+
+*** WELCOME TO THE MACHINE ***
+*** ALL HOUTRAKKERS CALLING ***
+*** MINITEL 3615-2BRON2B ***
+
+```
+
 
 
 Dora's previously chill demeanour vanished in thin air and the warm reggae sounds faded to a distant whirl. All she could hear was the beating of her heart in her head. She looked around and ripped off the card. She pulled open the fridge after struggling with the door. Was it a slider, or pull? 
