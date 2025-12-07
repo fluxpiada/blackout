@@ -10,14 +10,12 @@ She abruptly turned before the faucet started beeping, admonishing her to get a 
 
 All the better; she needed to fill in the dozen or so forms required of her to get the coveted, yet hated visapass.
 
-— waiting — add section that she’s waiting futilely, bribes given, the rando busker snooping about —
+**_- waiting — add section that she’s waiting futilely, bribes given, the rando busker snooping about —_*
+**
 
 In the central hall, computer screens or terminals were shaped in pentagonal forms, so you could half see what your neighbour was up to. There were no cats, so curiosity couldn’t kill them in Dora’s age. Purely to assist one nabuur, not for spying at all. The monochrome terminal’s cursor blinked mutely. A yellowing cardboard taped to the right of the terminal listed the instructions and the forms needed for each request or change in one’s life.
 
-
-<p style="text-align:center;">
-  ``` VISAPASS RENEWAL: FORMS 23b12, 5, 12c, BC, old pass, 5M6… ``` 
-</p>
+ ``` VISAPASS RENEWAL: FORMS 23b12, 5, 12c, BC, old pass, 5M6… ``` 
 
 Under the desk there were pigeonholes for all the forms. You had to insert them into the slot under the monitor after you entered your name, sofi-number and BD.
 Muttering the numbers to herself, she crouched with the list in hand that she pulled off the tape. "Let’s see, 23b12… where you at…" For all the advantages in technology, the ability to sort alphabetically or in ascending numerical order had passed the municipal data/forms dept by. She entered her forms one by one, entering and pressing F3 in a cabalistic fashion.
