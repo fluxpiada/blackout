@@ -1,12 +1,25 @@
 The 99.9% detoxified water gurgled out of the faucet in the loos of the municipal building of Schoten.
+
 The radio was on, broadcasting AI-drivel that was not mind-numbing enough to put you to sleep, nor—just slightly jarring the nerves and keeping one on edge. Dora hoped it was not by design. Apprehensively she put her hands in the thin trail of water and rubbed them against each other. There was no soap to be had, and she regarded her hands, yellowing, crusty, and permanently dark-rimmed nails, as if for the first time; trying to remember how her hands had ever looked clean in her childhood. Pinkish? Like synth-meat? No, her memory would be wrong…
-The radio blathered on: “The cost of intelligence is continuing to decline, expect massive returns on hiring cognitariats; retraining programs available now for the gifted—protein farmer tank clearers wanted in Spitsbergen! (or a Dutch town lie… Penningsveer—deschool now to become a hedge cleaver, a sedge hopper…)”
+
+The radio blathered on: "The cost of intelligence is continuing to decline, expect massive returns on hiring cognitariats; retraining programs available now for the gifted—protein farmer tank clearers wanted in Pampus! Deschool now to become a hedge cleaver, a sedge hopper…"
+
 The running water abruptly stopped with a creak in the ducts and she waved her now also cold hands in the room, the towels no longer being dispensed because of the futile cost; people wasted too much time drying their hands.
+
 She abruptly turned before the faucet started beeping, admonishing her to get a move on and do something to further the needs of the economy.
+
 All the better; she needed to fill in the dozen or so forms required of her to get the coveted, yet hated visapass.
+
+— waiting — add section that she’s waiting futilely, bribes given, the rando busker snooping about —
+
 In the central hall, computer screens or terminals were shaped in pentagonal forms, so you could half see what your neighbour was up to. There were no cats, so curiosity couldn’t kill them in Dora’s age. Purely to assist one nabuur, not for spying at all. The monochrome terminal’s cursor blinked mutely. A yellowing cardboard taped to the right of the terminal listed the instructions and the forms needed for each request or change in one’s life.
-*** VISAPASS RENEWAL: FORMS 23b12, 5, 12c, BC, old pass, 5M6… ***
+
+
+<p style="text-align:center;">
+  ``` VISAPASS RENEWAL: FORMS 23b12, 5, 12c, BC, old pass, 5M6… ``` 
+</p>
+
 Under the desk there were pigeonholes for all the forms. You had to insert them into the slot under the monitor after you entered your name, sofi-number and BD.
-Muttering the numbers to herself, she crouched with the list in hand that she pulled off the tape. “Let’s see, 23b12… where you at…” For all the advantages in technology, the ability to sort alphabetically or in ascending numerical order had passed the municipal data/forms dept by. She entered her forms one by one, entering and pressing F3 in a cabalistic fashion.
-— add section that she’s waiting futilely, bribes given, the rando busker snooping about —
+Muttering the numbers to herself, she crouched with the list in hand that she pulled off the tape. "Let’s see, 23b12… where you at…" For all the advantages in technology, the ability to sort alphabetically or in ascending numerical order had passed the municipal data/forms dept by. She entered her forms one by one, entering and pressing F3 in a cabalistic fashion.
 Halfway through the ordeal, she entered the BC form before 12c and had to start over. The terminal jammed and beeped. People looked up exasperatedly; this meant longer waiting times for them.
+-	Rando busker
