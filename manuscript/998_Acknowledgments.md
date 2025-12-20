@@ -11,7 +11,7 @@ This book was written on an Olivetti mechanical typewriter of the model Dora. To
 
 I would like to thank my proofreaders who gave me invaluable corrections where my science, biochemistry, ornithology, psychology and storyline was errant: 
 
-Nora Ghaoui, Jet de Waij, Laura Koopmans, Niels Remmelzwaal, Kees Alders, Paul Schendelaar...
+Nora Ghaoui, Laura Koopmans, Jet de Waij, Leontien Peeters, Niels Remmelzwaal, Noud Klinkers, Kees Alders, Paul Schendelaar.
 
 And my most patient love, Maartje Kniest. 
 
