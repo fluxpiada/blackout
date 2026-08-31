@@ -54,7 +54,7 @@ list_fonts() {
 
 for arg in "$@"; do
   case "$arg" in
-    --auto)         VERSION=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0-auto") ;;
+    --auto)         VERSION=$(git describe --tags --abbrev=0 --match='v*' 2>/dev/null || echo "v0.0.0-auto") ;;
     --version=*)    VERSION="${arg#*=}" ;;
     --font=*)       FONT="${arg#*=}" ;;
     --list-fonts)   list_fonts; exit 0 ;;

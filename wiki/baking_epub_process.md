@@ -51,7 +51,7 @@ node epub/make_releases_md.js
 This script queries the GitHub API and writes:
 
 ```
-manuscript/releases.md
+manuscript/001_releases.md
 ```
 
 The file contains entries like:
@@ -123,7 +123,7 @@ Pandoc pulls content from:
 
 * `manuscript/*.md`
 * `images/`
-* `epub/epub-metadata.xml`
+* `epub/metadata.xml`
 
 Including the dynamically generated files.
 
@@ -151,7 +151,7 @@ The EPUB baking system is designed to be:
 
 The output EPUB always includes:
 
-* Release history (`releases.md`)
+* Release history (`001_releases.md`)
 * Build metadata (`build_info.md`)
 * All manuscript chapters
 * Correct metadata + cover
@@ -165,7 +165,7 @@ This ensures a reproducible, transparent, and well-documented build process.
 - GitHub Actions builds your EPUB automatically.
 - It pulls all chapters from `manuscript/` and assets from `images/`.
 - Before building, it generates:
-  - `releases.md` → full GitHub release history  
+  - `001_releases.md` → full GitHub release history  
   - `build_info.md` → timestamp + commit hash  
 - Both files are injected into the EPUB without being committed.
 - `bake_book_epub.sh` runs Pandoc and outputs to `versions/`.
