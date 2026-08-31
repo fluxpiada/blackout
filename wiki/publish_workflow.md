@@ -86,9 +86,10 @@ detail.
 There is no site build step. GitHub Pages is configured to serve the `main`
 branch at `/` directly, so the site is just the raw files in the repo:
 
-* `index.html` — the landing page at <https://fluxpiada.github.io/blackout/>
-* `site/index.html` — the download page at `/blackout/site/`
-* `styles/`, `images/`, `templates/` — assets those pages reference
+* `index.html` — the download page at <https://fluxpiada.github.io/blackout/>
+* `styles/site.css` — its stylesheet (dark-mode aware; also used by
+  `templates/page.html`)
+* `images/` — the cover art the page and its share card reference
 
 Edit those files and push to `main`; the change is live. (A `pages.yml` workflow
 used to build into a `gh-pages` branch, but Pages never served that branch, so

@@ -10,7 +10,8 @@ manuscript/??_*.md    The twelve chapters — this glob is exactly the book
 manuscript/draft/     Unfinished material, not built
 epub/                 EPUB build script, metadata, CSS
 pdf/                  Shunn manuscript-format PDF build
-index.html, site/     The live website (see "Website" below)
+index.html            The live website — served raw from main (see below)
+styles/site.css       Its stylesheet, shared with templates/page.html
 versions/             Build output — GITIGNORED, never commit artifacts here
 wiki/                 How-to docs
 ```
@@ -30,9 +31,14 @@ GitHub Release. See `wiki/publish_workflow.md`.
 
 **The website has no build step.** GitHub Pages is configured to serve the
 `main` branch at `/` directly (`build_type: legacy`, `source: {branch: main,
-path: /}`). Edit `index.html` or `site/index.html` and push — it is live. There
-is no `gh-pages` deployment in play; a `pages.yml` workflow that built into that
-branch was deleted because Pages never served it.
+path: /}`). Edit `index.html` and push — it is live. There is no `gh-pages`
+deployment in play; a `pages.yml` workflow that built into that branch was
+deleted because Pages never served it, and every Pages build in the API history
+came from a `main` commit.
+
+The page used to live at `/blackout/site/` with a redirect shim at the root.
+That was flattened: `site/index.html` is now the root `index.html`, and
+`/blackout/site/` no longer exists.
 
 **The Download ePub button in `site/index.html` is hardcoded** to
 `releases/download/v1.11.28/Blackout_Weak_Signals_v1.11.31.epub`. The version

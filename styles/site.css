@@ -84,3 +84,13 @@ footer {
 
 /* subtle highlight for version/date */
 #metadata p strong { color: var(--fg); }
+
+/* Ported from site/site_style.css so site/index.html loses nothing by
+   switching to this shared stylesheet. */
+.metadata p { margin: 0 0 6px; }
+
+.badge {
+  vertical-align: middle;
+  margin-top: 0.5em;
+  border-radius: 4px;
+}
