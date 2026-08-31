@@ -1,0 +1,82 @@
+name: Bake PDF (Shunn manuscript format)
+
+on:
+  workflow_dispatch:
+    inputs:
+      a4:
+        description: "A4 paper instead of US Letter"
+        type: boolean
+        default: false
+      title_page:
+        description: "Novel format: separate title page"
+        type: boolean
+        default: false
+      classic:
+        description: "Shunn Classic: monospace, underlined emphasis"
+        type: boolean
+        default: false
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Install Pandoc, XeLaTeX and a Times-metric font
+      #    Liberation Serif / Mono stand in for Times New Roman / Courier New;
+      #    bake_book_pdf.sh probes for whichever is present.
+      - name: Install Pandoc and TeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            fonts-liberation \
+            poppler-utils
+
+      # 3. Bake the manuscript
+      - name: Bake PDF
+        run: |
+          chmod +x pdf/bake_book_pdf.sh
+          ARGS=(--auto)
+          [[ "${{ inputs.a4 }}" == "true" ]]         && ARGS+=(--a4)
+          [[ "${{ inputs.title_page }}" == "true" ]] && ARGS+=(--title-page)
+          [[ "${{ inputs.classic }}" == "true" ]]    && ARGS+=(--classic)
+          pdf/bake_book_pdf.sh "${ARGS[@]}"
+        shell: bash
+
+      # 4. Sanity check: the PDF must have pages and a running header
+      - name: Verify output
+        run: |
+          PDF=$(ls -t versions/*_manuscript*.pdf | head -1)
+          echo "Checking $PDF"
+          pdfinfo "$PDF"
+          pdftotext "$PDF" - | grep -q "#" || { echo "No scene breaks found"; exit 1; }
+
+      # 5. Keep the build available even when not tagged
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: manuscript-pdf
+          path: versions/*_manuscript*.pdf
+
+      # 6. Attach to the GitHub Release (if tagged)
+      - name: Upload PDF to Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: versions/*_manuscript*.pdf

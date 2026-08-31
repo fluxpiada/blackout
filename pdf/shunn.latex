@@ -1,0 +1,160 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% shunn.latex — pandoc template for Shunn manuscript format
+%% https://www.shunn.net/format/story/
+%%
+%% Implements, per the spec:
+%%   1in margins all round · 12pt serif · black only
+%%   double-spaced throughout · no extra space between paragraphs
+%%   first line of every paragraph indented 0.5in
+%%   left-aligned, ragged right, no hyphenation, one space between sentences
+%%   contact info upper-left of page 1, rounded word count upper-right
+%%   title a third down page 1, byline double-spaced below it
+%%   running header "Surname / Keyword / Page" upper-right, not on page 1
+%%   scene breaks as a centred #, end of manuscript as a centred # # #
+%%
+%% Driven by pdf/bake_book_pdf.sh — see wiki/shunn_pdf_format.md
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,$if(papersize)$$papersize$paper$else$letterpaper$endif$]{article}
+
+\usepackage[margin=1in,headheight=15pt,headsep=0.35in]{geometry}
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage[none]{hyphenat}
+
+%% ---- Type -----------------------------------------------------------------
+\setmainfont{$mainfont$}
+$if(classic)$
+\setmonofont{$mainfont$}
+$endif$
+
+%% Double-spaced throughout, no space between paragraphs, 0.5in first-line
+%% indent, ragged right (\RaggedRight, unlike \raggedright, keeps the indent).
+\doublespacing
+\RaggedRight
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{3em}
+\frenchspacing              % one space between sentences
+\widowpenalty=1000
+\clubpenalty=1000
+
+%% ---- Running header -------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[R]{\normalfont\setstretch{1}\small\relax
+  $surname$ / $shorttitle$ / \thepage}
+
+%% ---- Manuscript furniture -------------------------------------------------
+\newlength{\titledrop}   \setlength{\titledrop}{0.32\textheight}
+\newlength{\chapterdrop} \setlength{\chapterdrop}{0.25\textheight}
+\newsavebox{\shunnhead}
+
+% A chapter: fresh page, title dropped down the page, centred.
+\newcommand{\chapteropening}[1]{%
+  \clearpage
+  \vspace*{\chapterdrop}%
+  {\centering #1\par}%
+  \vspace{\baselineskip}%
+}
+
+% A centred subheading (appendix sections and the like).
+\newcommand{\subheading}[1]{%
+  \par\vspace{\baselineskip}%
+  {\centering #1\par}%
+  \vspace{\baselineskip}%
+}
+
+% Scene break: one double-spaced line holding a centred #.
+\newcommand{\scenebreak}{%
+  \par
+  {\centering\#\par}%
+}
+
+% End of manuscript.
+\newcommand{\theend}{%
+  \par\vspace{\baselineskip}%
+  {\centering\#\hspace{1em}\#\hspace{1em}\#\par}%
+}
+
+% Screen/machine text: centred, unindented, still in the manuscript face.
+\newcommand{\machinetext}[1]{%
+  \par\vspace{\baselineskip}%
+  {\centering #1\par}%
+  \vspace{\baselineskip}%
+}
+
+% The page-1 block: contact info left, rounded word count right.
+\newcommand{\shunnheadblock}{%
+  \savebox{\shunnhead}{%
+    \begin{minipage}[t]{\textwidth}%
+      \begin{singlespace}%
+        \noindent
+        \begin{minipage}[t]{0.55\textwidth}\RaggedRight
+          $for(contact)$$contact$$sep$\\$endfor$
+        \end{minipage}\hfill
+        \begin{minipage}[t]{0.35\textwidth}\RaggedLeft
+          $wordcount$
+        \end{minipage}%
+      \end{singlespace}%
+    \end{minipage}}%
+  \noindent\usebox{\shunnhead}\par
+}
+
+%% ---- Pandoc plumbing ------------------------------------------------------
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{%
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox\pandoc@box\fi}
+\makeatother
+
+$if(titlepage)$
+% Novel mode: chapter one is a chapter like any other.
+\newcommand{\firstchapteropening}[1]{\chapteropening{#1}}
+$else$
+% Story mode: chapter one continues below the byline on page 1.
+\newcommand{\firstchapteropening}[1]{%
+  \par\vspace{\baselineskip}%
+  {\centering #1\par}%
+  \vspace{\baselineskip}%
+}
+$endif$
+
+\begin{document}
+
+$if(titlepage)$
+%% ---- Separate title page (novel format) -----------------------------------
+\thispagestyle{empty}
+\shunnheadblock
+\vspace*{\dimexpr\titledrop-\ht\shunnhead-\dp\shunnhead\relax}
+{\centering $title$\par}
+\vspace{\baselineskip}
+{\centering $byline$\par}
+\vfill
+\clearpage
+\setcounter{page}{1}
+$else$
+%% ---- Page one (story format) ----------------------------------------------
+\thispagestyle{empty}
+\shunnheadblock
+\vspace*{\dimexpr\titledrop-\ht\shunnhead-\dp\shunnhead\relax}
+{\centering $title$\par}
+\vspace{\baselineskip}
+{\centering $byline$\par}
+$endif$
+
+$body$
+
+\end{document}

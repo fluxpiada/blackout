@@ -1,0 +1,30 @@
+---
+# Cover-sheet data for the Shunn-format PDF. See wiki/shunn_pdf_format.md
+#
+# Shunn: contact info goes in the upper-left of page one and should carry your
+# legal name, address, phone and email. Fill the bracketed lines in before
+# sending this anywhere — and do NOT add a national insurance or tax number.
+title: "The Blackout: Weak Signals"
+byline: "F. J. S. Remmelzwaal"
+
+# Used by the running header: "Surname / Keyword / Page"
+surname: "Remmelzwaal"
+shorttitle: "Blackout"
+
+# THE FONT. Any family installed on your machine — the name must match exactly.
+# List what you have with:  pdf/bake_book_pdf.sh --list-fonts
+# Override for a single build with:  pdf/bake_book_pdf.sh --font="Georgia"
+#
+# Leave this commented out to get the automatic fallback chain (Times New Roman
+# locally, Liberation Serif on CI). Shunn asks for a plain, readable serif at
+# 12pt — Times New Roman is the named example. Avoid sans-serif faces.
+# mainfont: "Times New Roman"
+
+contact:
+  - "Floortje J. S. Remmelzwaal"
+  - "[street and number]"
+  - "[postcode] Arnhem"
+  - "The Netherlands"
+  - "[phone]"
+  - "fluxpiada@gmail.com"
+---
