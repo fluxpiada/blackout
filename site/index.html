@@ -73,6 +73,7 @@
           <p><strong>Author:</strong> F. J. S. Remmelzwaal</p>
           <p id="version-info"><strong>Version:</strong> loading…</p>
           <p id="published-info"><strong>Published:</strong> loading…</p>
+          <p id="downloads-info"><strong>Downloads:</strong> loading…</p>
         </div>
 
         <p class="small spaced muted">
@@ -94,10 +95,11 @@
       const owner = "fluxpiada";
       const repo  = "blackout";
 
-      function setUI(tag, timeISO) {
+      function setUI(tag, timeISO, assets) {
         const versionEl   = document.getElementById('version-info');
         const publishedEl = document.getElementById('published-info');
         const shortEl     = document.getElementById('ver');
+        const downloadsEl = document.getElementById('downloads-info');
 
         if (tag) {
           versionEl.innerHTML = `<strong>Version:</strong> ${tag}`;
@@ -115,6 +117,23 @@
         } else {
           publishedEl.innerHTML = '';
         }
+
+        // Downloads for THIS release. The shields.io badge above counts every
+        // release ever, which is why it never moves when a new one ships.
+        if (downloadsEl) {
+          const files = (assets || []).filter(a => a && a.name);
+          if (files.length) {
+            const total = files.reduce((n, a) => n + (a.download_count || 0), 0);
+            const perFile = files
+              .map(a => `${a.name}: ${a.download_count || 0}`)
+              .join(' · ');
+            downloadsEl.innerHTML =
+              `<strong>Downloads:</strong> ${total}${tag ? ` for ${tag}` : ''}`;
+            downloadsEl.title = perFile;
+          } else {
+            downloadsEl.innerHTML = '';
+          }
+        }
       }
 
       try {
@@ -122,7 +141,7 @@
         if (r.ok) {
           const j = await r.json();
           if (!j.draft && !j.prerelease && j.tag_name) {
-            setUI(j.tag_name, j.published_at);
+            setUI(j.tag_name, j.published_at, j.assets);
             return;
           }
         }
@@ -136,7 +155,7 @@
           stable.sort((a,b) => new Date(b.published_at) - new Date(a.published_at));
           const latest = stable[0];
           if (latest) {
-            setUI(latest.tag_name, latest.published_at);
+            setUI(latest.tag_name, latest.published_at, latest.assets);
             return;
           }
         }
@@ -147,13 +166,13 @@
         if (r.ok) {
           const [t] = await r.json();
           if (t && t.name) {
-            setUI(t.name, null);
+            setUI(t.name, null, null);
             return;
           }
         }
       } catch {}
 
-      setUI(null, null);
+      setUI(null, null, null);
     }
 
     document.addEventListener('DOMContentLoaded', loadVersionData);
