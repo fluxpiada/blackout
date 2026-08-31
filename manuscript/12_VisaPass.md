@@ -2,8 +2,7 @@
 
 Dora clunked her bike against another haphazardly parked bike in front of the façade of the Municipal Council building of Schoten. The façade had arrows pointing upward shoddily painted on the eighteenth century brickwork designed to make you crane your neck and gaze upward where you could admire the nasal cavities of the Dear Leader of the Free Economic Party, Dustin. Dora shivered, not only from the cold. 
 
-> [!] TIP
-> -	Rando busker 
+<!-- TIP: Rando busker -->
 
 Once in the building, where the tapestries were mouldy and the lino on the waiting benches was delapidated, people huddled close together with their dockets clenched in their creased fists. The pervasive musty smell of unwashed bodies and ill-heated houses hit Dora like a physical obstacle. She took a sharp left to the bathroom stalls, holding back an urge to run or to puke. 
 
@@ -50,7 +49,7 @@ She stumbled to the counter and slid the two emblems of her freedom under the pl
 
 She glanced into the chaos of the running dog, who was having the time of its life slaloming around the security guards. She noticed Raymond was egging on the dog even more. The civil servant was clearly agitated, and when the new visapass was spat out she didn’t give Dora any scrutinous look. She whisked it away, turned, and saw security had bodyslammed the dog owner, and it looked like they had chucked a blanket over the little dog, who was now all caught up in it and disorientated.
 
-*** rando busker punk exits before them
+<!-- *** rando busker punk exits before them -->
 
 Dora slunk off, giving it all a wide berth. She noticed Raymond extricating himself elegantly and unobtrusively from the mess. Just as they exited the hall into the cold and windy outdoors, exacerbated by the narrow street, two large navy blue trucks screeched to a halt and out came a bunch of guys with computers.
 
