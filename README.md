@@ -98,10 +98,12 @@ to publish your own book this way, you are welcome to the whole thing.
 
 ### The book is not — CC BY-NC-ND 4.0
 
-The novel itself — everything in `manuscript/`, `images/`, `scans/` and
-`research/`, and the EPUB and PDF built from them — is
-© 2025 F. J. S. Remmelzwaal and licensed
+The novel itself — everything in `manuscript/`, `images/` and `scans/`, and the
+EPUB and PDF built from them — is © 2025 F. J. S. Remmelzwaal and licensed
 [CC BY-NC-ND 4.0](LICENSE-BOOK).
+
+`research/` is neither: it holds reference material and readers' notes that
+belong to other people, licensed by nobody here.
 
 You may read it and share it unchanged, with attribution, for non-commercial
 purposes. You may not sell it, and you may not publish an altered version.
