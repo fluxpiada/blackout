@@ -1,3 +1,24 @@
+===============================================================================
+SCOPE OF THIS LICENCE  --  please read before reusing anything here
+
+This repository contains two different kinds of work under two different
+licences.
+
+This licence, the GNU GPL v3, covers the BUILD AND PUBLISHING TOOLING:
+
+    epub/   pdf/   styles/   wiki/   .github/workflows/   index.html
+
+You are welcome to take that machinery and use it to publish your own book.
+That is what it is here for.
+
+This licence does NOT cover the novel. The manuscript, its cover art, and the
+built EPUB and PDF are licensed separately, under Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International -- see LICENSE-BOOK.
+
+The unmodified text of the GNU General Public License v3 follows.
+===============================================================================
+
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 

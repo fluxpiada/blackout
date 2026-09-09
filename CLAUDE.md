@@ -11,9 +11,11 @@ manuscript/draft/     Unfinished material, not built
 epub/                 EPUB build script, metadata, CSS
 pdf/                  Shunn manuscript-format PDF build
 index.html            The live website — served raw from main (see below)
-styles/site.css       Its stylesheet, shared with templates/page.html
+styles/site.css       Its stylesheet
 versions/             Build output — GITIGNORED, never commit artifacts here
 wiki/                 How-to docs
+LICENSE               GPL-3 — covers the tooling only
+LICENSE-BOOK          CC BY-NC-ND 4.0 — covers the prose and artwork
 ```
 
 ## Builds

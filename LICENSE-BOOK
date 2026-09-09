@@ -1,3 +1,26 @@
+===============================================================================
+SCOPE OF THIS LICENCE
+
+This licence covers THE BOOK -- "The Blackout: Weak Signals" by
+F. J. S. Remmelzwaal, copyright (c) 2025 F. J. S. Remmelzwaal.
+
+That means the prose and the artwork:
+
+    manuscript/   images/   scans/   research/
+
+and the EPUB and PDF built from them and attached to the GitHub Releases.
+
+In short: you may read it and share it unchanged, with attribution, for
+non-commercial purposes. You may not sell it, and you may not publish an
+altered version of it.
+
+This licence does NOT cover the build and publishing tooling in this
+repository, which is GNU GPL v3 and free for you to reuse -- see LICENSE.
+
+The unmodified text of the Creative Commons licence follows.
+===============================================================================
+
+
 Attribution-NonCommercial-NoDerivatives 4.0 International
 
 =======================================================================
