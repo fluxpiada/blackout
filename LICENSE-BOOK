@@ -6,9 +6,13 @@ F. J. S. Remmelzwaal, copyright (c) 2025 F. J. S. Remmelzwaal.
 
 That means the prose and the artwork:
 
-    manuscript/   images/   scans/   research/
+    manuscript/   images/   scans/
 
 and the EPUB and PDF built from them and attached to the GitHub Releases.
+
+It does not cover `research/`, which holds reference material and readers'
+notes belonging to other people. Those files are the copyright of their
+respective authors and are not licensed by this repository at all.
 
 In short: you may read it and share it unchanged, with attribution, for
 non-commercial purposes. You may not sell it, and you may not publish an

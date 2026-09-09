@@ -3,3 +3,9 @@ manuscript/build_info.md
 manuscript/001_releases.md
 versions/*
 .claude/
+
+# Not published. These stay on the author's machine:
+#   research/  reference material and readers' notes belonging to other people
+#   scans/     handwritten working notes and mindmaps
+research/
+scans/
