@@ -1,44 +1,47 @@
 # Chapter IV - The Houtrakkers
 
-The Houtrakkers were, in fact, partisans. As well as anti-clerical, anti-establishment, anti- well, anti-everything really. And luckily for them, and lucky for Dora, definitely anti-AI, anti-capitalist and autarchic. These beliefs, in combination with a healthy dose of paranoia, had them vest their privacy and humanity in their own hands. Their foresight had them cache their biometrics a decade before the right-wing preppers realised their "freedom" was being encroached on.
+The Houtrakkers were, in fact, partisans. As well as anti-clerical, anti-establishment, anti- well, anti-everything really. And luckily for them, and lucky for Dora, definitely anti-AI, anti-capitalist and autarchic. These beliefs, in combination with a healthy dose of paranoia, had them vest their privacy and humanity in their own hands. Their foresight had them cache their biometrics a decade before the right-wing preppers realised their much touted "Freedom" with a capital "F" was being chiselled away chip by fascist chip.
 
-The core of the group was led by Tako: named such not after the maize snack from Mexico, but after the Japanese word for octopus. His tentacles were everywhere: reaching through the Inter-web, the Dark Market, the Crypto Singularity and far, far beyond. 
+The core of the group was led by Tako: named such not after the maize snack from Mexico, but after the Japanese word for octopus. His tentacles were everywhere: reaching through the Inter-web, the Dark Market, the Crypto Singularity and even far, far beyond: even in deserts, dusty, gritty, and grim, where everything's parched and thirsty and dry,
+From the searing earth to the glaring sky.
 
-The group consisted of about five to ten members at any given time. They only had ten names to give out: the Dutch names for the numbers one to ten. When someone left (which was only to start another Houtrakkers group somewhere), they would vacate their name and choose another Japanese fish or mollusc as a name. Why? Because of Douglas Adams’ book _So Long, and Thanks For All the Fish_, naturally. 
+The group consisted of about five to ten members at any given time. They only had ten names to give out: the Dutch names for the numbers one to ten. When someone left (which was only to start another Houtrakkers group somewhere), they would vacate their name and choose another Japanese fish or mollusc as a name. Why? Because of Douglas Adams’ book _So Long, and Thanks For All the Fish_, naturally. Encryption by obfuscation, very effective in throwing the bots off the scent.
 
 ##                       ~ * ~
           
-“Come, let me show you our place,” Tako said. The trio denizens scattered away into a dark passageway. “Never mind them, introductions will come later.” He crouched and moved into the passageway and a dim light flicked on. 
+“Come, let me show you round our place,” Tako said. The trio of denizens scattered away into a dark passageway. “Never mind them, introductions will come later.” He crouched and moved into the passageway and a dim light flicked on. 
 
 “We’re re-using the derelict fortifications from the defenses created in the Napoleonic era and 20th century. They weren’t considered viable defences in this day and age of cyber warfare - all the more useful for our purposes. These tunnels connect to the Liebrug Fort which is only a stone’s throw away on the other side of the A4 underpass. Not that anyone comes there anymore.” He ran his hand over the mossy glistening brickwork. 
 
-“We use the dampest chambers to grow mushrooms, we make all sorts of stuff from them, clothes, food, isolation material, bedding…” He took a righthand corner. “Some parts are always wet, those we cover in seaweed mats, to dry them out, like where I grabbed you and you tumbled down.”
+“We use the dampest chambers to grow mushrooms, and we produce all sorts of stuff from them: clothes, food, insulation material, bedding…” He took a righthand corner. “Some parts are always wet, those we cover in seaweed mats harvested from the brackish dune-lakes, to dry them out. The entry hall where I grabbed you and you tumbled down was covered in seaweed mats.” Tako slung his lanky frame through the maze. 
 
 Dora was adamant to keep her keen sense of direction in the dark underground, but her head was still befuddled from the crash so she gave up pronto. “Great brickwork though,” she said, “But how did you know I was coming? And how come the emergency services weren’t all over the crash site in a flash?” 
 
-“Ah yes, good question, but one thing at a time. We do have an elaborate silent alarm system strung up around the perimeter of our den. I’ll show you the Control Room first,” and he slung his lanky frame around another corner.
+“Ah yes, good question, but one thing at a time. We saw you coming - we do have an elaborate silent alarm system strung up around the perimeter of our den. I’ll show you the Control Room first,” and he slung his lanky frame around another corner.
 
 “We also registered the crash on our seismograph. Not that impressive, in this bog.” He stopped in his tracks and swung around to face Dora and looked at her piercingly. “Although we must still establish whether we can fully trust you. Can we?”
 
 Dora expelled a breath she didn’t realise she was holding. “Yes, yes of course,” she blurted, surprised by her sudden need to want to be trusted by this rakish blond pirate and his fuzzy mateys.
 
-“Hmm, well, we’ll see soon enough,” he lisped, “Anyway, here’s the Control Room, or Bridge, if you’d consider this a spaceship,” and a thin metal door slid open which made a swooshing sound. 
+“Hmm, well, we’ll see soon enough,” he lisped, “Anyway, here’s the Control Room, or Bridge, if you’d consider this a spaceship,” and a thin metal door slid open with a swooshing sound. 
 
-“It sounds just like the doors in Star Trek Enterprise!” exclaimed Dora, much impressed. This was only the beginning of a squall of awe-inspiring sights and sounds for Dora. She stared mesmerized at a wall-to-wall array of consoles flickering blue and green lights like an aurora borealis. Fronted by three cocoon-like pilot seats, the spaceship-like control panels were canopied by eight gigantic synced screens which depicted a 360 degree of the surroundings of the Houtrakkers environs; fat XOLED 8640p hyper-gamma views, so sharp that she could almost see her sludgy tracks through the sedge leading from the crippled carriages on the embankment.
+“It sounds just like the doors in Star Trek Enterprise!” exclaimed Dora, much impressed. This was only the beginning of a squall of awe-inspiring sights and sounds for Dora. Transfixed, she stared mesmerized at a wall-to-wall array of flickering blue and green consoles and screens like an aurora borealis. Fronted by three cocoon-like pilot seats, the spaceship-like control panels were canopied by eight gigantic synced screens which depicted a 360 degree of the surroundings of the Houtrakkers environs; fat XOLED 8640p hyper-gamma views, so sharp that she could almost see her sludgy tracks through the sedge leading from the crippled carriages on the embankment.
 
-“Drie, zoom in on the wreckage,” said Tako - no, commanded - Tako, albeit in his customary soft, lilting voice. 
+“Dries, zoom in on the wreckage,” said Tako - no, commanded - Tako, albeit in his customary soft, lilting voice. 
 
-Only then Dora noticed there was a hunched figure sitting in one of the podlike pilot seats. She couldn’t really see him or his face because they stood more or less directly behind the pilot seats. She recalled the naming convention for the dwellers. “Drie” meant “three”. She wondered if he was the original Three. Drie grasped a joystick and one of the screens blinked once and then showed the mangled train, still smouldering. 
+Only then Dora caught sight of a hunched figure cocooned in one of the podlike pilot seats. She couldn’t really see him or his face because of her vantage point more or less directly behind the pilot seats. She recalled the naming convention for the dwellers. “Dries” was a Dutch proper name, but "Drie" meant “three”. She wondered if he was the original Three. Dries grasped a joystick and one of the screens blinked once and then showed the mangled train, still smouldering. 
 
-“Look, a govt. drone,” said Tako and Drie in unison. Drie zoomed in on the sillouhetted insect hovering a few meters in the air over ground zero. It looked bewildered in its movement. 
+“Look, a govt. drone,” said Tako and Dries in unison, Tako pointing avidly. Drie zoomed in on the silhouetted insect hovering a few meters in the air over ground zero. It looked bewildered in its movement. 
 
-“Total anthropomorphic appropriation,” thought Dora, “It’s only the drone’s pilot that is freaked out and his/her movements are showing in the drone’s behaviour.”
+“Total anthropomorphic appropriation,” thought Dora, “It’s only the drone’s pilot that is freaked out and their movements are showing in the drone’s behaviour.”
 
-“You’re right about that Dora, and interestingly it’s not a standard sweep drone, but has been deliberately sent to the site,” replied Tako. 
+“You’re right about that Dora, and interestingly it’s not a standard AI sweep drone, but a military reconnaissance drone; evidently deliberately sent to the site,” replied Tako. 
 
 Dora was befuddled, she wasn’t aware that she had spoken out loud. Tako’s voice started taking on an echoey and lurching quality. The dimensions of the Control Room started to ebb and flow. The Control Room started spinning very gently round her head. Or at least it would be if she could see it which she couldn’t. Dora felt her eyes roll back into her sockets and everything went pitch black. 
 
 ##            ~ * ~
+
+<!-- continue redaction from here -->
 
 Dora’s concussion had finally got the better of her. She smelt something being waved underneath her nose. It was Tako's hand, offering her some peanuts. 
 
